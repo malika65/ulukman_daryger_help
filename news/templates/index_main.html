@@ -1,0 +1,429 @@
+{% extends 'index.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+      <div class="row justify-content-center">
+        <div class="col-xl-7 col-lg-9 text-center">
+          <h1>{% trans 'Общественное объединение "Улукман Дарыгер"' %}</h1>
+          <h2>{% trans 'Некоммерческая организая, целью которой является помощь людям, попавшим в сложную ситуацию.' %}<!doctype html>
+            <div class="text-center">
+              <a href="#getintouch" class="btn-get-started scrollto">{% trans 'Свяжитесь с нами' %}
+              </a>
+            </div>
+              <html lang="ru">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport"
+                        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+                  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                  <title>Document</title>
+              </head>
+              <body>
+              
+              </body>
+              </html></h2>
+        </div>
+      </div>
+
+
+      <!---возсожно поставить кол-во данных начало-->
+      <!---возсожно поставить кол-во данных конец-->
+      <section id="about">
+      <div class="row icon-boxes">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><img src="{% static 'assets/img/icons/aids.png' %}"  class="iconmission"></img></div>
+            <h4 class="title"><a href="">{% trans 'Профилактика ВИЧ/СПИДа' %}</a></h4>
+            <p class="description"> {% trans 'ВИЧ и СПИД не являются приговором. Этого не нужно бояться, об этом нужно знать!' %}</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon-box">
+            <div class="icon"><img src="{% static 'assets/img/icons/pshelp.png' %}"  class="iconmission"></img></i></div>
+            <h4 class="title"><a href="">{% trans 'Защита прав уязвимых слоев населения' %}</a></h4>
+            <p class="description">{% trans 'Каждый человек вне зависимости от социального статуса имеет право на счастливую жизнь!' %}</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
+          <div class="icon-box">
+            <div class="icon"><img src="{% static 'assets/img/icons/charity.png' %}"  class="iconmission"></img></div>
+            <h4 class="title"><a href="">{% trans 'Сбор средств на благотворительные нужды'  %}</a></h4>
+            <p class="description">{% trans 'Все собранные средства идут на реабилитацию и восстановление жертв насилия, на борьбу с ВИЧ и СПИД.' %}</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
+          <div class="icon-box">
+            <div class="icon"><img src="{% static 'assets/img/icons/peoplehelp.png' %}"  class="iconmission"></img></i></div>
+            <h4 class="title"><a href="">{% trans 'Центр помощи и реабилитации женщин "Химая" ' %}</a></h4>
+            <p class="description">{% trans 'Помощь женщинам, подвергшимся насилию или попавшим в сложную жизненную ситуацию' %}</p>
+          </div>
+        </div>
+
+
+      </div>
+      </section>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+
+  <main id="main">
+
+    <!-- ======= Миссия Section ======= -->
+    <section id="mission" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>{% trans 'Наша миссия' %}</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              {% trans 'Деятельность ОО «УлукманДарыгер» основана на принципах  не дискриминированного,клиент центрированного подхода с соблюдением конфиденциальности при работе с клиентами организации. Основной принцип работы – «равный – равному».'%}
+           </p>
+            <p>
+           {% trans 'В настоящее время целевыми группами являются: секс работники (СР),люди, живущие с ВИЧ инфекцией (ЛЖВ), лица, употребляющие инъекционные наркотики (ЛУИН),женщины, подвергшиеся насилию и/или оказавшиеся в трудной жизненной ситуации.' %}
+            </p>
+            <p> {% trans 'Миссией организации является улучшение здоровья населения' %} </p>
+
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              {% trans 'через обеспечение свободного доступа к медицинским образовательным программам с целью сохранения генофонда, экологии, удовлетворения общественных потребностей в медицинских услугах, профилактике болезней и благотворительная деятельность.' %}   </p>
+            <p>
+              {% trans 'На сегодняшний день «УлукманДарыгер» является единственной организацией работающей с сообществами СР,ЛУИН И ЛЖВ в Иссык-Кульской области. Охват программами: все районы Иссык-Кульской области, г.Нарын, Нарынская область, Джумгальский район Нарынской области.' %}
+
+            </p>
+
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!--Миссия Section END -->
+
+
+
+    <!-- =======История section ======= -->
+    <section id="history" class="about-video">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>{% trans 'История' %}</h2>
+        </div>
+         <div class="row">
+
+        
+
+          <div class="pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+            <p>
+             {% trans 'Общественное объединение "Улукман Дарыгер" зарегистрировано 12 октября 2000 года. С 2014 года организаия осуществляет деятельность по профилактике ВИЧ/СПИД в Иссык-Кульской области. С 2016 года проводится правозащитная деятельность:' %}
+            </p>
+            <ul>
+              <li><i class="bx bx-check-double"></i>{% trans 'профилактическая работа с сотрудниками правоохранительных органов (тренинги, семинары).' %}</li>
+              <li><i class="bx bx-check-double"></i> {% trans 'документирование фактов нарушения прав представителей уязвимых групп со стороны сотрудников правоохранительных органов.' %}</li>
+              <li><i class="bx bx-check-double"></i> {% trans 'консультирование по правам и нарушению прав.' %}</li>
+              <li><i class="bx bx-check-double"></i>{% trans 'ведение клиентов и направление к дружественным адвокатам.' %}</li>
+              <li><i class="bx bx-check-double"></i> {% trans ' открытие центра помощи и реабилитации «Химая» (для подвергающихся насилию женщин).' %}</li>
+            </ul>
+
+            <!-- ======= Успехи в числах Section ======= -->
+            <section id="counts" class="counts section-bg">
+              <div class="container">
+
+                <div class="row justify-content-end">
+
+                  <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <span data-toggle="counter-up">65</span>
+                      <p>{% trans 'Довольных клиентов' %}</p>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <span data-toggle="counter-up">10</span>
+                      <p>{% trans 'Проектов' %}</p>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <span data-toggle="counter-up">21</span>
+                      <p>{% trans 'Год опыта' %}</p>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <span data-toggle="counter-up">15</span>
+                      <p>{% trans 'Наград' %}</p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </section>
+            <!-- Успехи в числах Section end -->
+
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End About История Section -->
+
+
+    <!-- ========Cтруктура организации Section Beginning=========-->
+    <section id="structure" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>{% trans 'Структура организации' %}</h2>
+        </div>
+        {% if request.get_full_path == "/ru/news/index/" %}
+          <img src="{% static 'assets/img/structure.png' %}" style="width: 100%; height: auto;">
+        {% elif request.get_full_path == "/en/news/index/"   %}
+          <img src="{% static 'assets/img/englishstructure.png' %}" style="width: 100%; height: auto;">
+        {% elif request.get_full_path == "/ky/news/index/" %}
+          <img src="{% static 'assets/img/kyrgyzstructure.png' %}" style="width: 100%; height: auto;">
+        
+        {% endif %}
+      </div>
+    </section>
+    <!-- ========Cтруктура организации Section End=========-->
+
+
+  <!-- ======= Партнеры Section Начало ======= -->
+  <section id="patners" class="about">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>{% trans 'Наши партнеры' %}</h2>
+            <p>{% trans 'Благодарим за сотрудничество и поддержку!' %}</p>
+        </div>
+
+        <div class="row content">
+            <div class="col-lg-6">
+                <p>
+                <ul>
+                  <li><i class="bx bx-chevrons-right"></i>{% trans 'Мэрия города Каракол' %}</li>
+                  <li><i class="bx bx-chevrons-right"></i> {% trans 'Управление внутренних дел Иссык-кульской области' %}</li>
+                  <li><i class="bx bx-chevrons-right"></i> {% trans 'ОВД города Каракол' %}</li>
+                  <li><i class="bx bx-chevrons-right"></i>{% trans 'Областной центр профилактики и борьбы со СПИДом' %}</li>
+                  <li><i class="bx bx-chevrons-right"></i>{% trans 'Областной центр борьбы и профилактики туберкулеза' %}</li>
+                  <li><i class="bx bx-chevrons-right"></i> {% trans 'Иссык-Кульский филиал ОО «Альянс Репродуктивного Здоровья»' %}</li>
+
+                </ul>
+                </p>
+
+
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0">
+                <p>
+                <ul>
+                    <li><i class="bx bx-chevrons-right"></i>{% trans 'Медицинский центр "Клиницист" ' %}</li>
+                     <li><i class="bx bx-chevrons-right"></i>{% trans 'Областной и районные центры семейной медицины' %}</li>
+                    <li><i class="bx bx-chevrons-right"></i>{% trans 'Представительство омбудсмена КР в Иссык-кульской области' %}</li>
+                    <li><i class="bx bx-chevrons-right"></i>{% trans ' ВИЧ-сервисные организации "Таис Плюс" и "Таис Плюс два" ' %}</li>
+                    <li><i class="bx bx-chevrons-right"></i>{% trans 'Общественный фонд «Подруга»' %}</li>
+                    <li><i class="bx bx-chevrons-right"></i>{% trans 'Общественное объединение "Атуул" ' %}</li>
+                    <li><i class="bx bx-chevrons-right"></i>{% trans 'Иссык-Кульская областная объединенная больница' %}</li>
+                  
+                 
+                </ul>
+                </p>
+                </div>
+        </div>
+
+    </div>
+</section>
+<!-- ======= Партнеры Section Конец ======= -->
+
+   
+
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>{% trans 'Наша команда' %}</h2>
+          <p>{% trans 'Наш дружный коллектив состоит из 22 человек. Каждый из нас - неотъемлимая и незаменимая частичка нашей организации!' %}</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/team-1.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer Chief Executive Officer Chief Executive Officer
+                Chief Executive Officer
+                Chief Executive Officer
+                Chief Executive Officer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/team-2.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/team-3.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/team-4.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+
+    
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>{% trans 'Контакты' %}</h2>
+        </div>
+
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2941.8633034757913!2d78.39713691546055!3d42.49445867917809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38865b1168ed7e1f%3A0x5b64506f5bf3252e!2z0J7QsdGJ0LXRgdGC0LLQtdC90L3QsNGPINC-0YDQs9Cw0L3QuNC30LDRhtC40Y8gItCj0LvRg9C60LzQsNC9INCU0LDRgNGL0LPQtdGAIg!5e0!3m2!1sru!2skg!4v1612878439192!5m2!1sru!2skg" width="1100" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4" id="getintouch">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>{% trans 'Наш адрес:' %}</h4>
+                <p>{% trans 'ул. Московская 162\1, Каракол, Кыргызстан' %}</p>
+              </div>
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>ulukmandaryger@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>{% trans 'Телефон:' %}</h4>
+                <p>(3922) 53-417</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form method="POST">
+              {% csrf_token %}
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  {{ form.name }}
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  {{ form.email }}
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                {{ form.theme }}
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                {{ form.comment }}
+                <div class="validate"></div>
+              </div>
+
+              <div class="text-center"><button type="submit" style="background: #3194db; background: #2487ce;
+               border: 0;padding: 10px 30px;color: #fff;transition: 0.4s;
+                border-radius: 4px;">{% trans 'Отправить' %}</button></div>
+              
+            </form>
+
+          </div> -->
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+{% endblock %}

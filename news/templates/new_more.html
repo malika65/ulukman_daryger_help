@@ -1,0 +1,112 @@
+{% extends 'index.html' %}
+{% load static %}
+
+{% block content %}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Bootstrap core CSS  local-->
+  <link href="{% static 'vendor_news/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <!-- Custom styles for this template local-->
+  <link href="{% static 'assets/css/simple-sidebar.css' %}" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <title>Новости</title>
+  <style>
+    .size{
+      width: 850px;
+      margin: 0 0 1em 0;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical; 
+    
+    }
+     </style>
+</head>
+
+<body style="padding-top: 70px;">
+
+
+    <!--блог новостей начало-->
+    <div id="page-content-wrapper" style="margin-top: 50px;">
+
+      <div class="container home4 ftrmrg">
+        <div class="blog-sec-typ1 clearfix staggered-animation display animated fadeInUp" data-os-animation="fadeInUp" data-os-animation-delay=".5s" style="animation-delay: 0.5s;">
+          <div class="blog-cont-sec">
+            <div class="dmy">
+              <div class="date">{{news.date_created|date:' j'}}</div>
+              <span class="month">{{news.date_created|date:'F'}}</span>
+              <span class="year">{{news.date_created|date:'Y'}}</span>
+            </div>
+            <div class="cont-area">
+              <h3><a>{{news.title}}</a></h3>
+              <div class="postedby">
+                <a style="font-size: 14px;">Опубликовано ОО "Улукман Дарыгер"</a>
+              </div>
+
+              <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+                  {% for p in image %}
+                    {% if forloop.first %}
+                          <div class="item active">
+                    {% else %}
+                      <div class="item">
+                    {% endif %}
+                      <div class="row">
+                        <div>
+                          <img style="width:340px;height:250px;margin-left: 260px;" src="{{p.images.url}}" class="img-responsive" alt="image">
+                        </div>
+                      </div>
+                  </div>
+              
+            
+                  
+
+                  {% endfor %}
+                    
+                </div>
+                <a class="left carousel-control" href="#imageCarousel" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#imageCarousel" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <!--carousel конец-->
+
+
+
+              <!--текст новостей начало-->
+              <p>{{news.body}}</p>
+              <!--текст новостей конец-->
+
+              <a class="readmore-txt" href="/news/news/">Все новости</a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+    <!--блог новостей конец-->
+
+
+
+</body>
+
+{% endblock %}

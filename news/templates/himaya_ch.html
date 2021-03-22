@@ -1,0 +1,86 @@
+{% extends 'himaya.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+
+  <!-- ======= Intro Section ======= -->
+  <section id="intro" class="clearfix children">
+    <div class="container" data-aos="fade-up">
+
+      <div class="intro-img" data-aos="zoom-out" data-aos-delay="200">
+        <!--фото лого химая в шапке-->
+       <!-- <img src="assets/img/logo.jpg" alt="" class="img-fluid">-->
+      </div>
+
+      <div class="intro-info" data-aos="zoom-in" data-aos-delay="100">
+        <h4 style="color: #fff">{% trans 'Оказавшись за порогом детских домов' %}<br>{% trans 'эти дети не знают куда идти. Им, как никому другому, необходима наша помощь!' %}</h4>
+        <div>
+
+          <a href="#services" class="btn-services scrollto">{% trans 'Вам нужна помощь?' %}</a>
+            <a href="#services" class="btn-services scrollto">{% trans 'Хочу помочь' %}</a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Intro Section -->
+
+
+
+  <!-- ======= О нас Section ======= -->
+  <section id="services" class="section-bg">
+    <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+            <h3>{% trans 'О нас' %}</h3>
+            <p>{% trans 'Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus' %}</p>
+        </header>
+    </div>
+</section>
+  <!-- О нас Section End -->
+
+    <!-- ======= Истрии Женщин Section начало ======= -->
+    {% for teen in child %}
+    <section id="about">
+
+      <!--история женщины начало-->
+      <div class="container" data-aos="fade-up">
+
+        <div class="row about-extra">
+          <div class="col-lg-8 pt-5 pt-lg-0" data-aos="fade-left">
+            <h4>{{teen.name}}</h4>
+            <p>{{teen.story}}</p>
+            
+          </div>
+
+
+          <div class="col-lg-3 try" data-aos="fade-right">
+
+            <img src="{{teen.pic.url}}" class="img-fluid" alt="">
+              <form>
+                  <label class="presum">{% trans 'Сумма к сбору:' %}</label><label class="sum">{{teen.money_for_collecting}} сом</label>
+                  <progress class="slider" value="{{teen.get_money}}" max="{{teen.money_for_collecting}}"></progress>
+                  <label  class="less presum">{% trans 'Осталось собрать:' %}</label><label class="less sum">{{teen.remaining_amount}}</label>
+              </form>
+            <a class="helpbtn btn-services" href="/news/payment/{{teen.id}}">{% trans 'Хочу помочь' %}</a>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+      </div>
+      {% endfor %}
+        <!--история женщины конец-->
+
+       
+ </section><!-- End Истрии Section -->
+
+
+      
+{% endblock %}

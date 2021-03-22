@@ -1,0 +1,249 @@
+{% load static %}
+{% load i18n %}
+	<style type="text/css">
+		/**
+		 * The CSS shown here will not be introduced in the Quickstart guide, but shows
+		 * how you can use CSS to style your Element's container.
+		 */
+		.StripeElement {
+		  box-sizing: border-box;
+
+		  height: 40px;
+
+		  padding: 10px 12px;
+
+		  border: 1px solid transparent;
+		  border-radius: 4px;
+		  background-color: white;
+
+		  box-shadow: 0 1px 3px 0 #e6ebf1;
+		  -webkit-transition: box-shadow 150ms ease;
+		  transition: box-shadow 150ms ease;
+		}
+
+		.StripeElement--focus {
+		  box-shadow: 0 1px 3px 0 #cfd7df;
+		}
+
+		.StripeElement--invalid {
+		  border-color: #fa755a;
+		}
+
+		.StripeElement--webkit-autofill {
+		  background-color: #fefde5 !important;
+		}
+
+
+		#maincontainer{
+			width: 600px;
+			margin: auto;
+			height: auto;
+			margin-top: 60px;
+			padding : 30px 30px 30px 30px;
+			background-color: #fff;}
+
+		body{
+			background-color: #beb3f5;
+			font-family: "Montserrat", sans-serif;}
+
+		.form-control {
+			width: 90%;
+			height: 40px;
+			border: 1px solid #b1aff5;
+			border-radius: 10px;
+			color: #63686c;
+			font-weight: normal;
+			font-size: 16px;
+			padding-left: 20px;
+			padding-right: 20px;
+			margin-bottom: 20px;}
+
+		.form-control:focus {
+        	border: none;
+        	background: #ffe; /* Цвет фона */
+     		border: 2px solid #29B0D9;
+        	outline: 0;
+        	box-shadow: 0 0 0 0 rgba(0, 123, 255, .25)
+    }
+
+    .mybutton{
+     	width : 200px;
+     	height: 40px;
+     	color: #fff;
+     	border-radius: 10px;
+     	background : #3d9dd4;
+     	}
+
+	#div {display: none; }
+	.test {
+    position: relative;
+    background-color: #dedede;
+    display: inline;
+}
+	.test:before {
+    content: '$';
+    position: absolute;
+    top: 10;
+    left: 10px;
+    z-index: 1;
+}
+
+	</style>
+
+
+	<script src="https://js.stripe.com/v3/"></script>
+
+
+
+	
+
+	<div id="maincontainer" >
+		<div class="column-6">
+			<div id="left-wrapper">
+				<div id="left-wrapper-header">
+					<h3>{% trans 'Благодарим Вас за помощь нашей организации!' %}</h3>
+					<h4>{% trans 'Перевод суммы на карту' %}</h4>
+				</div>
+				<div style="clear:left"></div>
+
+
+				<!--form beginning here -->
+				<form id="form" method="post">
+					{% csrf_token %}
+					<div class="test">
+						{{ form.as_p }}
+						</div>
+
+					<!-- <input id="form-button" class="btn btn-success btn-block" type="submit" value="Продолжить"> -->
+					
+    			</form>
+				
+				<!-- form eng here -->
+				<div id="div">
+					<div id="paypal-button-container" type="submit"></div>
+				</div>
+				<button id="btn" style="margin-left: 200px;" class="myButton" onClick="GFG_Fun(); GFG();">Продолжить</button> 
+			
+			
+			</div>
+		</div>
+
+
+	</div>
+	<!-- <a href="https://api.paybox.money/payment.php?pg_merchant_id=536212&pg_amount=100&pg_currency=KGS&pg_description=%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C+&pg_salt=GlXLwaxCvEwACg63&pg_language=ru&pg_sig=77879766c8ae4f61285a21efbda8fdd0">Оплатить «Помощь » через PayBox.money</a> -->
+	<div id='wm-widget' style='width: 305px;height: 183px;'></div>
+
+	<div id='wm-widget' style='width: 305px;height: 183px;'></div>
+
+	<div id='wm-widget' style='width: 305px;height: 183px;'></div>
+
+	<!-- <script type='text/javascript' src='https://merchant.webmoney.ru/conf/lib/widgets/wmApp.js?v=1.5'></script><script type='text/javascript'>window.webmoney.widgets().PWYW.create({"lang":"ru","data":{"paymentType":"wm","amount":10,"amountReadonly":false,"purse":"Z649037888440","desc":"Поделись добром"},"style":{"title":"","titleNum":2}}).mount('wm-widget')</script>	<script src="https://www.paypal.com/sdk/js?client-id=AVr6BUKqwib7Ga--yNNui1YdLw1ijw9GH2UQrnlgHme3vCrLBM6SUok6M7ooUEgPjCS9_APWHuH6XySf&currency=USD"></script> -->
+	<script src="https://www.paypal.com/sdk/js?client-id=AeYAs-0jvBtlBh5qpj7JZYuvCjzLeDdp-Jx4dg3aAKMDQo_cwjXQL9SZN4ydCBRwIUA5HCHbjuo3qYP1&currency=USD"></script>
+				
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> 
+    </script> 
+	<script>
+		var globalVariable;
+
+		
+		$('#GFG_UP').text( 
+		""); 
+
+		function show(divId) { 
+			$("#" + divId).show();
+
+		}
+		
+		function hide(btn) { 
+			$("#" + btn).hide();
+
+		} 
+		function get_value() {
+			return document.getElementById("amount").value;
+
+		}
+
+		function GFG_Fun() { 
+			show('div');
+			hide('btn');
+			
+		} 
+		function GFG() { 
+			globalVariable=get_value();
+			return globalVariable;			
+			
+		} 
+	
+
+		
+
+</script>
+    <script>
+		window.onload = function () {
+			globalVariable = GFG();
+    		
+		}
+
+
+
+        // Render the PayPal button into #paypal-button-container
+        paypal.Buttons({
+
+            // Set up the transaction
+            createOrder: function(data, actions) {
+                return actions.order.create({
+                    purchase_units: [{
+                        amount: {
+                            value: globalVariable
+                        }
+                    }]
+                });
+            },
+
+            // Finalize the transaction
+            onApprove: function(data, actions) {
+                return actions.order.capture().then(function(details) {
+                    // Show a success message to the buyer
+                    alert('Transaction completed by ' + details.payer.name.given_name + '!');
+				
+					window.location = "http://127.0.0.1:8000/ru/news/index/";
+					document.getElementById("form").submit();
+
+                });
+				
+            }
+
+
+        }).render('#paypal-button-container');
+    </script>
+
+	
+
+	<script>
+		function checkForm()
+{
+    var elements = document.forms[0].elements;
+
+
+    var cansubmit= true;
+    for(var i = 0; i < elements.length; i++)
+	
+    {
+        if(elements[i].value.length == 0 && elements[i].type != "button")
+        {
+			
+            cansubmit = false;
+			
+        }
+
+    }
+	
+
+    document.getElementById("btn").disabled = !cansubmit;  
+	
+};
+	</script>
+
+
+
+

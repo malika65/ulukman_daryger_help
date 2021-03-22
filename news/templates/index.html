@@ -1,0 +1,190 @@
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ОО "Улукман Дарыгер"</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+
+  <link href="{% static 'assets/img/logo.png' %}" rel="icon">
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/icofont/icofont.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/venobox/venobox.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/owl.carousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+
+      <h3 class="logo mr-auto"><a href="index_main.html"></a></h3>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active drop-down language" style="margin-right:50px;"><a href="#">{% trans 'Язык' %}</a>
+        
+            <ul>
+              <li class="active"><a href="{% url 'selectlanguage' user_language='ru' %}">RU</a></li>
+              <li><a href="{% url 'selectlanguage' user_language='en' %}">ENG</a></li>
+              <li><a href="{% url 'selectlanguage' user_language='ky' %}">KG</a></li>
+              
+
+            </ul>
+          </li>
+
+          <li class="active drop-down"><a href="{% url 'locale' to_url='index' %}" style="margin-left: 50px ;">{% trans 'О нас' %}</a>
+                <ul>
+
+                    <li><a href="{% url 'locale' to_url='index#mission' %}">{% trans 'Миссия' %}</a></li>
+                    <li><a href="{% url 'locale' to_url='index#history' %}">{% trans 'История' %}</a></li>
+                    <li><a href="{% url 'locale' to_url='index#structure' %}">{% trans 'Структура' %}</a></li>
+                    <li><a href="{% url 'locale' to_url='index#team' %}">{% trans 'Команда' %}</a></li>
+                    <li><a href="{% url 'locale' to_url='index#pathners' %}">{% trans 'Партнеры' %}</a></li>
+                    <li><a href="{% url 'locale' to_url='index#' %}">{% trans 'Успехи' %}</a></li>
+                    <li><a href="{% url 'locale' to_url='index#' %}">{% trans 'Юридическая поддержка' %}</a></li>
+                    <li><a href="{% url 'locale' to_url='gallery' %}">{% trans 'Галерея' %}</a></li>
+                    <li><a href="{% url 'locale' to_url='index#faq' %}">{% trans 'Вопросы' %}</a></li>
+                </ul>
+          </li>
+
+          <li><a href="#faq">{% trans 'Соц. предпринимательство' %}</a></li>
+          <li><a href="{% url 'locale' to_url='news' %}">{% trans 'Новости' %}</a></li>
+          <li><a href="{% url 'locale' to_url='newspaper' %}">{% trans 'Газета' %}</a></li>
+          <li><a href="{% url 'locale' to_url='himaya' %}">{% trans 'Химая' %}</a></li>
+          <li><a href="{% url 'locale' to_url='forum' %}">{% trans 'Форум' %}</a></li>
+          <li><a href="{% url 'locale' to_url='index#contact' %}">{% trans 'Контакты' %}</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+      
+      <a href="#" class="get-started-btn scrollto"  data-toggle="modal" data-target="#my-modal">{% trans 'Поделись добром' %}
+        <img class ="сharitybutton" src="{% static 'assets/img/icons/charitybutton.png' %}">
+      </a>
+
+    </div>
+  </header><!-- End Header -->
+
+
+<!--модалка кнопки "поделись добром" начало-->
+  <div class="container d-flex justify-content-center">
+    <div id="my-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered justify-content-center " role="document">
+        <div class="modal-content border-0 mx-3">
+          <div class="modal-body p-0">
+            <div class="card text-center">
+              <div class="card-header pb-0 bg-white border-0">
+                <div class="row">
+                  <div class="col ml-auto"><button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button></div>
+                </div>
+
+                <h3 class="charity">{% trans  'Дорогие гости нашего сайта!' %} </h3>
+              </div>
+              <div class="card-body px-sm-5 mb-5">
+                <p class="text-muted mb-0">{% trans 'Деятельность нашей организации направлена исключительно на благотворительность и помощь людям.' %}</p><br>
+                  <p>{% trans 'Все собранные средства идут на реабилитацию и восстановление жертв насилия, на борьбу с ВИЧ и СПИД.' %}</p>
+                <p><span class="charity">{% trans 'Давайте вместе поможем кому-то поверить в счастливую жизнь!' %}</span></p>
+                <p class="text-muted ">{% trans 'Есть вопросы?' %}<span class="touch">{% trans 'Свяжитесь с нами' %}</span></p>
+                <div class="row justify-content-center mt-4 px-sm-5 ">
+
+                  <div class="col">
+                    <button type="button" class="btn btn-primary btn-block text-dark font-weight-bold text-uppercase">
+                      <a class="btn btn-primary btn-block text-dark font-weight-bold text-uppercase" href="{% url 'locale' to_url='payment_for_me' %}">ХОЧУ ПОМОЧЬ!</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--модалка кнопки "поделись добром" конец-->
+
+  {% block content %}
+
+  {% endblock %}
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container d-md-flex py-4">
+
+      <div class="mr-md-auto text-center text-md-left">
+        <div class=" social-links text-centercopyright">
+          <a href="https://www.facebook.com/pg/ulukmandaryger/posts/" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          {% trans 'Свяжитесь с нами в' %}<strong><span>{% trans 'Социальных сетях :)' %}</span></strong>
+
+        </div>
+        <div class="credits">
+
+        </div>
+      </div>
+      <div class=" text-md-right pt-3 pt-md-0">
+
+      </div>
+    </div>
+  </footer>
+   <!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script>
+  $(document).ready(function () {
+    $('.nav li a').click(function(e) {
+
+        $('.nav li.active').removeClass('active');
+
+        var $parent = $(this).parent();
+        $parent.addClass('active');
+        e.preventDefault();
+    });
+});</script>
+  
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'assets/vendor/waypoints/jquery.waypoints.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/counterup/counterup.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/venobox/venobox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+
+</body>
+
+</html>

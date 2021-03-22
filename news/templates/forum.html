@@ -1,0 +1,178 @@
+
+{% extends 'index.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<head>
+	<title>forum</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="{% static 'images/icons/favicon.ico' %}"/>
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/vendor_forum/bootstrap/css/bootstrap.min.css' %}">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Sfonts_forum/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/vendor_forum/animate/animate.css' %}">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/vendor_forum/css-hamburgers/hamburgers.min.css' %}">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/vendor_forum/animsition/css/animsition.min.css' %}">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/vendor_forum/select2/select2.min.css' %}">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/vendor_forum/daterangepicker/daterangepicker.css' %}">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/util.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/main.css' %}">
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<!--===============================================================================================-->
+
+
+</head>
+<body>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container pb50">
+	<div class="row">
+		<div class="col-md-9 mb40">
+			<article>
+
+				<div class="post-content">
+
+					<!--Раздел одного объявления начало-->
+					{% for i in info %}
+					<div style="margin-bottom: 60px;margin-top: 80px;">
+						<h3>{{i.title}}</h3>
+						<h5>{{i.subtitle}}</h5>
+						<ul class="post-meta list-inline">
+							<li class="list-inline-item">
+								<i class="fa fa-user-circle-o"></i> <a href="#">{% trans 'Улукман Дарыгер' %}</a>
+							</li>
+							<li class="list-inline-item">
+								<i class="fa fa-calendar-o"></i> <a href="">{{i.date_created|date}}</a>
+							</li>
+
+						</ul>
+
+						<img src="{{i.img_info.url}}" alt="" class="img-fluid mb30" width="400px"; height="3	00px;">
+						<p>{{i.info}}</p>
+					</div>
+					{% endfor %}
+					<!--Раздел одного объявления конец-->
+
+
+					<br>
+
+					<hr class="mb40">
+
+					<h4 class="mb40 text-uppercase font500">{% trans 'КОММЕНТАРИИ' %}</h4>
+					{% for comment in comments %}
+					<div class="media mb40">
+						<i class="d-flex mr-3 fa fa-user-circle-o fa-3x"></i>
+						<div class="media-body"  style="width: 600px;">
+							<h5 class="mt-0 font400 clearfix">
+								{{comment.user_name}}</h5> {{comment.user_comment}}
+								
+						</div>
+					</div>
+					{% endfor %}
+
+
+				</div>
+			</article>
+			<!-- post article-->
+
+		</div>
+		<div class="col-md-3 mb40" style="margin-top: 80px;">
+			<!--секция "категории вопросов" начало-->
+			<div class="mb40 categories">
+				<h4 class="sidebar-title">{% trans 'Если у вас есть вопросы относительно:' %}</h4>
+				<ul class="list-unstyled categories">
+					<li><a>{% trans 'ВИЧ' %}</a></li>
+					<li><a>{% trans 'СПИД' %}</a></li>
+					<li><a>{% trans 'Домашнего насилия' %}</a></li>
+					<li><a>{% trans 'Категория' %}</a></li>
+					<li><a>{% trans 'Категория' %}</a></li>
+					<li><a>{% trans 'Категория' %}</a></li>
+				</ul>
+				<a href="#myform"><h4 class="sidebar-title">{% trans 'Вы можете задать его здесь и мы обязательно вам поможем!' %}</h4></a>
+			</div>
+			<!--секция "категории вопросов" конец-->
+
+
+
+		</div>
+	</div>
+</div>
+
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+</script>
+
+
+
+<div class="container-contact100">
+
+	<div class="wrap-contact100">
+		<form method="POST" class="contact100-form validate-form" id="myform">
+				<span class="contact100-form-title">
+					{% trans 'Оставьте здесь ваш комментарий или задайте вопрос' %}
+				</span>{% csrf_token %}
+				{{ form.as_p }}
+
+			<div class="container-contact100-form-btn">
+				<button type="submit" class="contact100-form-btn">
+						<span>{% trans 'Отправить' %}</span>
+				</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+
+<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+<script src="{% static 'vendor/vendor_forum/jquery/jquery-3.2.1.min.js' %}"></script>
+<!--===============================================================================================-->
+<script src="{% static 'vendor/vendor_forum/animsition/js/animsition.min.js' %}"></script>
+<!--===============================================================================================-->
+<script src="{% static 'vendor/vendor_forum/bootstrap/js/popper.js' %}"></script>
+<script src="{% static 'vendor/vendor_forum/bootstrap/js/bootstrap.min.js' %}"></script>
+<!--===============================================================================================-->
+<script src="{% static 'vendor/vendor_forum/select2/select2.min.js' %}"></script>
+<!--===============================================================================================-->
+<script src="{% static 'vendor/vendor_forum/daterangepicker/moment.min.js' %}"></script>
+<script src="{% static 'vendor/vendor_forum/daterangepicker/daterangepicker.js' %}"></script>
+<!--===============================================================================================-->
+<script src="{% static 'vendor/vendor_forum/countdowntime/countdowntime.js' %}"></script>
+<!--===============================================================================================-->
+<script src="{% static 'assets/js/js_vendor/main.js' %}"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script>function myFunction() {
+	var x = document.getElementById("myDIV");
+	if (x.style.display === "none") {
+	  x.style.display = "block";
+	} else {
+	  x.style.display = "none";
+	}
+  }</script>
+								
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+{% endblock %}

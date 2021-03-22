@@ -1,0 +1,580 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-11 14:16+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\news\templates\forum.html:52
+msgid "Улукман Дарыгер"
+msgstr "Улукман Дарыгер"
+
+#: .\news\templates\forum.html:71
+msgid "КОММЕНТАРИИ"
+msgstr "Комментарийлер"
+
+#: .\news\templates\forum.html:92
+msgid "Если у вас есть вопросы относительно:"
+msgstr ""
+
+#: .\news\templates\forum.html:94
+msgid "ВИЧ"
+msgstr ""
+
+#: .\news\templates\forum.html:95
+msgid "СПИД"
+msgstr ""
+
+#: .\news\templates\forum.html:96
+msgid "Домашнего насилия"
+msgstr ""
+
+#: .\news\templates\forum.html:97 .\news\templates\forum.html:98
+#: .\news\templates\forum.html:99
+msgid "Категория"
+msgstr "Категория"
+
+#: .\news\templates\forum.html:101
+msgid "Вы можете задать его здесь и мы обязательно вам поможем!"
+msgstr ""
+
+#: .\news\templates\forum.html:124
+msgid "Оставьте здесь ваш комментарий или задайте вопрос"
+msgstr "Сунушуңузду же сурооңузду бул жакка калтырыңыз"
+
+#: .\news\templates\forum.html:130 .\news\templates\index_main.html:416
+msgid "Отправить"
+msgstr "Жөнөтүү"
+
+#: .\news\templates\himaya.html:50
+msgid "Солнце светит всем одинаково!"
+msgstr "Күн баарына бирдей нур чачат!"
+
+#: .\news\templates\himaya.html:56
+msgid "Главная"
+msgstr "Башкы бет"
+
+#: .\news\templates\himaya.html:57 .\news\templates\himaya.html:89
+#: .\news\templates\himaya_ch.html:36 .\news\templates\himaya_men.html:35
+#: .\news\templates\himaya_women.html:39 .\news\templates\index.html:64
+msgid "О нас"
+msgstr "Биз жөнүндө"
+
+#: .\news\templates\himaya.html:58 .\news\templates\himaya.html:90
+msgid "Женщины"
+msgstr "Аялдар"
+
+#: .\news\templates\himaya.html:59 .\news\templates\himaya.html:91
+msgid "Мужчины"
+msgstr "Мырзалар"
+
+#: .\news\templates\himaya.html:60 .\news\templates\himaya.html:92
+msgid "Выпускники детских домов"
+msgstr "Балдар үйлөрүнүн бүтүрүүчүлөрү"
+
+#: .\news\templates\himaya.html:62 .\news\templates\index.html:84
+#: .\news\templates\index_main.html:357
+msgid "Контакты"
+msgstr "Контакты"
+
+#: .\news\templates\himaya.html:82 .\news\templates\index.html:82
+msgid "Химая"
+msgstr "Химая"
+
+#: .\news\templates\himaya.html:83
+msgid "Центр помощи и реабилитации женщин"
+msgstr "«Химая» аялдарга жардам берүү жана реабилитациялоо борбору"
+
+#: .\news\templates\himaya.html:87
+msgid "Разделы"
+msgstr "Бөлүмдөр"
+
+#: .\news\templates\himaya.html:97
+msgid "Наш адрес"
+msgstr "Биздин дарек:"
+
+#: .\news\templates\himaya.html:99
+msgid "улица Московская 162/46 <br>Каракол"
+msgstr "Московский көч. 162/1, Каракол шаары,"
+
+#: .\news\templates\himaya.html:100
+msgid "Кыргызстан"
+msgstr " Кыргызстан"
+
+#: .\news\templates\himaya.html:101
+msgid "Телефон"
+msgstr "Байланыш телефону:"
+
+#: .\news\templates\himaya.html:113
+msgid ""
+"Если каждый из нас сможет сделать счастливым другого человека, хотя бы "
+"одного, на земле все будут счастливы !"
+msgstr ""
+"Эгер ар бирибиз башка адамды, жок дегенде бирөөнү бактылуу кыла алсак, жер "
+"жүзүндөгү адамдардын бардыгы бактылуу болушат!"
+
+#: .\news\templates\himaya_ch.html:18
+msgid "Оказавшись за порогом детских домов"
+msgstr "Балдар үйлөрүнүн босогосунан чыгып,"
+
+#: .\news\templates\himaya_ch.html:18
+msgid ""
+"эти дети не знают куда идти. Им, как никому другому, необходима наша помощь!"
+msgstr ""
+"булар адатта, кайда бараарын жана эмне кылышты билишпейт. Алар биздин "
+"жардамга абдан муктаж. Сиздин колдооңуз аларга өзүлөрүн өнүктүрүүгө жардам "
+"берет!"
+
+#: .\news\templates\himaya_ch.html:21 .\news\templates\himaya_men.html:20
+#: .\news\templates\himaya_women.html:24
+msgid "Вам нужна помощь?"
+msgstr "Жардам керепи?"
+
+#: .\news\templates\himaya_ch.html:22 .\news\templates\himaya_ch.html:66
+#: .\news\templates\himaya_men.html:21 .\news\templates\himaya_men.html:68
+#: .\news\templates\himaya_women.html:25 .\news\templates\himaya_women.html:73
+msgid "Хочу помочь"
+msgstr "Жардам бергим келет"
+
+#: .\news\templates\himaya_ch.html:37 .\news\templates\himaya_men.html:36
+#: .\news\templates\himaya_women.html:40
+msgid ""
+"Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo "
+"abhorreant vituperatoribus.Laudem latine persequeris id sed, ex fabulas "
+"delectus quo. No vel partiendo abhorreant vituperatoribus.Laudem latine "
+"persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant "
+"vituperatoribus"
+msgstr ""
+
+#: .\news\templates\himaya_ch.html:62 .\news\templates\himaya_men.html:64
+#: .\news\templates\himaya_women.html:69
+msgid "Сумма к сбору:"
+msgstr "чогултула турган сумма: "
+
+#: .\news\templates\himaya_ch.html:64 .\news\templates\himaya_men.html:66
+#: .\news\templates\himaya_women.html:71
+msgid "Осталось собрать:"
+msgstr "Чогултууга калды"
+
+#: .\news\templates\himaya_men.html:17
+msgid "Наша организация также оказывает помощь"
+msgstr "Биздин уюм баңгиликтен арылууну каалаган "
+
+#: .\news\templates\himaya_men.html:17
+msgid "лицам мужского пола, желающим восстановиться после наркозависимости"
+msgstr "эркектер үчүн да дагы жардам көрсөтөт."
+
+#: .\news\templates\himaya_women.html:21
+msgid "Центр помощи и"
+msgstr "«Химая»"
+
+#: .\news\templates\himaya_women.html:21
+msgid "реабилитации женщин"
+msgstr "аялдарга жардам берүү"
+
+#: .\news\templates\himaya_women.html:21
+msgid "\"Химая\""
+msgstr "жана реабилитациялоо борбору"
+
+#: .\news\templates\index.html:53
+msgid "Язык"
+msgstr "ТИЛ"
+
+#: .\news\templates\index.html:67
+msgid "Миссия"
+msgstr "Миссия"
+
+#: .\news\templates\index.html:68 .\news\templates\index_main.html:121
+msgid "История"
+msgstr "Тарыхыбыз"
+
+#: .\news\templates\index.html:69
+msgid "Структура"
+msgstr "Структура"
+
+#: .\news\templates\index.html:70
+msgid "Команда"
+msgstr "Биздин топ"
+
+#: .\news\templates\index.html:71
+msgid "Партнеры"
+msgstr "Өнөктөштөр"
+
+#: .\news\templates\index.html:72
+msgid "Успехи"
+msgstr "Жетишкендиктер"
+
+#: .\news\templates\index.html:73
+msgid "Юридическая поддержка"
+msgstr "Укуктук колдоо"
+
+#: .\news\templates\index.html:74
+msgid "Галерея"
+msgstr "Галлерея"
+
+#: .\news\templates\index.html:75
+msgid "Вопросы"
+msgstr "Суроолор"
+
+#: .\news\templates\index.html:79
+msgid "Соц. предпринимательство"
+msgstr "Социалдык ишкердик"
+
+#: .\news\templates\index.html:80
+msgid "Новости"
+msgstr "Жаңылыктар"
+
+#: .\news\templates\index.html:81
+msgid "Газета"
+msgstr "Гезит"
+
+#: .\news\templates\index.html:83
+msgid "Форум"
+msgstr "Форум"
+
+#: .\news\templates\index.html:88
+msgid "Поделись добром"
+msgstr "Бизди колдо"
+
+#: .\news\templates\index.html:108
+msgid "Дорогие гости нашего сайта!"
+msgstr "Урматтуу сайттын коногу,"
+
+#: .\news\templates\index.html:111
+msgid ""
+"Деятельность нашей организации направлена исключительно на "
+"благотворительность и помощь людям."
+msgstr ""
+"Сайт өзүнүн ишмердүүлүгүн кайрмыдуулук жана жардам көрсөтүү максатында гана "
+"алып барат."
+
+#: .\news\templates\index.html:112 .\news\templates\index_main.html:58
+msgid ""
+"Все собранные средства идут на реабилитацию и восстановление жертв насилия, "
+"на борьбу с ВИЧ и СПИД."
+msgstr ""
+"Баардык топтолгон каражаттар зомбулукка кабылгандарды калыбына келтирүү жана "
+"реабилитация кылууга, ошондой эле ВИЧ жана СПИД менен күрөшүүгө жумшалат"
+
+#: .\news\templates\index.html:113
+msgid "Давайте вместе поможем кому-то поверить в счастливую жизнь!"
+msgstr ""
+"Келиңиз бирөөгө бактылуу жашоо тартуулайлы! Сурооңуз болсо, биз менен "
+"байланышыңыз"
+
+#: .\news\templates\index.html:114
+msgid "Есть вопросы?"
+msgstr "Сурооңуз болсо,"
+
+#: .\news\templates\index.html:114 .\news\templates\index_main.html:15
+msgid "Свяжитесь с нами"
+msgstr "Биз менен байланышыңыз"
+
+#: .\news\templates\index.html:140
+msgid "Свяжитесь с нами в"
+msgstr "Биз менен "
+
+#: .\news\templates\index.html:140
+msgid "Социальных сетях :)"
+msgstr "социалдык тармактарда байланышыңыз :)"
+
+#: .\news\templates\index_main.html:12
+msgid "Общественное объединение \"Улукман Дарыгер\""
+msgstr "\"Улукман Дарыгер\" коомдук бирикмеси"
+
+#: .\news\templates\index_main.html:13
+msgid ""
+"Некоммерческая организая, целью которой является помощь людям, попавшим в "
+"сложную ситуацию."
+msgstr ""
+"Бул ар түрдүү оор кырдаалга туш болгон адамдарга колдоо көрсөтүүчү "
+"коммерциялык эмес уюм"
+
+#: .\news\templates\index_main.html:41
+msgid "Профилактика ВИЧ/СПИДа"
+msgstr "ВИЧ/СПИДди алдын алуу"
+
+#: .\news\templates\index_main.html:42
+msgid ""
+"ВИЧ и СПИД не являются приговором. Этого не нужно бояться, об этом нужно "
+"знать!"
+msgstr "ВИЧ жана СПИД өкүм эмес. Алардан коркпостон, билүү керек!"
+
+#: .\news\templates\index_main.html:49
+msgid "Защита прав уязвимых слоев населения"
+msgstr "Калктын аярлуу катмарларынын укугун коргоо"
+
+#: .\news\templates\index_main.html:50
+msgid ""
+"Каждый человек вне зависимости от социального статуса имеет право на "
+"счастливую жизнь!"
+msgstr ""
+"Ар бир адам өзүнүн социалдык статусуна карабастан бакубат жашоого укуктуу!"
+
+#: .\news\templates\index_main.html:57
+msgid "Сбор средств на благотворительные нужды"
+msgstr "Кайрымдуулукка каражат чогултуу"
+
+#: .\news\templates\index_main.html:65
+msgid "Центр помощи и реабилитации женщин \"Химая\" "
+msgstr "«Химая» аялдарга жардам берүү жана реабилитациялоо борбору"
+
+#: .\news\templates\index_main.html:66
+msgid ""
+"Помощь женщинам, подвергшимся насилию или попавшим в сложную жизненную "
+"ситуацию"
+msgstr ""
+"Зомбулукка кабылган же турмуштук оор кырдаалды башынан кечирип жаткан "
+"аялдарга жардам берүү "
+
+#: .\news\templates\index_main.html:85
+msgid "Наша миссия"
+msgstr "Биздин миссиябыз"
+
+#: .\news\templates\index_main.html:91
+msgid ""
+"Деятельность ОО «УлукманДарыгер» основана на принципах  не "
+"дискриминированного,клиент центрированного подхода с соблюдением "
+"конфиденциальности при работе с клиентами организации. Основной принцип "
+"работы – «равный – равному»."
+msgstr ""
+"«Улукман Дарыгер» коомдук брикмесинин ишмердүүлүгү дискриминациялабоо "
+"приницибине таянып, кардарга негизделген жана сырдуулук кепилдигин берүү "
+"менен  ишке ашырылат. Иштин эң негизги принциби- теңме теңдүүлүк"
+
+#: .\news\templates\index_main.html:94
+msgid ""
+"В настоящее время целевыми группами являются: секс работники (СР),люди, "
+"живущие с ВИЧ инфекцией (ЛЖВ), лица, употребляющие инъекционные наркотики "
+"(ЛУИН),женщины, подвергшиеся насилию и/или оказавшиеся в трудной жизненной "
+"ситуации."
+msgstr ""
+" Азыркы учурда уюм интимдик кызмат көрсөтүүчүлөр (ИК), ВИЧ инфекциясын "
+"жуктуруп алгандар, инъекциялык баңги  заттарды колдонуучулар (ИНЗК)  жана "
+"зомбулукка кабылган же/жана турмуштук оор кырдаалга кабылган аялдар мене иш "
+"алып барат."
+
+#: .\news\templates\index_main.html:96
+msgid "Миссией организации является улучшение здоровья населения"
+msgstr ""
+"Уюмдун миссиясы генофондду жана экологияны сактап калуу, медицинага болгон "
+"коомдук муктаждыктарды канагатандыруу жана ар түрдүү ооруларды алдын алуу "
+"максатында"
+
+#: .\news\templates\index_main.html:101
+msgid ""
+"через обеспечение свободного доступа к медицинским образовательным "
+"программам с целью сохранения генофонда, экологии, удовлетворения "
+"общественных потребностей в медицинских услугах, профилактике болезней и "
+"благотворительная деятельность."
+msgstr ""
+"медициналык кызматка жана агартуу  программаларына жеткиликтүүлүктү камсыз "
+"кылуу аркылуу калктын саламаттыгын жакшыртуу, ошондой эле кайрымдуулук "
+"ишмердиги кирет."
+
+#: .\news\templates\index_main.html:103
+msgid ""
+"На сегодняшний день «УлукманДарыгер» является единственной организацией "
+"работающей с сообществами СР,ЛУИН И ЛЖВ в Иссык-Кульской области. Охват "
+"программами: все районы Иссык-Кульской области, г.Нарын, Нарынская область, "
+"Джумгальский район Нарынской области."
+msgstr ""
+"Азыркы күндө «Улукман Дарыгер» Ысык-Көл областындагы интим кызмат "
+"көрсөтүүчүлөр, ВИЧ жугузуп алгандар жана баңги  заттарды инъекциялык жол "
+"менен колдонуучулар менен иш алып баруучу жападан жалгыз уюм болуп "
+"эсептелинет. Программалар Ысык-Көлдүн бардык райондорун, Нарын областынын "
+"Нарын шаарын, Жугал райондоун камтыйт. "
+
+#: .\news\templates\index_main.html:129
+msgid ""
+"Общественное объединение \"Улукман Дарыгер\" зарегистрировано 12 октября "
+"2000 года. С 2014 года организаия осуществляет деятельность по профилактике "
+"ВИЧ/СПИД в Иссык-Кульской области. С 2016 года проводится правозащитная "
+"деятельность:"
+msgstr ""
+"\"Улукман Дарыгер\" коомдук бирикмеси 2000-жылы 12-октябрда катталган. 2014-"
+"жылдан бери аталган уюм Ысык-Көл облусунда ВИЧ / СПИДди алдын алуу боюнча иш-"
+"чараларды жүргүзүп келет. 2016-жылдан бери адам укугун коргоо боюнча иш-"
+"чаралар жүргүзүлүп келет. Уюмдун негизги иш  багыттары:"
+
+#: .\news\templates\index_main.html:132
+msgid ""
+"профилактическая работа с сотрудниками правоохранительных органов (тренинги, "
+"семинары)."
+msgstr ""
+"укук коргоо органдарынын кызматкерлери менен профилактикалык иш (тренингдер, "
+"семинарлар) жүргүзүү"
+
+#: .\news\templates\index_main.html:133
+msgid ""
+"документирование фактов нарушения прав представителей уязвимых групп со "
+"стороны сотрудников правоохранительных органов."
+msgstr ""
+"укук коргоо органдарынын кызматкерлери тарабынан аялуу топтордун өкүлдөрүнүн "
+"укуктарын бузуу фактыларын документтештирүү"
+
+#: .\news\templates\index_main.html:134
+msgid "консультирование по правам и нарушению прав."
+msgstr "Адам укутары жана алардын бузулушу боюнча консультация берүү"
+
+#: .\news\templates\index_main.html:135
+msgid "ведение клиентов и направление к дружественным адвокатам."
+msgstr "кардарлар менен иштөө жана аларга достук адвокаттарга жолдомо берүү"
+
+#: .\news\templates\index_main.html:136
+msgid ""
+" открытие центра помощи и реабилитации «Химая» (для подвергающихся насилию "
+"женщин)."
+msgstr ""
+"\"Химая\" аялдарга жардам көрсөтүү жана реабилитациялоо борборунун ишин "
+"жүргүзүү (зордук-зомбулукка кабылган же турмуштук оор кырдаалда калган "
+"аялдар үчүн)"
+
+#: .\news\templates\index_main.html:148
+msgid "Довольных клиентов"
+msgstr "Канааттанган кардар "
+
+#: .\news\templates\index_main.html:155
+msgid "Проектов"
+msgstr "Долбоор"
+
+#: .\news\templates\index_main.html:162
+msgid "Год опыта"
+msgstr "Жыл иш тажрыйбасы "
+
+#: .\news\templates\index_main.html:169
+msgid "Наград"
+msgstr "Сыйлык"
+
+#: .\news\templates\index_main.html:194
+msgid "Структура организации"
+msgstr "Организациянын структурасы"
+
+#: .\news\templates\index_main.html:214
+msgid "Наши партнеры"
+msgstr "Биздин өнөктөштөр"
+
+#: .\news\templates\index_main.html:215
+msgid "Благодарим за сотрудничество и поддержку!"
+msgstr "Сиздин кызматташууңуз жана колдооңуз үчүн рахмат"
+
+#: .\news\templates\index_main.html:222
+msgid "Мэрия города Каракол"
+msgstr "Каракол шаарынын мэриясы "
+
+#: .\news\templates\index_main.html:223
+msgid "Управление внутренних дел Иссык-кульской области"
+msgstr "Ысык-Көл облусттук ИИМ "
+
+#: .\news\templates\index_main.html:224
+msgid "ОВД города Каракол"
+msgstr "Каракол шаардык ички иштер бөлүмү"
+
+#: .\news\templates\index_main.html:225
+msgid "Областной центр профилактики и борьбы со СПИДом"
+msgstr "СПИДди алдын алуу жана күрөшүү боюнча Ысык-Көл аймактык борбору"
+
+#: .\news\templates\index_main.html:226
+msgid "Областной центр борьбы и профилактики туберкулеза"
+msgstr "Туберкулез менен күрөшүү жана алдын алуу облусттук борбору "
+
+#: .\news\templates\index_main.html:227
+msgid "Иссык-Кульский филиал ОО «Альянс Репродуктивного Здоровья»"
+msgstr ""
+"«Репродуктивдик ден-соолук альянсы» коомдук бирикмесинин  Ысык-Көл облусттук "
+"филиалы"
+
+#: .\news\templates\index_main.html:237
+msgid "Медицинский центр \"Клиницист\" "
+msgstr "«Клиницист» медициналык борбору "
+
+#: .\news\templates\index_main.html:238
+msgid "Областной и районные центры семейной медицины"
+msgstr "Облусттук жана райондук үй-бүлөөлүк медицина борборлору"
+
+#: .\news\templates\index_main.html:239
+msgid "Представительство омбудсмена КР в Иссык-кульской области"
+msgstr "КР Омубдсменинин Ысык-Кол облусттук ыйгарым өкүлчүлүгү "
+
+#: .\news\templates\index_main.html:240
+msgid " ВИЧ-сервисные организации \"Таис Плюс\" и \"Таис Плюс два\" "
+msgstr "«Таис Плюс» жана «Таис Плюс Эки » ВИЧ сервис уюмдары "
+
+#: .\news\templates\index_main.html:241
+msgid "Общественный фонд «Подруга»"
+msgstr "«Подруга» коомдук фонду "
+
+#: .\news\templates\index_main.html:242
+msgid "Общественное объединение \"Атуул\" "
+msgstr "«Атуул» коомдук бирикмеси "
+
+#: .\news\templates\index_main.html:243
+msgid "Иссык-Кульская областная объединенная больница"
+msgstr "Ысык-Көл облусттук бириккен ооруканасы"
+
+#: .\news\templates\index_main.html:263
+msgid "Наша команда"
+msgstr "Биздин команда"
+
+#: .\news\templates\index_main.html:264
+msgid ""
+"Наш дружный коллектив состоит из 22 человек. Каждый из нас - неотъемлимая и "
+"незаменимая частичка нашей организации!"
+msgstr ""
+
+#: .\news\templates\index_main.html:370
+msgid "Наш адрес:"
+msgstr "Биздин дарек: "
+
+#: .\news\templates\index_main.html:371
+msgid "ул. Московская 162\\1, Каракол, Кыргызстан"
+msgstr "Московский көч. 162/1, Каракол шаары, Кыргызстан"
+
+#: .\news\templates\index_main.html:382
+msgid "Телефон:"
+msgstr "Байланыш телефону:"
+
+#: .\news\templates\newspaper.html:421
+msgid "Газета ОО \"Улукман Дарыгер\""
+msgstr "«Улукман Дарыгер» гезити"
+
+#: .\news\templates\newspaper.html:422
+msgid ""
+"На базе организации выпускается ежемесячный медицинский бюллетень, который "
+"нацелен на информирование широкой массы о профилактике ВИЧ/СПИДа,  КОВИД . В "
+"газете  также можно ознакомиться деятельностью ОО «Улукман Дарыгер», "
+"проводимой с уязвимыми группами населения."
+msgstr ""
+"Уюмдун негизинде ай сайын ВИЧ / СПИД жана COVIDди алдын алуу максатында "
+"жалпы коомчулукка маалымат берүүгө багытталган медициналык бюллетень "
+"чыгарылат. Ошондой эле гезитте “Улукман Дарыгер” коомдук бирикмесинин  "
+"калктын аялуу катмарлары менен алып барган иши тууралуу маалымат алсаныз "
+"болот."
+
+#: .\news\templates\newspaper.html:488
+msgid "Опубликовано ОО \"Улукман Дарыгер\""
+msgstr ""
+
+#: .\news\templates\newspaper.html:497
+msgid "Подробнее.."
+msgstr "Rөбүрөөк.."
+
+#: .\news\templates\payment.html:104
+msgid "Благодарим Вас за помощь нашей организации!"
+msgstr "Биздин уюмга жардам бергениңиз үчүн чоң рахмат!"
+
+#: .\news\templates\payment.html:105
+msgid "Перевод суммы на карту"
+msgstr "Акчаны картага которуу"

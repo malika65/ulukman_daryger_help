@@ -1,0 +1,78 @@
+{% extends 'index.html' %}
+{% load static %}
+
+{% block content %}
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Новости</title>
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'vendor_news/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="{% static 'assets/css/simple-sidebar.css' %}" rel="stylesheet">
+
+  <style>
+    .size{
+      width: 850px;
+      margin: 0 0 1em 0;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical; 
+    
+    }
+     </style>
+</head>
+
+<body>
+
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper" style="margin-top: 120px;">
+
+      <div class="container home4 ftrmrg">
+
+        {% for new in news %}
+        <!--новость начало-->
+        <div class="blog-sec-typ1 clearfix staggered-animation display animated fadeInUp" data-os-animation="fadeInUp" data-os-animation-delay=".5s" style="animation-delay: 0.5s;">
+          <div class="blog-cont-sec">
+            <!--дата месяц год начало-->
+            <div class="dmy">
+              <div class="date">{{new.date_created|date:' j'}}</div>
+              <span class="month">{{new.date_created|date:'F'}}</span>
+              <span class="year">{{new.date_created|date:'Y'}}</span>
+            </div>
+            <!--дата месяц год конец-->
+
+            <!--заголовок начало-->
+            <div class="cont-area">
+              <h3><a href="/news/news/{{new.id}}/">{{new.title}}</a></h3>
+              <div class="postedby">
+                <a>Опубликовано ОО "Улукман Дарыгер"</a>
+            </div>
+              <!--заголовок конец-->
+
+
+              <!--текст новостей начало-->
+              <p class="size">{{new.body}}</p>
+              <!--текст новостей конец-->
+
+              <a sclass="readmore-txt" href="/news/news/{{new.id}}/">Подробнее..</a>
+            </div>
+          </div>
+        </div>
+        <!--новость конец-->
+        {% endfor %}
+      </div>
+    </div>
+
+</body>
+
+{% endblock %}
+
+

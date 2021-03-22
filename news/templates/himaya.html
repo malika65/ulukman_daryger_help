@@ -1,0 +1,143 @@
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Химая</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets_himaya/img/sun.png' %}" rel="icon">
+  <link href="{% static 'assets_himaya/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets_himaya/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets_himaya/vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets_himaya/vendor/ionicons/css/ionicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets_himaya/vendor/owl.carousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets_himaya/vendor/venobox/venobox.css' %}" rel="stylesheet">
+  <link href="{% static 'assets_himaya/vendor/aos/aos.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets_himaya/css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NewBiz - v2.2.0
+  * Template URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an text logo -->
+        <!-- <h1><a href="index.html">NewBiz</a></h1> -->
+        <p class="slogan">{% trans 'Солнце светит всем одинаково!' %}</p>
+        
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li><a href="{% url 'locale' to_url='index' %}">{% trans 'Главная' %}</a></li>
+          <li><a href="#services">{% trans 'О нас' %}</a></li>
+          <li><a href="{% url 'locale' to_url='himaya' %}">{% trans 'Женщины' %}</a></li>
+          <li><a href="{% url 'locale' to_url='himaya_men' %}">{% trans 'Мужчины' %}</a></li>
+          <li><a href="{% url 'locale' to_url='himaya_ch' %}">{% trans 'Выпускники детских домов' %}</a></li>
+
+          <li><a href="{% url 'locale' to_url='index#contact' %}">{% trans 'Контакты' %} </a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+
+    </div>
+  </header><!-- #header -->
+
+  {% block content %}
+
+  {% endblock %}
+
+  
+
+ <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>{% trans 'Химая' %}</h3>
+            <p>{% trans 'Центр помощи и реабилитации женщин' %}</p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>{% trans 'Разделы' %}</h4>
+            <ul>
+              <li><a href="#">{% trans 'О нас' %}</a></li>
+              <li><a href="#">{% trans 'Женщины' %}</a></li>
+              <li><a href="#">{% trans 'Мужчины' %}</a></li>
+              <li><a href="#">{% trans 'Выпускники детских домов' %}</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>{% trans 'Наш адрес' %}</h4>
+            <p>
+             {% trans 'улица Московская 162/46 <br>Каракол' %},<br>
+              {% trans 'Кыргызстан' %} <br>
+              <strong>{% trans 'Телефон' %}:</strong> +996 554 888 555<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4 class="footer-slogan">{% trans 'Если каждый из нас сможет сделать счастливым другого человека, хотя бы одного, на земле все будут счастливы !' %}</h4>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'assets/vendor/counterup/counterup.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/waypoints/jquery.waypoints.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/venobox/venobox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
