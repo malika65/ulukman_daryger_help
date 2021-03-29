@@ -64,7 +64,7 @@ msgstr "Күн баарына бирдей нур чачат!"
 
 #: .\news\templates\himaya.html:56
 msgid "Главная"
-msgstr "Башкы бет"
+msgstr "Негизги бет"
 
 #: .\news\templates\himaya.html:57 .\news\templates\himaya.html:89
 #: .\news\templates\himaya_ch.html:36 .\news\templates\himaya_men.html:35
@@ -82,7 +82,7 @@ msgstr "Мырзалар"
 
 #: .\news\templates\himaya.html:60 .\news\templates\himaya.html:92
 msgid "Выпускники детских домов"
-msgstr "Балдар үйлөрүнүн бүтүрүүчүлөрү"
+msgstr "Балдар"
 
 #: .\news\templates\himaya.html:62 .\news\templates\index.html:84
 #: .\news\templates\index_main.html:357
@@ -569,7 +569,7 @@ msgstr ""
 
 #: .\news\templates\newspaper.html:497
 msgid "Подробнее.."
-msgstr "Rөбүрөөк.."
+msgstr "Көбүрөөк.."
 
 #: .\news\templates\payment.html:104
 msgid "Благодарим Вас за помощь нашей организации!"

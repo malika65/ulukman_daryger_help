@@ -21,8 +21,8 @@
         <h2>{% trans 'Центр помощи и' %}<br>{% trans 'реабилитации женщин'%}<br><span>{% trans '"Химая"' %}</span></h2>
         <div>
 
-          <a href="#services" class="btn-services scrollto">{% trans 'Вам нужна помощь?' %}</a>
-            <a href="#services" class="btn-services scrollto">{% trans 'Хочу помочь' %}</a>
+          <a href="{% url 'locale' to_url='index#contact' %}" class="btn-services scrollto">{% trans 'Вам нужна помощь?' %}</a>
+            <a href="#about" class="btn-services scrollto">{% trans 'Хочу помочь' %}</a>
         </div>
       </div>
 

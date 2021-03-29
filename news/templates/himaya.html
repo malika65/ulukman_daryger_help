@@ -47,12 +47,23 @@
       <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an text logo -->
         <!-- <h1><a href="index.html">NewBiz</a></h1> -->
-        <p class="slogan">{% trans 'Солнце светит всем одинаково!' %}</p>
+        <p style="margin-top: 0.8ch;" class="slogan">{% trans 'Солнце светит всем одинаково!' %}</p>
         
       </div>
+      
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
+          <li class="active drop-down language" style="margin-right:50px;"><a href="#">{% trans 'Язык' %}</a>
+        
+            <ul>
+              <li class="active"><a href="{% url 'selectlanguage' user_language='ru' %}">RU</a></li>
+              <li><a href="{% url 'selectlanguage' user_language='en' %}">ENG</a></li>
+              <li><a href="{% url 'selectlanguage' user_language='ky' %}">KG</a></li>
+              
+
+            </ul>
+          </li>
           <li><a href="{% url 'locale' to_url='index' %}">{% trans 'Главная' %}</a></li>
           <li><a href="#services">{% trans 'О нас' %}</a></li>
           <li><a href="{% url 'locale' to_url='himaya' %}">{% trans 'Женщины' %}</a></li>
