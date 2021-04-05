@@ -4,6 +4,7 @@ from django.conf.urls.i18n import i18n_patterns
 from django.conf import settings
 from django.conf.urls.static import static
 from news.urls import * 
+from django.views.generic.base import RedirectView
 
 urlpatterns = [
     path('selectlanguage/<str:user_language>', selectlanguage, name ='selectlanguage'),
@@ -15,6 +16,7 @@ urlpatterns = [
 ]
 
 urlpatterns += i18n_patterns(
+    path('', RedirectView.as_view(url='/ru/news/index/')),
     path('news/', include('news.urls')),
 )
 
