@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-11 14:18+0600\n"
+"POT-Creation-Date: 2021-04-05 13:45+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,12 +52,10 @@ msgid "Вы можете задать его здесь и мы обязател
 msgstr "You can ask it here and we will definitely help you!"
 
 #: .\news\templates\forum.html:124
-#, fuzzy
-#| msgid "Отставьте здесь ваш комментарий или задайте вопрос"
 msgid "Оставьте здесь ваш комментарий или задайте вопрос"
 msgstr "Leave your comments or ask questions here"
 
-#: .\news\templates\forum.html:130 .\news\templates\index_main.html:416
+#: .\news\templates\forum.html:130 .\news\templates\index_main.html:401
 msgid "Отправить"
 msgstr "Send"
 
@@ -65,62 +63,66 @@ msgstr "Send"
 msgid "Солнце светит всем одинаково!"
 msgstr "The sun shine on everyone!"
 
-#: .\news\templates\himaya.html:56
+#: .\news\templates\himaya.html:57 .\news\templates\index.html:46
+msgid "Язык"
+msgstr "LANG"
+
+#: .\news\templates\himaya.html:67
 msgid "Главная"
 msgstr "Main"
 
-#: .\news\templates\himaya.html:57 .\news\templates\himaya.html:89
+#: .\news\templates\himaya.html:68 .\news\templates\himaya.html:100
 #: .\news\templates\himaya_ch.html:36 .\news\templates\himaya_men.html:35
-#: .\news\templates\himaya_women.html:39 .\news\templates\index.html:64
+#: .\news\templates\himaya_women.html:39 .\news\templates\index.html:56
 msgid "О нас"
 msgstr "About us"
 
-#: .\news\templates\himaya.html:58 .\news\templates\himaya.html:90
+#: .\news\templates\himaya.html:69 .\news\templates\himaya.html:101
 msgid "Женщины"
 msgstr "Women"
 
-#: .\news\templates\himaya.html:59 .\news\templates\himaya.html:91
+#: .\news\templates\himaya.html:70 .\news\templates\himaya.html:102
 msgid "Мужчины"
 msgstr "Men"
 
-#: .\news\templates\himaya.html:60 .\news\templates\himaya.html:92
+#: .\news\templates\himaya.html:71 .\news\templates\himaya.html:103
 msgid "Выпускники детских домов"
 msgstr "Graduates of orphanages"
 
-#: .\news\templates\himaya.html:62 .\news\templates\index.html:84
-#: .\news\templates\index_main.html:357
+#: .\news\templates\himaya.html:73 .\news\templates\index.html:76
+#: .\news\templates\index_main.html:344
 msgid "Контакты"
 msgstr "Contacts"
 
-#: .\news\templates\himaya.html:82 .\news\templates\index.html:82
+#: .\news\templates\himaya.html:93 .\news\templates\index.html:74
 msgid "Химая"
 msgstr "Himaya center"
 
-#: .\news\templates\himaya.html:83
+#: .\news\templates\himaya.html:94
 msgid "Центр помощи и реабилитации женщин"
-msgstr "Center for assistance and rehabilitation of women “Himaya”"
+msgstr "Center for assistance and rehabilitation of women \"Himaya\" "
 
-#: .\news\templates\himaya.html:87
+#: .\news\templates\himaya.html:98
 msgid "Разделы"
 msgstr "Sections"
 
-#: .\news\templates\himaya.html:97
+#: .\news\templates\himaya.html:108
 msgid "Наш адрес"
 msgstr "Our address: "
 
-#: .\news\templates\himaya.html:99
+#: .\news\templates\himaya.html:110
 msgid "улица Московская 162/46 <br>Каракол"
 msgstr "162/1 Moskovskaya str., Karakol town,"
 
-#: .\news\templates\himaya.html:100
+#: .\news\templates\himaya.html:111
 msgid "Кыргызстан"
 msgstr "  Kyrgyzstan"
 
-#: .\news\templates\himaya.html:101
+#: .\news\templates\himaya.html:112
 msgid "Телефон"
 msgstr "Contact phone:"
 
-#: .\news\templates\himaya.html:113
+#: .\news\templates\himaya.html:124
 msgid ""
 "Если каждый из нас сможет сделать счастливым другого человека, хотя бы "
 "одного, на земле все будут счастливы !"
@@ -190,71 +192,67 @@ msgstr "and rehabilitation of women"
 msgid "\"Химая\""
 msgstr "\"Himaya\""
 
-#: .\news\templates\index.html:53
-msgid "Язык"
-msgstr "LANG"
-
-#: .\news\templates\index.html:67
+#: .\news\templates\index.html:59
 msgid "Миссия"
 msgstr "Mission"
 
-#: .\news\templates\index.html:68 .\news\templates\index_main.html:121
+#: .\news\templates\index.html:60 .\news\templates\index_main.html:122
 msgid "История"
 msgstr "History"
 
-#: .\news\templates\index.html:69
+#: .\news\templates\index.html:61
 msgid "Структура"
 msgstr "Structure"
 
-#: .\news\templates\index.html:70
+#: .\news\templates\index.html:62
 msgid "Команда"
 msgstr "Our team"
 
-#: .\news\templates\index.html:71
+#: .\news\templates\index.html:63
 msgid "Партнеры"
 msgstr "Partners"
 
-#: .\news\templates\index.html:72
+#: .\news\templates\index.html:64
 msgid "Успехи"
 msgstr "Success"
 
-#: .\news\templates\index.html:73
+#: .\news\templates\index.html:65
 msgid "Юридическая поддержка"
 msgstr "Legal support"
 
-#: .\news\templates\index.html:74
+#: .\news\templates\index.html:66
 msgid "Галерея"
 msgstr "Gallery"
 
-#: .\news\templates\index.html:75
+#: .\news\templates\index.html:67
 msgid "Вопросы"
 msgstr "Questions"
 
-#: .\news\templates\index.html:79
+#: .\news\templates\index.html:71
 msgid "Соц. предпринимательство"
 msgstr "Social entreprenership"
 
-#: .\news\templates\index.html:80
+#: .\news\templates\index.html:72
 msgid "Новости"
 msgstr "News"
 
-#: .\news\templates\index.html:81
+#: .\news\templates\index.html:73
 msgid "Газета"
 msgstr "Newspaper"
 
-#: .\news\templates\index.html:83
+#: .\news\templates\index.html:75
 msgid "Форум"
 msgstr "Forum"
 
-#: .\news\templates\index.html:88
+#: .\news\templates\index.html:79
 msgid "Поделись добром"
 msgstr "Support us"
 
-#: .\news\templates\index.html:108
+#: .\news\templates\index.html:100
 msgid "Дорогие гости нашего сайта!"
 msgstr "Dear guests of our site!"
 
-#: .\news\templates\index.html:111
+#: .\news\templates\index.html:103
 msgid ""
 "Деятельность нашей организации направлена исключительно на "
 "благотворительность и помощь людям."
@@ -262,39 +260,41 @@ msgstr ""
 "Our site is aimed exclusively at helping people and was created on a charity "
 "purposes."
 
-#: .\news\templates\index.html:112 .\news\templates\index_main.html:58
+#: .\news\templates\index.html:104
+#, fuzzy
+#| msgid ""
+#| "Все собранные средства идут на реабилитацию и восстановление жертв "
+#| "насилия, на борьбу с ВИЧ и СПИД."
 msgid ""
-"Все собранные средства идут на реабилитацию и восстановление жертв насилия, "
-"на борьбу с ВИЧ и СПИД."
+"Все собранные средства идут на <a href=\"himaya.html\">реабилитацию и "
+"восстановление жертв насилия,</a> на борьбу с ВИЧ и СПИД."
 msgstr ""
 "All funds raised will be used to help and rehabilitate victims of violence "
 "and to people who inject drugs as well as fight HIV/AIDS."
 
-#: .\news\templates\index.html:113
+#: .\news\templates\index.html:105
 msgid "Давайте вместе поможем кому-то поверить в счастливую жизнь!"
 msgstr "Let&#39;s help someone to build a happy life together!"
 
-#: .\news\templates\index.html:114
+#: .\news\templates\index.html:106
 msgid "Есть вопросы?"
 msgstr "Have questions? "
 
-#: .\news\templates\index.html:114 .\news\templates\index_main.html:15
-msgid "Свяжитесь с нами"
-msgstr "Contact us"
-
-#: .\news\templates\index.html:140
+#: .\news\templates\index.html:134
 msgid "Свяжитесь с нами в"
 msgstr "Contact us"
 
-#: .\news\templates\index.html:140
-msgid "Социальных сетях :)"
-msgstr " in Social Media"
 
-#: .\news\templates\index_main.html:12
+#: .\news\templates\index.html:134
+msgid "Социальных сетях"
+msgstr "in social media"
+
+
+#: .\news\templates\index_main.html:13
 msgid "Общественное объединение \"Улукман Дарыгер\""
 msgstr "Public Association \"Ulukman Daryger\""
 
-#: .\news\templates\index_main.html:13
+#: .\news\templates\index_main.html:14
 msgid ""
 "Некоммерческая организая, целью которой является помощь людям, попавшим в "
 "сложную ситуацию."
@@ -302,11 +302,11 @@ msgstr ""
 "is a non-profit organization that aims at helping people in difficult life "
 "circumstances"
 
-#: .\news\templates\index_main.html:41
+#: .\news\templates\index_main.html:42
 msgid "Профилактика ВИЧ/СПИДа"
 msgstr "Prevention of HIV and AIDS"
 
-#: .\news\templates\index_main.html:42
+#: .\news\templates\index_main.html:43
 msgid ""
 "ВИЧ и СПИД не являются приговором. Этого не нужно бояться, об этом нужно "
 "знать!"
@@ -314,25 +314,33 @@ msgstr ""
 "HIV and AIDS is not a sentence. You should not be afraid of this, you need "
 "to know about it. "
 
-#: .\news\templates\index_main.html:49
+#: .\news\templates\index_main.html:50
 msgid "Защита прав уязвимых слоев населения"
 msgstr "Protection of the rights of the vulnerable groups  "
 
-#: .\news\templates\index_main.html:50
+#: .\news\templates\index_main.html:51
 msgid ""
 "Каждый человек вне зависимости от социального статуса имеет право на "
 "счастливую жизнь!"
 msgstr "Everyone regardless of social status, has the right for happy life!"
 
-#: .\news\templates\index_main.html:57
+#: .\news\templates\index_main.html:58
 msgid "Сбор средств на благотворительные нужды"
 msgstr "Fundraising for charity "
 
-#: .\news\templates\index_main.html:65
-msgid "Центр помощи и реабилитации женщин \"Химая\" "
-msgstr "Center for assistance and rehabilitation of women “Himaya”"
+#: .\news\templates\index_main.html:59
+msgid ""
+"Все собранные средства идут на реабилитацию и восстановление жертв насилия, "
+"на борьбу с ВИЧ и СПИД."
+msgstr ""
+"All funds raised will be used to help and rehabilitate victims of violence "
+"and to people who inject drugs as well as fight HIV/AIDS."
 
 #: .\news\templates\index_main.html:66
+msgid "Центр помощи и реабилитации женщин \"Химая\" "
+msgstr "Center for assistance and rehabilitation of women \"Himaya\" "
+
+#: .\news\templates\index_main.html:67
 msgid ""
 "Помощь женщинам, подвергшимся насилию или попавшим в сложную жизненную "
 "ситуацию"
@@ -340,11 +348,11 @@ msgstr ""
 "Assistance to the women who have experienced  violence or have been in a "
 "difficult life situation "
 
-#: .\news\templates\index_main.html:85
+#: .\news\templates\index_main.html:86
 msgid "Наша миссия"
 msgstr "Mission"
 
-#: .\news\templates\index_main.html:91
+#: .\news\templates\index_main.html:92
 msgid ""
 "Деятельность ОО «УлукманДарыгер» основана на принципах  не "
 "дискриминированного,клиент центрированного подхода с соблюдением "
@@ -356,7 +364,7 @@ msgstr ""
 "approach, with respect to confidentiality while working with the clients. "
 "The basic principle of work is equal to equal."
 
-#: .\news\templates\index_main.html:94
+#: .\news\templates\index_main.html:95
 msgid ""
 "В настоящее время целевыми группами являются: секс работники (СР),люди, "
 "живущие с ВИЧ инфекцией (ЛЖВ), лица, употребляющие инъекционные наркотики "
@@ -367,12 +375,12 @@ msgstr ""
 "(PLHIV), people who use injection drugs (PWID), women who have experienced "
 "violence and / or going through difficult life situations."
 
-#: .\news\templates\index_main.html:96
+#: .\news\templates\index_main.html:97
 msgid "Миссией организации является улучшение здоровья населения"
 msgstr ""
 "The mission of the organization is to improve the health of the population "
 
-#: .\news\templates\index_main.html:101
+#: .\news\templates\index_main.html:102
 msgid ""
 "через обеспечение свободного доступа к медицинским образовательным "
 "программам с целью сохранения генофонда, экологии, удовлетворения "
@@ -383,7 +391,7 @@ msgstr ""
 "preserve the gene pool, ecology, meet public needs for medical services, "
 "prevent disease and charitable activities."
 
-#: .\news\templates\index_main.html:103
+#: .\news\templates\index_main.html:104
 msgid ""
 "На сегодняшний день «УлукманДарыгер» является единственной организацией "
 "работающей с сообществами СР,ЛУИН И ЛЖВ в Иссык-Кульской области. Охват "
@@ -395,7 +403,7 @@ msgstr ""
 "programs: all districts of the Issyk-Kul region, Naryn city, Naryn region, "
 "Jumgal district of Naryn region."
 
-#: .\news\templates\index_main.html:129
+#: .\news\templates\index_main.html:130
 msgid ""
 "Общественное объединение \"Улукман Дарыгер\" зарегистрировано 12 октября "
 "2000 года. С 2014 года организаия осуществляет деятельность по профилактике "
@@ -407,13 +415,13 @@ msgstr ""
 "AIDS in the Issyk-Kul region. Since 2016, human rights activities have been "
 "carried out. To date, the main areas of work are:"
 
-#: .\news\templates\index_main.html:132
+#: .\news\templates\index_main.html:133
 msgid ""
 "профилактическая работа с сотрудниками правоохранительных органов (тренинги, "
 "семинары)."
 msgstr "preventive work with law enforcement officers (trainings, seminars)"
 
-#: .\news\templates\index_main.html:133
+#: .\news\templates\index_main.html:134
 msgid ""
 "документирование фактов нарушения прав представителей уязвимых групп со "
 "стороны сотрудников правоохранительных органов."
@@ -421,15 +429,15 @@ msgstr ""
 "documenting the facts of violation of the rights of vulnerable groups by law "
 "enforcement officers"
 
-#: .\news\templates\index_main.html:134
+#: .\news\templates\index_main.html:135
 msgid "консультирование по правам и нарушению прав."
 msgstr "consulting on human rights and their violation"
 
-#: .\news\templates\index_main.html:135
+#: .\news\templates\index_main.html:136
 msgid "ведение клиентов и направление к дружественным адвокатам."
 msgstr "working with clients and  connecting them with friendly attorneys"
 
-#: .\news\templates\index_main.html:136
+#: .\news\templates\index_main.html:137
 msgid ""
 " открытие центра помощи и реабилитации «Химая» (для подвергающихся насилию "
 "женщин)."
@@ -438,133 +446,180 @@ msgstr ""
 "center  (for women who have been subjected to violence or in a difficult "
 "life situation)"
 
-#: .\news\templates\index_main.html:148
+#: .\news\templates\index_main.html:149
 msgid "Довольных клиентов"
 msgstr "Satisfied clients"
 
-#: .\news\templates\index_main.html:155
+#: .\news\templates\index_main.html:156
 msgid "Проектов"
 msgstr "Projects"
 
-#: .\news\templates\index_main.html:162
+#: .\news\templates\index_main.html:163
 msgid "Год опыта"
 msgstr "Years of work experience"
 
-#: .\news\templates\index_main.html:169
+#: .\news\templates\index_main.html:170
 msgid "Наград"
 msgstr "Projects"
 
-#: .\news\templates\index_main.html:194
+#: .\news\templates\index_main.html:195
 msgid "Структура организации"
 msgstr "The structure of organization"
 
-#: .\news\templates\index_main.html:214
+#: .\news\templates\index_main.html:215
 msgid "Наши партнеры"
 msgstr "Our Partners"
 
-#: .\news\templates\index_main.html:215
+#: .\news\templates\index_main.html:216
 msgid "Благодарим за сотрудничество и поддержку!"
 msgstr "Thank you for your cooperation and support!"
 
-#: .\news\templates\index_main.html:222
+#: .\news\templates\index_main.html:223
 msgid "Мэрия города Каракол"
 msgstr "Mayor’s Office in Karakol"
 
-#: .\news\templates\index_main.html:223
+#: .\news\templates\index_main.html:224
 msgid "Управление внутренних дел Иссык-кульской области"
 msgstr "Internal Affairs Department of Issyk-Kul district"
 
-#: .\news\templates\index_main.html:224
+#: .\news\templates\index_main.html:225
 msgid "ОВД города Каракол"
 msgstr "Department of Internal Affairs of the city of Karakol"
 
-#: .\news\templates\index_main.html:225
+#: .\news\templates\index_main.html:226
 msgid "Областной центр профилактики и борьбы со СПИДом"
 msgstr "Issyk-Kul regional center for AIDS prevention and control"
 
-#: .\news\templates\index_main.html:226
+#: .\news\templates\index_main.html:227
 msgid "Областной центр борьбы и профилактики туберкулеза"
 msgstr "Regional tuberculosis control and prevention center"
 
-#: .\news\templates\index_main.html:227
+#: .\news\templates\index_main.html:228
 msgid "Иссык-Кульский филиал ОО «Альянс Репродуктивного Здоровья»"
 msgstr ""
 "Issyk-Kul Branch of the Public Association “Alliance for Reproductive Health”"
 
-#: .\news\templates\index_main.html:237
+#: .\news\templates\index_main.html:238
 msgid "Медицинский центр \"Клиницист\" "
 msgstr "Medical Center \"Kilinitsist\" "
 
-#: .\news\templates\index_main.html:238
+#: .\news\templates\index_main.html:239
 msgid "Областной и районные центры семейной медицины"
 msgstr "Oblast and rayon centers of family medicine"
 
-#: .\news\templates\index_main.html:239
+#: .\news\templates\index_main.html:240
 msgid "Представительство омбудсмена КР в Иссык-кульской области"
 msgstr ""
 "Authorized Representative of the Ombudsman in Kyrgyz Republic in Issyk-Kul "
 "region"
 
-#: .\news\templates\index_main.html:240
+#: .\news\templates\index_main.html:241
 msgid " ВИЧ-сервисные организации \"Таис Плюс\" и \"Таис Плюс два\" "
 msgstr "HIV service organizations “Tais Plus” and “Tais Plus Two”"
 
-#: .\news\templates\index_main.html:241
+#: .\news\templates\index_main.html:242
 msgid "Общественный фонд «Подруга»"
 msgstr "Public Foundation “Podruga”"
 
-#: .\news\templates\index_main.html:242
+#: .\news\templates\index_main.html:243
 msgid "Общественное объединение \"Атуул\" "
 msgstr "“Atuul” Public Association"
 
-#: .\news\templates\index_main.html:243
+#: .\news\templates\index_main.html:244
 msgid "Иссык-Кульская областная объединенная больница"
 msgstr "Issyk-Kul regional united  hospital"
 
-#: .\news\templates\index_main.html:263
+#: .\news\templates\index_main.html:264 .\news\templates\team.html:11
+#: .\news\templates\team.html:28
 msgid "Наша команда"
 msgstr "Our team"
 
-#: .\news\templates\index_main.html:264
+#: .\news\templates\index_main.html:265 .\news\templates\team.html:29
 msgid ""
-"Наш дружный коллектив состоит из 22 человек. Каждый из нас - неотъемлимая и "
-"незаменимая частичка нашей организации!"
+"Наши сотрудники – этой самый ценный ресурс нашей организации. Каждый член "
+"команды вносит весомый вклад в нашей развитие и способствует достижению "
+"успехов. В нашей команде работают 22 профессионала, которые очень сильно "
+"любят свою работу."
 msgstr ""
+"Our staff is the most valuable resource for our organization. Each team "
+"member makes a significant contribution to our development and success. The "
+"Ulukman Daryger team consists of professionals who love their work very much."
 
-#: .\news\templates\index_main.html:370
+#: .\news\templates\index_main.html:276 .\news\templates\team.html:54
+msgid "Турсунбаев Улан"
+msgstr "Ulan Tursunbaev"
+
+#: .\news\templates\index_main.html:277
+msgid "Главный исполнительный директор"
+msgstr "Executive director"
+
+#: .\news\templates\index_main.html:278 .\news\templates\index_main.html:291
+#: .\news\templates\team.html:105
+msgid ""
+"Моя работа импонирует тем, что я каждый день имею возможность помогать "
+"другим. Это неописуемое чувство, когда ты можешь помочь человеку и видеть "
+"его успехи."
+msgstr ""
+"My work impresses with the fact that every day I have the opportunity to "
+"help others. It is an indescribable feeling when you can help a person and "
+"see his/her progress."
+
+#: .\news\templates\index_main.html:289 .\news\templates\team.html:40
+msgid "Мария Личаню"
+msgstr "Maria Lichaniu"
+
+#: .\news\templates\index_main.html:290
+msgid "Заместитель директора"
+msgstr "Executive director"
+
+#: .\news\templates\index_main.html:303 .\news\templates\team.html:83
+msgid "Турсун Ирисбеков"
+msgstr "Tursun Irisbekov"
+
+#: .\news\templates\index_main.html:304 .\news\templates\index_main.html:318
+msgid "Специалист ISO"
+msgstr "Lawyer, attorney"
+
+#: .\news\templates\index_main.html:305 .\news\templates\index_main.html:319
+#: .\news\templates\team.html:286
+msgid ""
+"Мне больше всего нравится то, что мы объединены ради одной цели- помогать "
+"уязвимым слоям населения. Также рада возможности обмена опытом, которая дает "
+"возможность развиваться каждому из нас."
+msgstr ""
+"What I like most is that we are united for one purpose - to help vulnerable "
+"groups of the population. I am also glad to have the opportunity to exchange "
+"experience, which gives an opportunity to develop for each of us."
+
+#: .\news\templates\index_main.html:317 .\news\templates\team.html:103
+msgid "Айдай Алымова"
+msgstr "Aidai Alymova"
+
+#: .\news\templates\index_main.html:329
+msgid "Подробнее о команде"
+msgstr "More about command.."
+
+#: .\news\templates\index_main.html:357
 msgid "Наш адрес:"
 msgstr "Our address"
 
-#: .\news\templates\index_main.html:371
+#: .\news\templates\index_main.html:358
 msgid "ул. Московская 162\\1, Каракол, Кыргызстан"
 msgstr ""
 
-#: .\news\templates\index_main.html:382
+#: .\news\templates\index_main.html:368
 msgid "Телефон:"
 msgstr "Telephone"
 
-#: .\news\templates\newspaper.html:421
+#: .\news\templates\newspaper.html:425
 msgid "Газета ОО \"Улукман Дарыгер\""
 msgstr "Ulukamn Daryger"
 
-#: .\news\templates\newspaper.html:422
-msgid ""
-"На базе организации выпускается ежемесячный медицинский бюллетень, который "
-"нацелен на информирование широкой массы о профилактике ВИЧ/СПИДа,  КОВИД . В "
-"газете  также можно ознакомиться деятельностью ОО «Улукман Дарыгер», "
-"проводимой с уязвимыми группами населения."
-msgstr ""
-"There is a monthly medical bulletin issued in the organization, which is "
-"aimed at informing the audience about the prevention of HIV / AIDS and "
-"COVID. In the newspaper you can also find information on  the activities of "
-"the Public Association \"Ulukman Daryger\" carried out with vulnerable "
-"groups of the population."
-
-#: .\news\templates\newspaper.html:488
+#: .\news\templates\newspaper.html:492
 msgid "Опубликовано ОО \"Улукман Дарыгер\""
 msgstr "Ulukamn Daryger"
 
-#: .\news\templates\newspaper.html:497
+#: .\news\templates\newspaper.html:501
 msgid "Подробнее.."
 msgstr "More.."
 
@@ -575,6 +630,315 @@ msgstr ""
 #: .\news\templates\payment.html:105
 msgid "Перевод суммы на карту"
 msgstr "Send the amount to the card"
+
+#: .\news\templates\team.html:41
+msgid "Координатор"
+msgstr "Coordinator"
+
+#: .\news\templates\team.html:42
+msgid ""
+"С самого начала своей работы в организации у меня сложилось ощущение, что "
+"оказывается, много людей вокруг нас нуждается в помощи. Поэтому вся моя "
+"деятельность направлена на их защиту и поддержку."
+msgstr ""
+" From the very beginning of my work in the organization, I have a feeling "
+"that many people around us need help. Therefore, all my activities are aimed "
+"at protecting and supporting them."
+
+#: .\news\templates\team.html:55
+msgid "Исполнительный директор"
+msgstr "Executive director"
+
+#: .\news\templates\team.html:56
+msgid ""
+"Когда кого то постигает беда, то Всевышний испытывает вместе с ним и нас, "
+"как поведем себя, останемся ли мы в стороне или протянем руку помощи. И он "
+"любит делающих добро, поэтому я рад работать в нашей организации во благо "
+"людей, попавших в трудную жизненную ситуацию. Порой люди с худшим прошлым, "
+"создают лучшее будущее и наш девиз Солнце светит всем одинаково."
+msgstr ""
+"When someone is in trouble, the God tests us how we will behave, whether we "
+"will stay on the sidelines or lend a helping hand. And he loves those who do "
+"good, so I am glad to work in our organization for the benefit of people in "
+"difficult life situations. Sometimes people with a worse past create a "
+"better future and our motto is \"The sun shines equally for everyone\""
+
+#: .\news\templates\team.html:68
+msgid "Динара Асанбекова"
+msgstr "Dinara Asanbekova"
+
+#: .\news\templates\team.html:69
+msgid "Редактор"
+msgstr "Editor"
+
+#: .\news\templates\team.html:70
+msgid ""
+"Мне нравиться общество, ведь в нем есть разные люди, в том числе и "
+"нуждающиеся. Я очень хочу, чтобы общество было полноценным и здоровым. И для "
+"этого мы должны оказывать морально- психологическую и по возможности "
+"материальную помощь. Мы должны прививать уязвимым слоям здоровый образ жизни "
+"и конечно позитивный настрой."
+msgstr ""
+"I like the society, because there are different people in it, including "
+"those in need. I really want the society to be full-fledged and healthy. And "
+"for this we must provide moral, psychological and, if possible, material "
+"assistance. We must instill in vulnerable groups a healthy lifestyle and, of "
+"course, a positive attitude."
+
+#: .\news\templates\team.html:84
+msgid "Юрист, адвокат"
+msgstr "Lawyer, attorney"
+
+#: .\news\templates\team.html:85
+msgid ""
+"Уверенность в том, что мы делаем правильную работу и осознание того, что мы "
+"востребованы всегда  помогает мне качественно выполнять свою работу."
+msgstr ""
+"The confidence that we are doing the right job and the awareness that we are "
+"in demand always helps me to perform my work with high quality."
+
+#: .\news\templates\team.html:104
+msgid "Специалист по обучению и развитию"
+msgstr "Training and development specialist"
+
+#: .\news\templates\team.html:118
+msgid "Гульмира Майлыбаева"
+msgstr "Gulmira Mailybaeva"
+
+#: .\news\templates\team.html:119
+msgid "Cоциальный работник, психолог"
+msgstr "Social worker, psychologist"
+
+#: .\news\templates\team.html:120
+msgid ""
+"Я получаю колоссальное удовольствие от того, что имею возможность оказывать "
+"помощь людям из уязвимых групп."
+msgstr ""
+" I get tremendous pleasure from being able to help people from vulnerable "
+"groups."
+
+#: .\news\templates\team.html:132
+msgid "Асель Курманова"
+msgstr "Asel Kurmanova"
+
+#: .\news\templates\team.html:133 .\news\templates\team.html:207
+msgid "Социальный работник"
+msgstr "Social worker"
+
+#: .\news\templates\team.html:134
+msgid ""
+"У нас отличная дружная и собранная команда профессионалов, готовых помочь "
+"всем кто в этом нуждается. Здесь каждый любит свою работу и поэтому всегда "
+"достигаем больших успехов."
+msgstr ""
+"We have an excellent friendly and assembled team of professionals who are "
+"ready to help everyone in need.  Here each team member loves his/her job and "
+"therefore we always achieve great success."
+
+#: .\news\templates\team.html:146
+msgid "Болотбек Бекбашев"
+msgstr "Bolotbek Bekbashev"
+
+#: .\news\templates\team.html:147 .\news\templates\team.html:164
+#: .\news\templates\team.html:253 .\news\templates\team.html:268
+#: .\news\templates\team.html:299
+msgid "Аутрич сотрудник"
+msgstr "Outreach worker"
+
+#: .\news\templates\team.html:148
+msgid ""
+"Для человека всегда необходимо душевное равновесие, чтобы жить в гармонии во "
+"всем. Как раз наша работа связана с благородством, помощи людям. И это все "
+"дает не душевное равновесие!"
+msgstr ""
+"A person always needs peace of mind in order to live in harmony with "
+"everything. Our work is connected with nobility, helping people. And all "
+"this gives me mental peace!"
+
+#: .\news\templates\team.html:163
+msgid "Нелли Зайцева"
+msgstr "Nelly Zaitseva"
+
+#: .\news\templates\team.html:165
+msgid ""
+"Для меня работа в организации это в первую очередь возможность "
+"профессионально расти.  Помогая уязвимым группам, я каждый день получаю "
+"мотивацию и развиваю свои навыки."
+msgstr ""
+"For me, working in an organization is, first of all, an opportunity to grow "
+"professionally. By helping vulnerable groups, I get motivated and develop my "
+"skills every day."
+
+#: .\news\templates\team.html:177
+msgid "Бегайым Жекшебай кызы"
+msgstr "Begaiym Zhekshebai kyzy"
+
+#: .\news\templates\team.html:178
+msgid "Социальный работник центра помощи и реабилитации женщин «Химая»"
+msgstr "Center for assistance and rehabilitation of women \"Himaya\" "
+
+#: .\news\templates\team.html:179
+msgid ""
+"Я сама прошла через много трудностей в жизни и не понаслышке знаю о "
+"проблемах женщин, переживших насилие. Поэтому я всегда готова помочь им "
+"найти себя в жизни и поддержать  в тяжелых ситуациях."
+msgstr ""
+"I myself have gone through many difficulties in life and know firsthand "
+"about the problems of women who have experienced violence. Therefore, I am "
+"always ready to help them find themselves in life and support in difficult "
+"situations."
+
+#: .\news\templates\team.html:191
+msgid "Чынара Акпаева"
+msgstr "Chynara Akpayeva,"
+
+#: .\news\templates\team.html:192 .\news\templates\team.html:327
+msgid "Медицинский консультант"
+msgstr "Medical consultant"
+
+#: .\news\templates\team.html:193
+msgid ""
+"Прежде всего, хочу отметить сплоченность нашей команды. Одно удовольствие "
+"работать в таком коллективе. В своей работе мы стараемся узнать побольше о "
+"нуждах наших уязвимых групп и делать все возможное по снижению "
+"самостигматизации."
+msgstr ""
+"First of all, I would like to point out the solidarity of our team. It's a "
+"pleasure to work in such a great team. In our work, we try to learn more "
+"about those in need, our vulnerable groups and do our best to reduce self-"
+"stigmatization."
+
+#: .\news\templates\team.html:206
+msgid "Элла Матвеева"
+msgstr "Ella Matveeva"
+
+#: .\news\templates\team.html:208
+msgid ""
+"Всегда хотела быть полезной и помогать другим. Это мне удается благодаря "
+"моей работе в нашей организации."
+msgstr ""
+"I always wanted to be useful and help others. I succeed in doing this thanks "
+"to my work in our organization."
+
+#: .\news\templates\team.html:223
+msgid "Бактыгуль Асанбаева"
+msgstr "Baktygul Asanbaeva"
+
+#: .\news\templates\team.html:224 .\news\templates\team.html:238
+msgid "Aутрич сотрудник"
+msgstr "Outreach worker"
+
+#: .\news\templates\team.html:225
+msgid ""
+"Я получаю большое удовольствие от того, что могу быть полезной. Обожаю свою "
+"сплоченную команду, которая всегда мотивирует меня на достижение целей."
+msgstr ""
+"I enjoy being useful. I love my close-knit team, which always motivates me "
+"in achieving my goals."
+
+#: .\news\templates\team.html:237
+msgid "Лариса Неклюдова"
+msgstr "Larisa Neklyudova"
+
+#: .\news\templates\team.html:239
+msgid ""
+"Я сама когда-то была в тяжелой жизненной ситуации, и наша организация "
+"помогла мне найти себя. Сейчас я работаю с уязвимыми группами,  и каждый "
+"день познаю новое, знакомлюсь с новыми людьми. И мне это очень сильно "
+"нравится."
+msgstr ""
+"I myself also have experienced a difficult life situation, and this "
+"organization helped me find myself. Now I work with vulnerable groups, and "
+"every day I learn new things, meet new people.  I enjoy it very much."
+
+#: .\news\templates\team.html:252
+msgid "Назгуль Жамгырчиева"
+msgstr "Nazgul Zhamgyrchieva"
+
+#: .\news\templates\team.html:254
+msgid ""
+"В такие трудные времена наша организация помогает материально и морально "
+"многим нуждающимся. Работая здесь, я чувствую себя нужным звеном общества!"
+msgstr ""
+"In such difficult times, our organization is helping financially and morally "
+"a lot of people who are in need. While working here, I feel myself as a "
+"necessary member of society!"
+
+#: .\news\templates\team.html:267
+msgid "Женишкул Батырканова"
+msgstr "Zhenishkul Batyrkanova"
+
+#: .\news\templates\team.html:269
+msgid ""
+"Работая в Улукман Дарыгер, я стала увереннее во взглядах, сильнее в своих "
+"позициях и успешнее в жизни."
+msgstr ""
+"When I started to work with Ulukman Daryger, I became more confident in my "
+"views, stronger in my positions and more successful in life."
+
+#: .\news\templates\team.html:284
+msgid "Света Саякбаева"
+msgstr "Sveta Sayakbaeva"
+
+#: .\news\templates\team.html:285
+msgid "Координатор полевой работы"
+msgstr "Field work coordinator"
+
+#: .\news\templates\team.html:298
+msgid "Асыл Султанбекова"
+msgstr "Asyl Sultanbekova"
+
+#: .\news\templates\team.html:300
+msgid ""
+"Моя работа дает мне возможность глубже понять проблемы уязвимых групп и "
+"протянуть руки помощи тем, кто действительно нуждается в нас."
+msgstr ""
+"My work gives me an opportunity to better understand the problems of "
+"vulnerable groups and provide a helping hand to those who really need us."
+
+#: .\news\templates\team.html:312
+msgid "Татьяна Маняхина"
+msgstr "Tatyana Manyakhina"
+
+#: .\news\templates\team.html:313
+msgid "Специалист БД МИС"
+msgstr "Specialist of the MIS database"
+
+#: .\news\templates\team.html:314
+msgid ""
+"На протяжении всей своей работы в нашей организации, а это почти 10 лет, я "
+"немало сталкиваюсь с людьми, которым очень тяжело в жизни. Поэтому моя "
+"работа и помощь очень важна для многих. Я очень рада работать в команде "
+"Улукман Дарыгер"
+msgstr ""
+"Throughout my work in our organization, and this is almost 10 years, I come "
+"across a lot of people who are experiencing a hardship in life. Therefore, "
+"my work and help is very important for many. I am very happy to work in the "
+"Ulukman Daryger team (she has no photo)."
+
+#: .\news\templates\team.html:326
+msgid "Омуралиева Р"
+msgstr ""
+
+#: .\news\templates\team.html:341
+msgid "Ишеналиева Ашыргуль"
+msgstr ""
+
+#: .\news\templates\team.html:342
+msgid "Бухгалтер"
+msgstr ""
+
+#~ msgid ""
+#~ "На базе организации выпускается ежемесячный медицинский бюллетень, "
+#~ "который нацелен на информирование широкой массы о профилактике ВИЧ/"
+#~ "СПИДа,  КОВИД . В газете  также можно ознакомиться деятельностью ОО "
+#~ "«Улукман Дарыгер», проводимой с уязвимыми группами населения."
+#~ msgstr ""
+#~ "There is a monthly medical bulletin issued in the organization, which is "
+#~ "aimed at informing the audience about the prevention of HIV / AIDS and "
+#~ "COVID. In the newspaper you can also find information on  the activities "
+#~ "of the Public Association \"Ulukman Daryger\" carried out with vulnerable "
+#~ "groups of the population."
 
 #~ msgid "улица Московская 162/46 Каракол"
 #~ msgstr "162/1 Moskovskaya str., Karakol town, Kyrgyzstan"

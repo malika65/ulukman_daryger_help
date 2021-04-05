@@ -1,0 +1,359 @@
+{% extends 'index.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% trans 'Наша команда' %}</title>
+    <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+
+    <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+<main id="main">
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>{% trans 'Наша команда' %}</h2>
+                <p>{% trans 'Наши сотрудники – этой самый ценный ресурс нашей организации. Каждый член команды вносит весомый вклад в нашей развитие и способствует достижению успехов. В нашей команде работают 22 профессионала, которые очень сильно любят свою работу.' %}</p>
+            </div>
+
+            <div class="row">
+                <!-- 1 ряд из четырех начало-->
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-2.jpg' %}" class="img-fluid" alt="member">
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Мария Личаню' %}</h4>
+                            <span>{% trans 'Координатор' %}</span>
+                            <p>{% trans 'С самого начала своей работы в организации у меня сложилось ощущение, что оказывается, много людей вокруг нас нуждается в помощи. Поэтому вся моя деятельность направлена на их защиту и поддержку.' %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-1.jpg' %}" class="img-fluid" alt="member">
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Турсунбаев Улан' %}</h4>
+                            <span>{% trans 'Исполнительный директор' %}</span>
+                            <p>{% trans 'Когда кого то постигает беда, то Всевышний испытывает вместе с ним и нас, как поведем себя, останемся ли мы в стороне или протянем руку помощи. И он любит делающих добро, поэтому я рад работать в нашей организации во благо людей, попавших в трудную жизненную ситуацию. Порой люди с худшим прошлым, создают лучшее будущее и наш девиз Солнце светит всем одинаково.'%}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-5.jpg' %}" class="img-fluid" alt="member">
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Динара Асанбекова' %}</h4>
+                            <span>{% trans 'Редактор' %}</span>
+                            <p>{% trans 'Мне нравиться общество, ведь в нем есть разные люди, в том числе и нуждающиеся. Я очень хочу, чтобы общество было полноценным и здоровым. И для этого мы должны оказывать морально- психологическую и по возможности материальную помощь. Мы должны прививать уязвимым слоям здоровый образ жизни и конечно позитивный настрой.' %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-3.jpg' %}" class="img-fluid" alt="">
+
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Турсун Ирисбеков' %}</h4>
+                            <span>{% trans 'Юрист, адвокат' %}</span>
+                            <p>{% trans 'Уверенность в том, что мы делаем правильную работу и осознание того, что мы востребованы всегда  помогает мне качественно выполнять свою работу.' %}</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- ряд из четырех конец-->
+
+
+
+                <!-- 2 ряд из четырех начало-->
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-4.jpg' %}" class="img-fluid" alt="">
+
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Айдай Алымова' %}</h4>
+                            <span>{% trans 'Специалист по обучению и развитию' %}</span>
+                            <p>{% trans 'Моя работа импонирует тем, что я каждый день имею возможность помогать другим. Это неописуемое чувство, когда ты можешь помочь человеку и видеть его успехи.' %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-7.jpg' %}" class="img-fluid" alt="member">
+
+                        </div>
+                        <div class="member-info">
+                            <h4> {% trans 'Гульмира Майлыбаева' %}</h4>
+                            <span>{% trans 'Cоциальный работник, психолог' %}</span>
+                            <p>{% trans 'Я получаю колоссальное удовольствие от того, что имею возможность оказывать помощь людям из уязвимых групп.' %} </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-8.jpg' %}" class="img-fluid" alt="member">
+
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Асель Курманова' %}</h4>
+                            <span>{% trans 'Социальный работник' %}</span>
+                            <p>{% trans 'У нас отличная дружная и собранная команда профессионалов, готовых помочь всем кто в этом нуждается. Здесь каждый любит свою работу и поэтому всегда достигаем больших успехов.'%}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-6.jpg' %}" class="img-fluid" alt="member">
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Болотбек Бекбашев' %}</h4>
+                            <span>{% trans 'Аутрич сотрудник' %}</span>
+                            <p>{% trans 'Для человека всегда необходимо душевное равновесие, чтобы жить в гармонии во всем. Как раз наша работа связана с благородством, помощи людям. И это все дает не душевное равновесие!'%}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ряд из четырех конец-->
+
+
+                <!-- 3 ряд из четырех начало-->
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-9.jpg' %}" class="img-fluid" alt="member">
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Нелли Зайцева' %}</h4>
+                            <span>{% trans 'Аутрич сотрудник' %}</span>
+                            <p>{% trans 'Для меня работа в организации это в первую очередь возможность профессионально расти.  Помогая уязвимым группам, я каждый день получаю мотивацию и развиваю свои навыки.' %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-10.jpg' %}" class="img-fluid" alt="member">
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Бегайым Жекшебай кызы' %}</h4>
+                            <span>{% trans 'Социальный работник центра помощи и реабилитации женщин «Химая»' %}</span>
+                            <p>{% trans 'Я сама прошла через много трудностей в жизни и не понаслышке знаю о проблемах женщин, переживших насилие. Поэтому я всегда готова помочь им найти себя в жизни и поддержать  в тяжелых ситуациях.' %}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-11.jpg' %}" class="img-fluid" alt="">
+
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Чынара Акпаева' %}</h4>
+                            <span>{% trans 'Медицинский консультант' %}</span>
+                            <p>{% trans 'Прежде всего, хочу отметить сплоченность нашей команды. Одно удовольствие работать в таком коллективе. В своей работе мы стараемся узнать побольше о нуждах наших уязвимых групп и делать все возможное по снижению самостигматизации.' %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-12.jpg' %}" class="img-fluid" alt="">
+
+                        </div>
+                        <div class="member-info">
+                            <h4> {% trans 'Элла Матвеева' %}</h4>
+                            <span>{% trans 'Социальный работник' %}</span>
+                            <p>{% trans 'Всегда хотела быть полезной и помогать другим. Это мне удается благодаря моей работе в нашей организации.' %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ряд из четырех конец-->
+
+
+                <!-- ряд из четырех начало-->
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-13.jpg' %}" class="img-fluid" alt="member">
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Бактыгуль Асанбаева' %}</h4>
+                            <span>{% trans 'Aутрич сотрудник' %}</span>
+                            <p>{% trans 'Я получаю большое удовольствие от того, что могу быть полезной. Обожаю свою сплоченную команду, которая всегда мотивирует меня на достижение целей.' %}'
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-14.jpg' %}" class="img-fluid" alt="member">
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Лариса Неклюдова' %}</h4>
+                            <span>{% trans 'Aутрич сотрудник' %}</span>
+                            <p>{% trans 'Я сама когда-то была в тяжелой жизненной ситуации, и наша организация помогла мне найти себя. Сейчас я работаю с уязвимыми группами,  и каждый день познаю новое, знакомлюсь с новыми людьми. И мне это очень сильно нравится.' %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-15.jpg' %}" class="img-fluid" alt="">
+
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Назгуль Жамгырчиева' %}</h4>
+                            <span>{% trans 'Аутрич сотрудник' %}</span>
+                            <p>{% trans 'В такие трудные времена наша организация помогает материально и морально многим нуждающимся. Работая здесь, я чувствую себя нужным звеном общества!' %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-0.jpg' %}" class="img-fluid" alt="member">
+
+                        </div>
+                        <div class="member-info">
+                            <h4> {% trans 'Женишкул Батырканова' %}</h4>
+                            <span>{% trans 'Аутрич сотрудник' %}</span>
+                            <p>{% trans 'Работая в Улукман Дарыгер, я стала увереннее во взглядах, сильнее в своих позициях и успешнее в жизни.' %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ряд из четырех конец-->
+
+
+                <!-- ряд из четырех начало-->
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-0.jpg' %}" class="img-fluid" alt="member">
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Света Саякбаева' %}</h4>
+                            <span>{% trans 'Координатор полевой работы' %}</span>
+                            <p>{% trans 'Мне больше всего нравится то, что мы объединены ради одной цели- помогать уязвимым слоям населения. Также рада возможности обмена опытом, которая дает возможность развиваться каждому из нас.' %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-0.jpg' %}" class="img-fluid" alt="member">
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Асыл Султанбекова' %}</h4>
+                            <span>{% trans 'Аутрич сотрудник' %}</span>
+                            <p>{% trans 'Моя работа дает мне возможность глубже понять проблемы уязвимых групп и протянуть руки помощи тем, кто действительно нуждается в нас.' %} </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-0.jpg' %}" class="img-fluid" alt="member">
+
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Татьяна Маняхина' %}</h4>
+                            <span>{% trans 'Специалист БД МИС' %}</span>
+                            <p>{% trans 'На протяжении всей своей работы в нашей организации, а это почти 10 лет, я немало сталкиваюсь с людьми, которым очень тяжело в жизни. Поэтому моя работа и помощь очень важна для многих. Я очень рада работать в команде Улукман Дарыгер' %} </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-0.jpg' %}" class="img-fluid" alt="member">
+
+                        </div>
+                        <div class="member-info">
+                            <h4>{% trans 'Омуралиева Р' %}</h4>
+                            <span>{% trans 'Медицинский консультант' %}</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet autem dolor enim, exercitationem illum incidunt itaque maiores, nesciunt, optio pariatur perferendis placeat possimus reiciendis repellat veritatis voluptas! Ratione, vero?</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ряд из четырех конец-->
+
+                <!-- ряд из четырех начало-->
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="{% static 'assets/img/team/team-0.jpg' %}" class="img-fluid" alt="member">
+                        </div>
+                        <div class="member-info">
+                            <h4> {% trans 'Ишеналиева Ашыргуль' %}</h4>
+                            <span>{% trans 'Бухгалтер' %}</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aliquid animi distinctio ducimus, eligendi ipsa iste maiores nesciunt sed vitae voluptates. Ab accusantium cum ipsam quibusdam quis velit, vero.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ряд из четырех конец-->
+
+            </div>
+
+        </div>
+
+        <a href="{% url 'locale' to_url='index' %}" class="btn-get-started more-btn">На главную</a>
+    </section>
+    <!-- End Team Section -->
+</main>
+</body>
+{% endblock %}

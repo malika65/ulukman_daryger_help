@@ -12,3 +12,4 @@ from news.views.open_pdf import *
 from news.views.payment_for_me import *
 from news.views.payment import *
 from news.views.selectlanguage import *
+from news.views.team import *
