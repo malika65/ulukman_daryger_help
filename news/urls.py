@@ -20,9 +20,8 @@ urlpatterns = [
     path('news/<int:news_id>/', news_more, name='news_more'),
     path('payment/<int:pay_id>',payment,name="payment"),
     path('payment_for_me', payment_for_me,name="payment_for_me"),
-    # path('index/send_email', send_email, name="send_email"),
-     path('gallery/', gallery,name='gallery'),
-    # path('success/<str:args>/', successMsg, name="success"),
+    path('gallery/', gallery,name='gallery'),
+    path('team/', team, name="team"),
 
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

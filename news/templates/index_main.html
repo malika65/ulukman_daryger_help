@@ -39,7 +39,7 @@
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
             <div class="icon"><img src="{% static 'assets/img/icons/aids.png' %}"  class="iconmission"></img></div>
-            <h4 class="title"><a href="">{% trans 'Профилактика ВИЧ/СПИДа' %}</a></h4>
+            <h4 class="title"><a href="{% url 'locale' to_url='forum' %}">{% trans 'Профилактика ВИЧ/СПИДа' %}</a></h4>
             <p class="description"> {% trans 'ВИЧ и СПИД не являются приговором. Этого не нужно бояться, об этом нужно знать!' %}</p>
           </div>
         </div>
@@ -47,7 +47,7 @@
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
           <div class="icon-box">
             <div class="icon"><img src="{% static 'assets/img/icons/pshelp.png' %}"  class="iconmission"></img></i></div>
-            <h4 class="title"><a href="">{% trans 'Защита прав уязвимых слоев населения' %}</a></h4>
+            <h4 class="title"><a href="{% url 'locale' to_url='forum' %}">{% trans 'Защита прав уязвимых слоев населения' %}</a></h4>
             <p class="description">{% trans 'Каждый человек вне зависимости от социального статуса имеет право на счастливую жизнь!' %}</p>
           </div>
         </div>
@@ -55,7 +55,7 @@
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
           <div class="icon-box">
             <div class="icon"><img src="{% static 'assets/img/icons/charity.png' %}"  class="iconmission"></img></div>
-            <h4 class="title"><a href="">{% trans 'Сбор средств на благотворительные нужды'  %}</a></h4>
+            <h4 class="title"><a href="{% url 'locale' to_url='himaya' %}">{% trans 'Сбор средств на благотворительные нужды'  %}</a></h4>
             <p class="description">{% trans 'Все собранные средства идут на реабилитацию и восстановление жертв насилия, на борьбу с ВИЧ и СПИД.' %}</p>
           </div>
         </div>
@@ -63,7 +63,7 @@
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
           <div class="icon-box">
             <div class="icon"><img src="{% static 'assets/img/icons/peoplehelp.png' %}"  class="iconmission"></img></i></div>
-            <h4 class="title"><a href="">{% trans 'Центр помощи и реабилитации женщин "Химая" ' %}</a></h4>
+            <h4 class="title"><a href="{% url 'locale' to_url='himaya' %}">{% trans 'Центр помощи и реабилитации женщин "Химая" ' %}</a></h4>
             <p class="description">{% trans 'Помощь женщинам, подвергшимся насилию или попавшим в сложную жизненную ситуацию' %}</p>
           </div>
         </div>
@@ -261,8 +261,8 @@
   <div class="container" data-aos="fade-up">
 
       <div class="section-title">
-          <h2>Наша команда</h2>
-          <p>Наши сотрудники – этой самый ценный ресурс нашей организации. Каждый член команды вносит весомый вклад в нашей развитие и способствует достижению успехов. В нашей команде работают 22 профессионала, которые очень сильно любят свою работу. </p>
+          <h2>{% trans 'Наша команда' %}</h2>
+          <p>{% trans 'Наши сотрудники – этой самый ценный ресурс нашей организации. Каждый член команды вносит весомый вклад в нашей развитие и способствует достижению успехов. В нашей команде работают 22 профессионала, которые очень сильно любят свою работу.' %}</p>
       </div>
 
       <div class="row">
@@ -270,12 +270,12 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
               <div class="member">
                   <div class="member-img">
-                      <img src="{% static 'assets/img/team/one.jpg' %}" class="img-fluid" alt="member">
+                      <img src="{% static 'assets/img/team/team-1.jpg' %}" class="img-fluid" alt="member">
                   </div>
                   <div class="member-info">
-                      <h4>Турсунбаев Улан     </h4>
-                      <span>Главный исполнительный директор</span>
-                      <p>Моя работа импонирует тем, что я каждый день имею возможность помогать другим. Это неописуемое чувство, когда ты можешь помочь человеку и видеть его успехи. </p>
+                      <h4>{% trans 'Турсунбаев Улан' %}    </h4>
+                      <span>{% trans 'Главный исполнительный директор' %}</span>
+                      <p>{% trans 'Моя работа импонирует тем, что я каждый день имею возможность помогать другим. Это неописуемое чувство, когда ты можешь помочь человеку и видеть его успехи.' %}</p>
                   </div>
               </div>
           </div>
@@ -283,12 +283,12 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
               <div class="member">
                   <div class="member-img">
-                      <img src="{% static 'assets/img/team/two.jpg' %}" class="img-fluid" alt="member">
+                      <img src="{% static 'assets/img/team/team-2.jpg' %}" class="img-fluid" alt="member">
                   </div>
                   <div class="member-info">
-                      <h4>Имя Фамилия</h4>
-                      <span>Заместитель директора</span>
-                      <p>Моя работа импонирует тем, что я каждый день имею возможность помогать другим. Это неописуемое чувство, когда ты можешь помочь человеку и видеть его успехи. </p>
+                      <h4>{% trans 'Мария Личаню' %}</h4>
+                      <span>{% trans 'Заместитель директора' %}</span>
+                      <p>{% trans 'Моя работа импонирует тем, что я каждый день имею возможность помогать другим. Это неописуемое чувство, когда ты можешь помочь человеку и видеть его успехи.' %} </p>
                   </div>
               </div>
           </div>
@@ -296,13 +296,13 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
               <div class="member">
                   <div class="member-img">
-                      <img src="{% static 'assets/img/team/three.jpg' %}" class="img-fluid" alt="">
+                      <img src="{% static 'assets/img/team/team-3.jpg' %}" class="img-fluid" alt="">
 
                   </div>
                   <div class="member-info">
-                      <h4>Имя Фамилия</h4>
-                      <span>Специалист ISO</span>
-                      <p>Мне больше всего нравится то, что мы объединены ради одной цели- помогать уязвимым слоям населения. Также рада возможности обмена опытом, которая дает возможность развиваться каждому из нас.</p>
+                      <h4>{% trans 'Турсун Ирисбеков' %}</h4>
+                      <span>{% trans 'Специалист ISO' %}</span>
+                      <p>{% trans 'Мне больше всего нравится то, что мы объединены ради одной цели- помогать уязвимым слоям населения. Также рада возможности обмена опытом, которая дает возможность развиваться каждому из нас.' %}</p>
                   </div>
               </div>
           </div>
@@ -310,13 +310,13 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
               <div class="member">
                   <div class="member-img">
-                      <img src="{% static 'assets/img/team/four.jpg' %}" class="img-fluid" alt="">
+                      <img src="{% static 'assets/img/team/team-4.jpg' %}" class="img-fluid" alt="">
 
                   </div>
                   <div class="member-info">
-                      <h4>Имя Фамилия</h4>
-                      <span>Специалист ISO</span>
-                      <p>Мне больше всего нравится то, что мы объединены ради одной цели- помогать уязвимым слоям населения. Также рада возможности обмена опытом, которая дает возможность развиваться каждому из нас.</p>
+                      <h4>{% trans 'Айдай Алымова' %}</h4>
+                      <span>{% trans 'Специалист ISO' %}</span>
+                      <p>{% trans 'Мне больше всего нравится то, что мы объединены ради одной цели- помогать уязвимым слоям населения. Также рада возможности обмена опытом, которая дает возможность развиваться каждому из нас.' %}</p>
                   </div>
               </div>
           </div>
@@ -326,7 +326,7 @@
 
   </div>
 
-  <a href="#" class="btn-get-started more-btn">Подробнее о команде</a>
+  <a href="{% url 'locale' to_url='team' %}" class="btn-get-started more-btn">{% trans 'Подробнее о команде' %}</a>
 
   </a>
 </section>

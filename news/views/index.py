@@ -2,6 +2,7 @@ from news.models import News
 from django.shortcuts import render, redirect
 from news.forms import SendEmailForm
 from news.utils import send_to_email
+from django.conf import settings
 
 #  Main page index.html
 def index(request):
