@@ -1624,3 +1624,9 @@ section {
 #footer .credits a:hover {
   color: #f1f7ff;
 }
+
+.elsom-number{
+  color: #0b6bd3;
+  font-weight: bold;
+  font-size: 20px;
+}

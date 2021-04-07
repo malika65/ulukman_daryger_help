@@ -7,7 +7,9 @@ from .models import (
     ForumInfo,
     Gallery,
     ShowPhoto,
-    Appeal
+    Appeal,
+    Enterpreneurship,
+    EnterpreneImage
 )
 
 from django.shortcuts import render,redirect

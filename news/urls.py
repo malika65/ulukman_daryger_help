@@ -4,13 +4,13 @@ from .views import *
 from django.conf import settings
 from django.conf.urls.static import static 
 
-
 app_name = 'news'
 
 
 urlpatterns = [
     path('index/', index,name="index"),
     path('news/', news,name="news_all"),
+    path('social/', social, name="social"),
     path('himaya/', himaya,name="himaya"),
     path('himaya_men/', himaya_men,name="himaya_men"),
     path('himaya_ch/', himaya_ch,name="himaya_ch"),

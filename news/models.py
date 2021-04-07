@@ -141,3 +141,28 @@ class Appeal(models.Model):
     def __str__(self):
         return self.name
         
+
+# Соцю предпринимательство
+class Enterpreneurship(models.Model):
+    name = models.CharField(max_length=200,verbose_name='Имя предпринимателя')
+    text = models.TextField(max_length=15000,verbose_name='Текст')
+
+
+    class Meta:
+        verbose_name = 'Соц. предпринимательство'
+        verbose_name_plural = 'Соц. предпринимательство'
+
+    def __str__(self):
+        return self.name
+
+class EnterpreneImage(models.Model):
+    enterpre = models.ForeignKey(Enterpreneurship, default=None, on_delete=models.CASCADE,related_name='images')
+    images = models.FileField(upload_to = 'images/')
+
+    class Meta:
+        verbose_name = 'Изображение соц. предпринимательства'
+        verbose_name_plural = 'Изображения соц. предпринимательства'
+
+
+    def __str__(self):
+        return self.enterpre.name     

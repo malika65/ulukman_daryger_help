@@ -1,0 +1,118 @@
+{% extends 'index.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+<head>
+
+    <title>социальное предпринимательство</title>
+    <meta charset="utf-8">
+    <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'assets_himaya/css/style.css' %}">
+    <!-- Vendor CSS Files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        .photo-gallery p {
+            color:#444444;
+        }
+
+        .photo-gallery h2 {
+            font-weight:bold;
+            margin-bottom:40px;
+            padding-top:40px;
+            color:inherit;
+        }
+
+        @media (max-width:767px) {
+            .photo-gallery h2 {
+                margin-bottom:25px;
+                padding-top:25px;
+                font-size:24px;
+            }
+        }
+
+        .photo-gallery .intro {
+            font-size:16px;
+            max-width:800px;
+            margin:0 auto 40px;
+        }
+
+        .photo-gallery .intro p {
+            margin-bottom:0;
+        }
+
+        .photo-gallery .photos {
+            padding-bottom:20px;
+        }
+
+        .photo-gallery .item {
+            padding-bottom:30px;
+        }
+
+
+    </style>
+
+</head>
+
+
+<body>
+<main style="margin-top: 120px;">
+    <!-- =======соц пред. section ======= -->
+    <section id="history" class="about-video" style="margin: 0 40px; padding: 16px ">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h5 style="color: #124265">{% trans 'Социальное предпринимательство' %}</h5>
+            </div>
+            <div class="row">
+                <div class="pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+                    <p style="line-height: 1.6em; font-size: 18px;">{% trans 'Социальное предпринимательство- одно из направлений, в котором общественное объединение «Улукман Дарыгер» планирует преуспеть. Ведь в работе с уязвимыми группами самым важным результатом является реабилитация посредством поддержки идей, создания возможностей для создания и развития своего бизнеса. Наша организация призывает всех заинтересованных лиц к сотрудничеству в оказании всесторонней помощи начинающим предпринимателям из числа наших уязвимых групп, а также  новым стартапам.' %}</p>
+               </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- End соц пред. Section -->
+
+    <!-- ======= ИстOрия Женщин Section начало ======= -->
+    {% for i in enterpre %}
+    <section id="about" >
+
+        <!--история женщины начало-->
+        <div class="container" data-aos="fade-up" style="width: 90%; margin: auto;">
+
+            <div class="row about-extra" style="padding: 32px;">
+                <div class="" >
+                    <h4>{{i.name}}</h4>
+                    <p>{{i.text}}</p>
+                    <div class="row photos">
+                    {% for p in i.images.all %}
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="{{p.images.url}}" data-lightbox="photos"><img class="img-fluid" src="{{p.images.url}}" alt="cake"></a></div>
+                    {% endfor %}
+                </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--история женщины конец-->
+
+    </section><!-- End Истрии Section -->
+    {% endfor %}
+
+</main>
+</body>
+<!-- Vendor JS Files -->
+<script src="{% static 'assets/vendor/jquery/jquery.min.js' %}"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
+<!-- Template Main JS File -->
+<script src="{% static 'assets/js/main.js' %}"></script>
+{% endblock %}

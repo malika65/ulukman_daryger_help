@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-05 13:45+0600\n"
+"POT-Creation-Date: 2021-04-07 19:00+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,7 +55,7 @@ msgstr "You can ask it here and we will definitely help you!"
 msgid "Оставьте здесь ваш комментарий или задайте вопрос"
 msgstr "Leave your comments or ask questions here"
 
-#: .\news\templates\forum.html:130 .\news\templates\index_main.html:401
+#: .\news\templates\forum.html:130 .\news\templates\index_main.html:391
 msgid "Отправить"
 msgstr "Send"
 
@@ -73,7 +73,7 @@ msgstr "Main"
 
 #: .\news\templates\himaya.html:68 .\news\templates\himaya.html:100
 #: .\news\templates\himaya_ch.html:36 .\news\templates\himaya_men.html:35
-#: .\news\templates\himaya_women.html:39 .\news\templates\index.html:56
+#: .\news\templates\himaya_women.html:46 .\news\templates\index.html:56
 msgid "О нас"
 msgstr "About us"
 
@@ -90,7 +90,7 @@ msgid "Выпускники детских домов"
 msgstr "Graduates of orphanages"
 
 #: .\news\templates\himaya.html:73 .\news\templates\index.html:76
-#: .\news\templates\index_main.html:344
+#: .\news\templates\index_main.html:334
 msgid "Контакты"
 msgstr "Contacts"
 
@@ -142,18 +142,18 @@ msgstr ""
 "one else, need our help. Your support will help children realize themselves!"
 
 #: .\news\templates\himaya_ch.html:21 .\news\templates\himaya_men.html:20
-#: .\news\templates\himaya_women.html:24
+#: .\news\templates\himaya_women.html:31
 msgid "Вам нужна помощь?"
 msgstr "Do you need a help?"
 
 #: .\news\templates\himaya_ch.html:22 .\news\templates\himaya_ch.html:66
 #: .\news\templates\himaya_men.html:21 .\news\templates\himaya_men.html:68
-#: .\news\templates\himaya_women.html:25 .\news\templates\himaya_women.html:73
+#: .\news\templates\himaya_women.html:32 .\news\templates\himaya_women.html:82
 msgid "Хочу помочь"
 msgstr "I want to help"
 
 #: .\news\templates\himaya_ch.html:37 .\news\templates\himaya_men.html:36
-#: .\news\templates\himaya_women.html:40
+#: .\news\templates\himaya_women.html:47
 msgid ""
 "Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo "
 "abhorreant vituperatoribus.Laudem latine persequeris id sed, ex fabulas "
@@ -163,12 +163,12 @@ msgid ""
 msgstr ""
 
 #: .\news\templates\himaya_ch.html:62 .\news\templates\himaya_men.html:64
-#: .\news\templates\himaya_women.html:69
+#: .\news\templates\himaya_women.html:78
 msgid "Сумма к сбору:"
 msgstr "Amount to be collected:"
 
 #: .\news\templates\himaya_ch.html:64 .\news\templates\himaya_men.html:66
-#: .\news\templates\himaya_women.html:71
+#: .\news\templates\himaya_women.html:80
 msgid "Осталось собрать:"
 msgstr "It remains to collect:"
 
@@ -180,17 +180,21 @@ msgstr "Our organization also provides assistance"
 msgid "лицам мужского пола, желающим восстановиться после наркозависимости"
 msgstr "to men who want to recover from drug addiction."
 
-#: .\news\templates\himaya_women.html:21
+#: .\news\templates\himaya_women.html:28
 msgid "Центр помощи и"
 msgstr "Center for assistance"
 
-#: .\news\templates\himaya_women.html:21
+#: .\news\templates\himaya_women.html:28
 msgid "реабилитации женщин"
 msgstr "and rehabilitation of women"
 
-#: .\news\templates\himaya_women.html:21
+#: .\news\templates\himaya_women.html:28
 msgid "\"Химая\""
 msgstr "\"Himaya\""
+
+#: .\news\templates\himaya_women.html:75
+msgid "Вы можете помочь, перечислив средства на электронный кошелек Элсом"
+msgstr ""
 
 #: .\news\templates\index.html:59
 msgid "Миссия"
@@ -280,15 +284,19 @@ msgstr "Let&#39;s help someone to build a happy life together!"
 msgid "Есть вопросы?"
 msgstr "Have questions? "
 
+#: .\news\templates\index.html:106 .\news\templates\index_main.html:16
+#, fuzzy
+#| msgid "Свяжитесь с нами в"
+msgid "Свяжитесь с нами"
+msgstr "Contact us"
+
 #: .\news\templates\index.html:134
 msgid "Свяжитесь с нами в"
 msgstr "Contact us"
 
-
 #: .\news\templates\index.html:134
 msgid "Социальных сетях"
 msgstr "in social media"
-
 
 #: .\news\templates\index_main.html:13
 msgid "Общественное объединение \"Улукман Дарыгер\""
@@ -475,57 +483,65 @@ msgid "Благодарим за сотрудничество и поддерж�
 msgstr "Thank you for your cooperation and support!"
 
 #: .\news\templates\index_main.html:223
+msgid "Фонд \"Сорос-Кыргызстана\""
+msgstr "The Soros Foundation-Kyrgyzstan"
+
+#: .\news\templates\index_main.html:224
+msgid "ПРООН в Кыргызской Республике"
+msgstr "UNDP in the Kyrgyz Republic"
+
+#: .\news\templates\index_main.html:225
 msgid "Мэрия города Каракол"
 msgstr "Mayor’s Office in Karakol"
 
-#: .\news\templates\index_main.html:224
+#: .\news\templates\index_main.html:226
 msgid "Управление внутренних дел Иссык-кульской области"
 msgstr "Internal Affairs Department of Issyk-Kul district"
 
-#: .\news\templates\index_main.html:225
+#: .\news\templates\index_main.html:227
 msgid "ОВД города Каракол"
 msgstr "Department of Internal Affairs of the city of Karakol"
 
-#: .\news\templates\index_main.html:226
+#: .\news\templates\index_main.html:228
 msgid "Областной центр профилактики и борьбы со СПИДом"
 msgstr "Issyk-Kul regional center for AIDS prevention and control"
 
-#: .\news\templates\index_main.html:227
+#: .\news\templates\index_main.html:229
 msgid "Областной центр борьбы и профилактики туберкулеза"
 msgstr "Regional tuberculosis control and prevention center"
 
-#: .\news\templates\index_main.html:228
+#: .\news\templates\index_main.html:230
 msgid "Иссык-Кульский филиал ОО «Альянс Репродуктивного Здоровья»"
 msgstr ""
 "Issyk-Kul Branch of the Public Association “Alliance for Reproductive Health”"
 
-#: .\news\templates\index_main.html:238
+#: .\news\templates\index_main.html:240
 msgid "Медицинский центр \"Клиницист\" "
 msgstr "Medical Center \"Kilinitsist\" "
 
-#: .\news\templates\index_main.html:239
+#: .\news\templates\index_main.html:241
 msgid "Областной и районные центры семейной медицины"
 msgstr "Oblast and rayon centers of family medicine"
 
-#: .\news\templates\index_main.html:240
+#: .\news\templates\index_main.html:242
 msgid "Представительство омбудсмена КР в Иссык-кульской области"
 msgstr ""
 "Authorized Representative of the Ombudsman in Kyrgyz Republic in Issyk-Kul "
 "region"
 
-#: .\news\templates\index_main.html:241
+#: .\news\templates\index_main.html:243
 msgid " ВИЧ-сервисные организации \"Таис Плюс\" и \"Таис Плюс два\" "
 msgstr "HIV service organizations “Tais Plus” and “Tais Plus Two”"
 
-#: .\news\templates\index_main.html:242
+#: .\news\templates\index_main.html:244
 msgid "Общественный фонд «Подруга»"
 msgstr "Public Foundation “Podruga”"
 
-#: .\news\templates\index_main.html:243
+#: .\news\templates\index_main.html:245
 msgid "Общественное объединение \"Атуул\" "
 msgstr "“Atuul” Public Association"
 
-#: .\news\templates\index_main.html:244
+#: .\news\templates\index_main.html:246
 msgid "Иссык-Кульская областная объединенная больница"
 msgstr "Issyk-Kul regional united  hospital"
 
@@ -545,69 +561,79 @@ msgstr ""
 "member makes a significant contribution to our development and success. The "
 "Ulukman Daryger team consists of professionals who love their work very much."
 
-#: .\news\templates\index_main.html:276 .\news\templates\team.html:54
-msgid "Турсунбаев Улан"
-msgstr "Ulan Tursunbaev"
-
-#: .\news\templates\index_main.html:277
-msgid "Главный исполнительный директор"
-msgstr "Executive director"
-
-#: .\news\templates\index_main.html:278 .\news\templates\index_main.html:291
-#: .\news\templates\team.html:105
-msgid ""
-"Моя работа импонирует тем, что я каждый день имею возможность помогать "
-"другим. Это неописуемое чувство, когда ты можешь помочь человеку и видеть "
-"его успехи."
-msgstr ""
-"My work impresses with the fact that every day I have the opportunity to "
-"help others. It is an indescribable feeling when you can help a person and "
-"see his/her progress."
-
-#: .\news\templates\index_main.html:289 .\news\templates\team.html:40
+#: .\news\templates\index_main.html:275 .\news\templates\team.html:40
 msgid "Мария Личаню"
 msgstr "Maria Lichaniu"
 
-#: .\news\templates\index_main.html:290
-msgid "Заместитель директора"
+#: .\news\templates\index_main.html:276 .\news\templates\team.html:41
+msgid "Координатор"
+msgstr "Coordinator"
+
+#: .\news\templates\index_main.html:277 .\news\templates\team.html:42
+msgid ""
+"С самого начала своей работы в организации у меня сложилось ощущение, что "
+"оказывается, много людей вокруг нас нуждается в помощи. Поэтому вся моя "
+"деятельность направлена на их защиту и поддержку."
+msgstr ""
+" From the very beginning of my work in the organization, I have a feeling "
+"that many people around us need help. Therefore, all my activities are aimed "
+"at protecting and supporting them."
+
+#: .\news\templates\index_main.html:287 .\news\templates\team.html:54
+msgid "Турсунбаев Улан"
+msgstr "Ulan Tursunbaev"
+
+#: .\news\templates\index_main.html:288 .\news\templates\team.html:55
+msgid "Исполнительный директор"
 msgstr "Executive director"
 
-#: .\news\templates\index_main.html:303 .\news\templates\team.html:83
+#: .\news\templates\index_main.html:299 .\news\templates\team.html:68
+msgid "Динара Асанбекова"
+msgstr "Dinara Asanbekova"
+
+#: .\news\templates\index_main.html:300 .\news\templates\team.html:69
+msgid "Редактор"
+msgstr "Editor"
+
+#: .\news\templates\index_main.html:301
+msgid ""
+"Мне нравится общество, ведь в нем есть разные люди, в том числе и "
+"нуждающиеся. Я очень хочу, чтобы общество было полноценным и здоровым. И для "
+"этого мы должны оказывать морально- психологическую и по возможности "
+"материальную помощь. Мы должны прививать уязвимым слоям здоровый образ жизни "
+"и конечно позитивный настрой."
+msgstr ""
+"I like the society, because there are different people in it, including "
+"those in need. I really want the society to be full-fledged and healthy. And "
+"for this we must provide moral, psychological and, if possible, material "
+"assistance. We must instill in vulnerable groups a healthy lifestyle and, of "
+"course, a positive attitude."
+
+#: .\news\templates\index_main.html:311 .\news\templates\team.html:83
 msgid "Турсун Ирисбеков"
 msgstr "Tursun Irisbekov"
 
-#: .\news\templates\index_main.html:304 .\news\templates\index_main.html:318
-msgid "Специалист ISO"
+#: .\news\templates\index_main.html:312 .\news\templates\team.html:84
+msgid "Юрист, адвокат"
 msgstr "Lawyer, attorney"
 
-#: .\news\templates\index_main.html:305 .\news\templates\index_main.html:319
-#: .\news\templates\team.html:286
+#: .\news\templates\index_main.html:313 .\news\templates\team.html:85
 msgid ""
-"Мне больше всего нравится то, что мы объединены ради одной цели- помогать "
-"уязвимым слоям населения. Также рада возможности обмена опытом, которая дает "
-"возможность развиваться каждому из нас."
+"Уверенность в том, что мы делаем правильную работу и осознание того, что мы "
+"востребованы всегда  помогает мне качественно выполнять свою работу."
 msgstr ""
-"What I like most is that we are united for one purpose - to help vulnerable "
-"groups of the population. I am also glad to have the opportunity to exchange "
-"experience, which gives an opportunity to develop for each of us."
+"The confidence that we are doing the right job and the awareness that we are "
+"in demand always helps me to perform my work with high quality."
 
-#: .\news\templates\index_main.html:317 .\news\templates\team.html:103
-msgid "Айдай Алымова"
-msgstr "Aidai Alymova"
-
-#: .\news\templates\index_main.html:329
-msgid "Подробнее о команде"
-msgstr "More about command.."
-
-#: .\news\templates\index_main.html:357
+#: .\news\templates\index_main.html:347
 msgid "Наш адрес:"
 msgstr "Our address"
 
-#: .\news\templates\index_main.html:358
+#: .\news\templates\index_main.html:348
 msgid "ул. Московская 162\\1, Каракол, Кыргызстан"
 msgstr ""
 
-#: .\news\templates\index_main.html:368
+#: .\news\templates\index_main.html:358
 msgid "Телефон:"
 msgstr "Telephone"
 
@@ -631,23 +657,22 @@ msgstr ""
 msgid "Перевод суммы на карту"
 msgstr "Send the amount to the card"
 
-#: .\news\templates\team.html:41
-msgid "Координатор"
-msgstr "Coordinator"
+#: .\news\templates\social.html:68
+#, fuzzy
+#| msgid "Соц. предпринимательство"
+msgid "Социальное предпринимательство"
+msgstr "Social entreprenership"
 
-#: .\news\templates\team.html:42
+#: .\news\templates\social.html:72
 msgid ""
-"С самого начала своей работы в организации у меня сложилось ощущение, что "
-"оказывается, много людей вокруг нас нуждается в помощи. Поэтому вся моя "
-"деятельность направлена на их защиту и поддержку."
+"Социальное предпринимательство- одно из направлений, в котором общественное "
+"объединение «Улукман Дарыгер» планирует преуспеть. Ведь в работе с уязвимыми "
+"группами самым важным результатом является реабилитация посредством "
+"поддержки идей, создания возможностей для создания и развития своего "
+"бизнеса. Наша организация призывает всех заинтересованных лиц к "
+"сотрудничеству в оказании всесторонней помощи начинающим предпринимателям из "
+"числа наших уязвимых групп, а также  новым стартапам."
 msgstr ""
-" From the very beginning of my work in the organization, I have a feeling "
-"that many people around us need help. Therefore, all my activities are aimed "
-"at protecting and supporting them."
-
-#: .\news\templates\team.html:55
-msgid "Исполнительный директор"
-msgstr "Executive director"
 
 #: .\news\templates\team.html:56
 msgid ""
@@ -663,14 +688,6 @@ msgstr ""
 "difficult life situations. Sometimes people with a worse past create a "
 "better future and our motto is \"The sun shines equally for everyone\""
 
-#: .\news\templates\team.html:68
-msgid "Динара Асанбекова"
-msgstr "Dinara Asanbekova"
-
-#: .\news\templates\team.html:69
-msgid "Редактор"
-msgstr "Editor"
-
 #: .\news\templates\team.html:70
 msgid ""
 "Мне нравиться общество, ведь в нем есть разные люди, в том числе и "
@@ -685,21 +702,23 @@ msgstr ""
 "assistance. We must instill in vulnerable groups a healthy lifestyle and, of "
 "course, a positive attitude."
 
-#: .\news\templates\team.html:84
-msgid "Юрист, адвокат"
-msgstr "Lawyer, attorney"
-
-#: .\news\templates\team.html:85
-msgid ""
-"Уверенность в том, что мы делаем правильную работу и осознание того, что мы "
-"востребованы всегда  помогает мне качественно выполнять свою работу."
-msgstr ""
-"The confidence that we are doing the right job and the awareness that we are "
-"in demand always helps me to perform my work with high quality."
+#: .\news\templates\team.html:103
+msgid "Айдай Алымова"
+msgstr "Aidai Alymova"
 
 #: .\news\templates\team.html:104
 msgid "Специалист по обучению и развитию"
 msgstr "Training and development specialist"
+
+#: .\news\templates\team.html:105
+msgid ""
+"Моя работа импонирует тем, что я каждый день имею возможность помогать "
+"другим. Это неописуемое чувство, когда ты можешь помочь человеку и видеть "
+"его успехи."
+msgstr ""
+"My work impresses with the fact that every day I have the opportunity to "
+"help others. It is an indescribable feeling when you can help a person and "
+"see his/her progress."
 
 #: .\news\templates\team.html:118
 msgid "Гульмира Майлыбаева"
@@ -884,6 +903,16 @@ msgstr "Sveta Sayakbaeva"
 msgid "Координатор полевой работы"
 msgstr "Field work coordinator"
 
+#: .\news\templates\team.html:286
+msgid ""
+"Мне больше всего нравится то, что мы объединены ради одной цели- помогать "
+"уязвимым слоям населения. Также рада возможности обмена опытом, которая дает "
+"возможность развиваться каждому из нас."
+msgstr ""
+"What I like most is that we are united for one purpose - to help vulnerable "
+"groups of the population. I am also glad to have the opportunity to exchange "
+"experience, which gives an opportunity to develop for each of us."
+
 #: .\news\templates\team.html:298
 msgid "Асыл Султанбекова"
 msgstr "Asyl Sultanbekova"
@@ -927,6 +956,18 @@ msgstr ""
 #: .\news\templates\team.html:342
 msgid "Бухгалтер"
 msgstr ""
+
+#~ msgid "Главный исполнительный директор"
+#~ msgstr "Executive director"
+
+#~ msgid "Заместитель директора"
+#~ msgstr "Executive director"
+
+#~ msgid "Специалист ISO"
+#~ msgstr "Lawyer, attorney"
+
+#~ msgid "Подробнее о команде"
+#~ msgstr "More about command.."
 
 #~ msgid ""
 #~ "На базе организации выпускается ежемесячный медицинский бюллетень, "

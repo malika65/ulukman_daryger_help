@@ -3,7 +3,14 @@
 {% load i18n %}
 
 {% block content %}
-
+<style>
+  .elsom-number{
+  color: #0b6bd3;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+</style>
 <!-- ======= Intro Section ======= -->
 <section id="intro" class="clearfix women">
     <div class="container" data-aos="fade-up">
@@ -65,12 +72,14 @@
           <div class="col-lg-3 try" data-aos="fade-right">
 
             <img src="{{woman.pic.url}}" class="img-fluid" alt="">
-              <form>
+            <p>{% trans 'Вы можете помочь, перечислив средства на электронный кошелек Элсом' %}<span class="elsom-number">{{woman.elsom}}</span></p>
+
+              <!-- <form>
                   <label class="presum">{% trans 'Сумма к сбору:' %}</label><label class="sum">{{woman.money_for_collecting}} сом</label>
                   <progress class="slider" value="{{woman.get_money}}" max="{{woman.money_for_collecting}}"></progress>
                   <label  class="less presum">{% trans 'Осталось собрать:' %}</label><label class="less sum">{{woman.remaining_amount}}</label>
-              </form>
-            <a class="helpbtn btn-services" href="/news/payment/{{woman.id}}">{% trans 'Хочу помочь' %}</a>
+              </form> -->
+            <!-- <a class="helpbtn btn-services" href="/news/payment/{{woman.id}}">{% trans 'Хочу помочь' %}</a> -->
 
           </div>
 
@@ -82,6 +91,8 @@
       </div>
       {% endfor %}
         <!--история женщины конец-->
+
+        
 
        
  </section><!-- End Истрии Section -->

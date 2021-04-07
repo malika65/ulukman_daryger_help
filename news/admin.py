@@ -5,7 +5,7 @@ from django.utils.safestring import mark_safe
 # from ckeditor_uploader.widgets import CKEditorUploadingWidget
 from modeltranslation.admin import TranslationAdmin
 
-from .models import News, People, NewsImage,Newspaper,Comments,PaymentsInfo,ForumInfo,Gallery,ShowPhoto,Appeal
+from .models import News, People, NewsImage,Newspaper,Comments,PaymentsInfo,ForumInfo,Gallery,ShowPhoto,Appeal,Enterpreneurship,EnterpreneImage
 from .forms import ShowAdminForm
 from django.template.loader import get_template
 from django.utils.translation import gettext as _
@@ -68,17 +68,23 @@ class NewsAdmin(TranslationAdmin):
     list_display_links = ("title",)
 
 
-@admin.register(NewsImage)
-class NewsImageAdmin(admin.ModelAdmin):
-    pass
-
-
-
 
 @admin.register(People)
 class PeopleAdmin(TranslationAdmin):
     list_display = ("name", "story","pic","date_created_women","PEOPLE_CHOICES")
    
+
+class EnterpreneImageAdmin(admin.StackedInline):
+    model = EnterpreneImage
+
+
+@admin.register(Enterpreneurship)
+class EnterpreneurshipAdmin(TranslationAdmin):
+
+    list_display = ("name", "text")
+    inlines = [EnterpreneImageAdmin]
+    list_display_links = ("name",)
+
 
 
 admin.site.site_title = "Улукман Дарыгер"
