@@ -91,18 +91,18 @@ DATABASES = {
     },
 }
 
-EMAIL_FROM = 'malika.satimbaeva@iaau.edu.kg'
+EMAIL_FROM = 'ulukman.daryger1@gmail.com'
 EMAIL_BCC = 'Qualle'
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'malika.satimbaeva@iaau.edu.kg'
-EMAIL_HOST_PASSWORD = '18010400132'
+EMAIL_HOST_USER = 'ulukman.daryger1@gmail.com'
+EMAIL_HOST_PASSWORD = 'avicena2021'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
-SERVER_EMAIL = 'malika.satimbaeva@iaau.edu.kg'
+SERVER_EMAIL = 'ulukman.daryger1@gmail.com'
 
 
 # Password validation
