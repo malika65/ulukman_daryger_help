@@ -288,7 +288,7 @@ msgstr "Сурооңуз болсо,"
 
 #: .\news\templates\index.html:106 .\news\templates\index_main.html:16
 msgid "Свяжитесь с нами"
-msgstr "Биз менен "
+msgstr "Биз менен байланыш"
 
 #: .\news\templates\index.html:134
 msgid "Свяжитесь с нами в"

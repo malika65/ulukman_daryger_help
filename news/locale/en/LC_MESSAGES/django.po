@@ -285,8 +285,6 @@ msgid "Есть вопросы?"
 msgstr "Have questions? "
 
 #: .\news\templates\index.html:106 .\news\templates\index_main.html:16
-#, fuzzy
-#| msgid "Свяжитесь с нами в"
 msgid "Свяжитесь с нами"
 msgstr "Contact us"
 
@@ -631,7 +629,7 @@ msgstr "Our address"
 
 #: .\news\templates\index_main.html:348
 msgid "ул. Московская 162\\1, Каракол, Кыргызстан"
-msgstr ""
+msgstr "st. Moskovskaya 162 \\ 1, Karakol, Kyrgyzstan"
 
 #: .\news\templates\index_main.html:358
 msgid "Телефон:"
@@ -651,7 +649,7 @@ msgstr "More.."
 
 #: .\news\templates\payment.html:104
 msgid "Благодарим Вас за помощь нашей организации!"
-msgstr ""
+msgstr "Thank you for helping our organization!"
 
 #: .\news\templates\payment.html:105
 msgid "Перевод суммы на карту"
