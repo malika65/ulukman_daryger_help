@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
-    transition-delay: 0 !important;
+
   }
 }
 
@@ -1342,17 +1342,31 @@ section {
   border-radius: 4px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+  display: compact;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .team .member .member-img {
   position: relative;
   overflow: hidden;
-  width: 100%;
-  height: 250px;
+  width: 80%;
+  height: 260px;
   display: flex;
   justify-content: center;
+  align-items: center;/*may be this can help? */
 
 }
+
+.member-img{
+  margin: auto;
+
+}
+
+.img-fluid{
+  max-width: 80%;
+  height: auto;}
 
 .team .member .social {
   position: absolute;
@@ -2061,4 +2075,16 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#about .about-extra {
+  margin: auto;
+  margin-bottom: 30px;
+  padding-top: 60px;
+  box-shadow: 0 0 0 5px #c8dbf1;
+  border-radius: 0.2px grey;
+}
+#about .about-extra h4 {
+  font-weight: 600;
+  font-size: 24px;
 }
