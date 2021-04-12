@@ -2076,3 +2076,15 @@ section {
   justify-content: center;
   align-items: center;
 }
+
+#about .about-extra {
+  margin: auto;
+  margin-bottom: 30px;
+  padding-top: 60px;
+  box-shadow: 0 0 0 5px #c8dbf1;
+  border-radius: 0.2px grey;
+}
+#about .about-extra h4 {
+  font-weight: 600;
+  font-size: 24px;
+}
