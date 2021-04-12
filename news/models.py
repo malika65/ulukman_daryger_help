@@ -16,7 +16,7 @@ class News(models.Model):
 
 class Newspaper(models.Model):
     title_paper = models.CharField(max_length=500,verbose_name='Заголовок')
-    pdf = models.FileField(upload_to = 'media/')
+    pdf = models.FileField(upload_to = '/')
     date_created = models.DateTimeField(auto_now_add=True,null=True,blank=True)
     class Meta:
         verbose_name = 'Газета'
