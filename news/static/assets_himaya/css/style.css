@@ -1,13 +1,3 @@
-/**
-* Template Name: NewBiz - v2.2.0
-* Template URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background: #fff;
   color: #444;
@@ -31,7 +21,7 @@ body {
        .sum{
         font-weight: 600;}
 
-  
+    
 .slogan{
     color: #e11266; }
 
@@ -54,7 +44,6 @@ body {
         letter-spacing: 1px;
         display: inline-block;
         line-height: 50px;
-        transition: 0.1s;
         margin: 0 20px 20px 0;
         border: 2px solid #ebdbde;
         padding: 0;
@@ -1433,9 +1422,6 @@ section {
   font-size: 14px;
 }
 
-#contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
-  background-color: #007bff;
-}
 
 #contact .php-email-form input {
   padding: 20px 15px;
@@ -1621,4 +1607,53 @@ section {
 
 #footer .credits a:hover {
   color: #f1f7ff;
+}
+
+
+
+
+.section-header p {
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 30px;
+  color: #556877;
+  width: 50%;
+  text-align: left;
+}
+
+.section-header ul{
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: #556877;
+  width: 50%;
+  text-align: left;
+}
+
+.section-header i {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: #556877;
+  width: 50%;
+}
+
+.section-header .services{
+  font-size: 18px;
+  font-weight: 500;
+  color: #283d50;
+  text-align: left;
+}
+
+@media (max-width: 1500px) {
+  .section-header p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .section-header ul {
+    width: 100%;
+  }
 }

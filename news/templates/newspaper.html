@@ -486,7 +486,8 @@
       <div class="blog-cont-sec">
       <!--месяц,год выпуска начало-->
           <div class="cont-area">
-              <h3><a>{{new.date_for}}</a></h3>
+              <h3><a>{{new.date_created|date:'F'}}</a></h3>
+              <h3><a>{{new.date_created|date:'Y'}}</a></h3>
               <div class="postedby">
                   <a href="{% url 'locale' to_url='index' %}">{% trans 'Опубликовано ОО "Улукман Дарыгер"' %}</a>
               </div>
