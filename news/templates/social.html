@@ -8,7 +8,6 @@
     <title>социальное предпринимательство</title>
     <meta charset="utf-8">
     <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'assets_himaya/css/style.css' %}">
     <!-- Vendor CSS Files -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 
@@ -91,10 +90,11 @@
                     <p>{{i.text}}</p>
                     <div class="row photos">
                     {% for p in i.images.all %}
-                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="{{p.images.url}}" data-lightbox="photos"><img class="img-fluid" src="{{p.images.url}}" alt="cake"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item mt-3"><a href="{{p.images.url}}" data-lightbox="photos"><img class="img-fluid" src="{{p.images.url}}" alt="cake"></a>
+                        </div>
                     {% endfor %}
-                </div>
-
+                    </div>
+                    
                 </div>
             </div>
         </div>

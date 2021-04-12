@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-07 19:00+0600\n"
+"POT-Creation-Date: 2021-04-12 10:39+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgstr "Main"
 
 #: .\news\templates\himaya.html:68 .\news\templates\himaya.html:100
 #: .\news\templates\himaya_ch.html:36 .\news\templates\himaya_men.html:35
-#: .\news\templates\himaya_women.html:46 .\news\templates\index.html:56
+#: .\news\templates\index.html:56
 msgid "О нас"
 msgstr "About us"
 
@@ -111,7 +111,9 @@ msgid "Наш адрес"
 msgstr "Our address: "
 
 #: .\news\templates\himaya.html:110
-msgid "улица Московская 162/46 <br>Каракол"
+#, fuzzy
+#| msgid "улица Московская 162/46 <br>Каракол"
+msgid "улица Московская 162/1 <br>Каракол"
 msgstr "162/1 Moskovskaya str., Karakol town,"
 
 #: .\news\templates\himaya.html:111
@@ -148,12 +150,11 @@ msgstr "Do you need a help?"
 
 #: .\news\templates\himaya_ch.html:22 .\news\templates\himaya_ch.html:66
 #: .\news\templates\himaya_men.html:21 .\news\templates\himaya_men.html:68
-#: .\news\templates\himaya_women.html:32 .\news\templates\himaya_women.html:82
+#: .\news\templates\himaya_women.html:32 .\news\templates\himaya_women.html:90
 msgid "Хочу помочь"
 msgstr "I want to help"
 
 #: .\news\templates\himaya_ch.html:37 .\news\templates\himaya_men.html:36
-#: .\news\templates\himaya_women.html:47
 msgid ""
 "Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo "
 "abhorreant vituperatoribus.Laudem latine persequeris id sed, ex fabulas "
@@ -163,12 +164,12 @@ msgid ""
 msgstr ""
 
 #: .\news\templates\himaya_ch.html:62 .\news\templates\himaya_men.html:64
-#: .\news\templates\himaya_women.html:78
+#: .\news\templates\himaya_women.html:86
 msgid "Сумма к сбору:"
 msgstr "Amount to be collected:"
 
 #: .\news\templates\himaya_ch.html:64 .\news\templates\himaya_men.html:66
-#: .\news\templates\himaya_women.html:80
+#: .\news\templates\himaya_women.html:88
 msgid "Осталось собрать:"
 msgstr "It remains to collect:"
 
@@ -192,7 +193,65 @@ msgstr "and rehabilitation of women"
 msgid "\"Химая\""
 msgstr "\"Himaya\""
 
-#: .\news\templates\himaya_women.html:75
+#: .\news\templates\himaya_women.html:45
+msgid "Что такое \"Химая\"?"
+msgstr "What is \"Himaya\""
+
+#: .\news\templates\himaya_women.html:46
+msgid ""
+"Центр помощи и реабилитации  «Химая» начал свою деятельность 6 марта 2017 "
+"при финансовой поддержке Фонда «Сорос-Кыргызстан». Основными бенефициарами "
+"центра являются женщины и их дети, подвергшиеся насилию, женщины из уязвимых "
+"групп (лица живущие с ВИЧ, секс- работники, лица, употребляющие инъекционные "
+"наркотики), а также женщины находящиеся в трудной жизненной ситуации."
+msgstr ""
+"Center for Assistance and Rehabilitation of women \"Himaya\" began its "
+"activities on March 6, 2017 with the financial support of the “Soros-"
+"Kyrgyzstan” Foundation. The main beneficiaries of the center are women and "
+"their children who have been subjected to violence, women from vulnerable "
+"groups (people living with HIV, sex workers, people who use injection "
+"drugs), and women in difficult life situations."
+
+#: .\news\templates\himaya_women.html:47
+msgid "Центр предоставляет следующий перечень услуг:"
+msgstr "The center provides the following list of services:"
+
+#: .\news\templates\himaya_women.html:49
+msgid "временное убежище (до 14 дней);"
+msgstr "temporary shelter (up to 14 days);"
+
+#: .\news\templates\himaya_women.html:50
+msgid "получение санитарно-бытовых услуг;"
+msgstr "providing sanitary and household services;"
+
+#: .\news\templates\himaya_women.html:51
+msgid "консультирование по социально-правовым и медицинским вопросам;"
+msgstr "consulting on social, legal and medical issues;"
+
+#: .\news\templates\himaya_women.html:52
+msgid "социально-правовое сопровождение;"
+msgstr "social and legal support;"
+
+#: .\news\templates\himaya_women.html:53
+msgid "юридическое сопровождение («общественный защитник», юрист-адвокат);"
+msgstr "legal support (“public defender”, lawyer-advocate);"
+
+#: .\news\templates\himaya_women.html:54
+msgid "вплоть до представления в суде;"
+msgstr "representation in court;"
+
+#: .\news\templates\himaya_women.html:55
+msgid "помощь в реабилитации и социализации женщин;"
+msgstr "assistance in the rehabilitation and socialization of women;"
+
+#: .\news\templates\himaya_women.html:56
+msgid ""
+"реабилитация через новые навыки (шитье, прикладное ремесло, кондитерские "
+"навыки) и.т.д."
+msgstr ""
+"rehabilitation through new skills (sewing, applied craft, confectionary) etc."
+
+#: .\news\templates\himaya_women.html:83
 msgid "Вы можете помочь, перечислив средства на электронный кошелек Элсом"
 msgstr ""
 
@@ -301,8 +360,12 @@ msgid "Общественное объединение \"Улукман Дары
 msgstr "Public Association \"Ulukman Daryger\""
 
 #: .\news\templates\index_main.html:14
+#, fuzzy
+#| msgid ""
+#| "Некоммерческая организая, целью которой является помощь людям, попавшим в "
+#| "сложную ситуацию."
 msgid ""
-"Некоммерческая организая, целью которой является помощь людям, попавшим в "
+"Некоммерческая организация, целью которой является помощь людям, попавшим в "
 "сложную ситуацию."
 msgstr ""
 "is a non-profit organization that aims at helping people in difficult life "
@@ -585,6 +648,20 @@ msgstr "Ulan Tursunbaev"
 msgid "Исполнительный директор"
 msgstr "Executive director"
 
+#: .\news\templates\index_main.html:289 .\news\templates\team.html:56
+msgid ""
+"Когда кого то постигает беда, то Всевышний испытывает вместе с ним и нас, "
+"как поведем себя, останемся ли мы в стороне или протянем руку помощи. И он "
+"любит делающих добро, поэтому я рад работать в нашей организации во благо "
+"людей, попавших в трудную жизненную ситуацию. Порой люди с худшим прошлым, "
+"создают лучшее будущее и наш девиз Солнце светит всем одинаково."
+msgstr ""
+"When someone is in trouble, the God tests us how we will behave, whether we "
+"will stay on the sidelines or lend a helping hand. And he loves those who do "
+"good, so I am glad to work in our organization for the benefit of people in "
+"difficult life situations. Sometimes people with a worse past create a "
+"better future and our motto is \"The sun shines equally for everyone\""
+
 #: .\news\templates\index_main.html:299 .\news\templates\team.html:68
 msgid "Динара Асанбекова"
 msgstr "Dinara Asanbekova"
@@ -623,6 +700,12 @@ msgstr ""
 "The confidence that we are doing the right job and the awareness that we are "
 "in demand always helps me to perform my work with high quality."
 
+#: .\news\templates\index_main.html:320
+#, fuzzy
+#| msgid "Подробнее о команде"
+msgid "Подробнее о команде >"
+msgstr "More about command.."
+
 #: .\news\templates\index_main.html:347
 msgid "Наш адрес:"
 msgstr "Our address"
@@ -637,11 +720,19 @@ msgstr "Telephone"
 
 #: .\news\templates\newspaper.html:425
 msgid "Газета ОО \"Улукман Дарыгер\""
-msgstr "Ulukamn Daryger"
+msgstr "Ulukman Daryger"
+
+#: .\news\templates\newspaper.html:426
+msgid ""
+"НА БАЗЕ ОРГАНИЗАЦИИ ВЫПУСКАЕТСЯ ЕЖЕМЕСЯЧНЫЙ МЕДИЦИНСКИЙ БЮЛЛЕТЕНЬ, КОТОРЫЙ "
+"НАЦЕЛЕН НА ИНФОРМИРОВАНИЕ ШИРОКОЙ МАССЫ О ПРОФИЛАКТИКЕ ВИЧ/СПИДА, КОВИД . В "
+"ГАЗЕТЕ ТАКЖЕ МОЖНО ОЗНАКОМИТЬСЯ ДЕЯТЕЛЬНОСТЬЮ ОО «УЛУКМАН ДАРЫГЕР», "
+"ПРОВОДИМОЙ С УЯЗВИМЫМИ ГРУППАМИ НАСЕЛЕНИЯ."
+msgstr "THERE IS A MONTHLY MEDICAL BULLETIN ISSUED IN THE ORGANIZATION, WHICH IS AIMED AT INFORMING THE AUDIENCE ABOUT THE PREVENTION OF HIV / AIDS AND COVID. IN THE NEWSPAPER YOU CAN ALSO FIND INFORMATION ON  THE ACTIVITIES OF THE PUBLIC ASSOCIATION \"ULUKMAN DARYGER\" CARRIED OUT WITH VULNERABLE GROUPS OF THE POPULATION."
 
 #: .\news\templates\newspaper.html:492
 msgid "Опубликовано ОО \"Улукман Дарыгер\""
-msgstr "Ulukamn Daryger"
+msgstr "Ulukman Daryger"
 
 #: .\news\templates\newspaper.html:501
 msgid "Подробнее.."
@@ -655,13 +746,11 @@ msgstr "Thank you for helping our organization!"
 msgid "Перевод суммы на карту"
 msgstr "Send the amount to the card"
 
-#: .\news\templates\social.html:68
-#, fuzzy
-#| msgid "Соц. предпринимательство"
+#: .\news\templates\social.html:67
 msgid "Социальное предпринимательство"
 msgstr "Social entreprenership"
 
-#: .\news\templates\social.html:72
+#: .\news\templates\social.html:71
 msgid ""
 "Социальное предпринимательство- одно из направлений, в котором общественное "
 "объединение «Улукман Дарыгер» планирует преуспеть. Ведь в работе с уязвимыми "
@@ -671,20 +760,13 @@ msgid ""
 "сотрудничеству в оказании всесторонней помощи начинающим предпринимателям из "
 "числа наших уязвимых групп, а также  новым стартапам."
 msgstr ""
-
-#: .\news\templates\team.html:56
-msgid ""
-"Когда кого то постигает беда, то Всевышний испытывает вместе с ним и нас, "
-"как поведем себя, останемся ли мы в стороне или протянем руку помощи. И он "
-"любит делающих добро, поэтому я рад работать в нашей организации во благо "
-"людей, попавших в трудную жизненную ситуацию. Порой люди с худшим прошлым, "
-"создают лучшее будущее и наш девиз Солнце светит всем одинаково."
-msgstr ""
-"When someone is in trouble, the God tests us how we will behave, whether we "
-"will stay on the sidelines or lend a helping hand. And he loves those who do "
-"good, so I am glad to work in our organization for the benefit of people in "
-"difficult life situations. Sometimes people with a worse past create a "
-"better future and our motto is \"The sun shines equally for everyone\""
+"Social entrepreneurship is one of the areas in which the public association "
+"\"Ulukman Daryger\" plans to succeed. Indeed, in working with vulnerable "
+"groups, the most important result is rehabilitation through the support of "
+"ideas, creating opportunities for launching and developing your own "
+"business. Our organization encourages all interested people and "
+"organizations to cooperate in providing comprehensive assistance to aspiring "
+"entrepreneurs from among our vulnerable groups, as well as new startups."
 
 #: .\news\templates\team.html:70
 msgid ""
@@ -944,8 +1026,18 @@ msgstr ""
 "Ulukman Daryger team (she has no photo)."
 
 #: .\news\templates\team.html:326
-msgid "Омуралиева Р"
+msgid "Роза  Омуралиева"
+msgstr "Roza Omuralieva"
+
+#: .\news\templates\team.html:328
+msgid ""
+"Мое дело врачебного искусства заключается не в том, чтобы делать всякого "
+"человека здоровым. Но в том, чтобы насколько можно приблизиться к этой цели. "
+"Потому что, вполне возможно вылечить людей, которые уже не могут выздороветь."
 msgstr ""
+"My business of medical art is not to make every person healthy but to get as "
+"close as possible to this goal. I think it is quite possible to cure people "
+"who can no longer recover."
 
 #: .\news\templates\team.html:341
 msgid "Ишеналиева Ашыргуль"
@@ -954,44 +1046,3 @@ msgstr ""
 #: .\news\templates\team.html:342
 msgid "Бухгалтер"
 msgstr ""
-
-#~ msgid "Главный исполнительный директор"
-#~ msgstr "Executive director"
-
-#~ msgid "Заместитель директора"
-#~ msgstr "Executive director"
-
-#~ msgid "Специалист ISO"
-#~ msgstr "Lawyer, attorney"
-
-#~ msgid "Подробнее о команде"
-#~ msgstr "More about command.."
-
-#~ msgid ""
-#~ "На базе организации выпускается ежемесячный медицинский бюллетень, "
-#~ "который нацелен на информирование широкой массы о профилактике ВИЧ/"
-#~ "СПИДа,  КОВИД . В газете  также можно ознакомиться деятельностью ОО "
-#~ "«Улукман Дарыгер», проводимой с уязвимыми группами населения."
-#~ msgstr ""
-#~ "There is a monthly medical bulletin issued in the organization, which is "
-#~ "aimed at informing the audience about the prevention of HIV / AIDS and "
-#~ "COVID. In the newspaper you can also find information on  the activities "
-#~ "of the Public Association \"Ulukman Daryger\" carried out with vulnerable "
-#~ "groups of the population."
-
-#~ msgid "улица Московская 162/46 Каракол"
-#~ msgstr "162/1 Moskovskaya str., Karakol town, Kyrgyzstan"
-
-#, fuzzy
-#~| msgid "Есть вопросы?"
-#~ msgid "Часто задаваемые вопросы"
-#~ msgstr "Have questions? "
-
-#~ msgid "Пожалуйста, заполните следующую форму:"
-#~ msgstr "Please, fill in the following form"
-
-#~ msgid "Выберите сумму:"
-#~ msgstr "Select amount"
-
-#~ msgid "Данные вашей карты"
-#~ msgstr "Your card information"
