@@ -195,7 +195,7 @@
           <h2>{% trans 'Структура организации' %}</h2>
         </div>
         {% if request.get_full_path == "/ru/news/index/" %}
-          <img src="{% static 'assets/img/structure.png' %}" style="width: 100%; height: auto;">
+          <img src="{% static 'assets/img/russian.png' %}" style="width: 100%; height: auto;">
         {% elif request.get_full_path == "/en/news/index/"   %}
           <img src="{% static 'assets/img/englishstructure.png' %}" style="width: 100%; height: auto;">
         {% elif request.get_full_path == "/ky/news/index/" %}
@@ -266,18 +266,6 @@
     </div>
     <div class="row">
       <!-- 1 ряд из четырех начало-->
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-        <div class="member">
-          <div class="member-img">
-            <img src="{% static 'assets/img/team/two.jpg' %}" class="img-fluid" alt="member">
-          </div>
-          <div class="member-info">
-            <h4>{% trans 'Мария Личаню' %}</h4>
-            <span>{% trans 'Координатор' %}</span>
-            <p> {% trans 'С самого начала своей работы в организации у меня сложилось ощущение, что оказывается, много людей вокруг нас нуждается в помощи. Поэтому вся моя деятельность направлена на их защиту и поддержку.' %}</p>
-          </div>
-        </div>
-      </div>
       <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
         <div class="member">
           <div class="member-img">
@@ -290,6 +278,19 @@
           </div>
         </div>
       </div>
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+        <div class="member">
+          <div class="member-img">
+            <img src="{% static 'assets/img/team/team-2.jpg' %}" class="img-fluid" alt="member">
+          </div>
+          <div class="member-info">
+            <h4>{% trans 'Мария Личаню' %}</h4>
+            <span>{% trans 'Координатор' %}</span>
+            <p> {% trans 'С самого начала своей работы в организации у меня сложилось ощущение, что оказывается, много людей вокруг нас нуждается в помощи. Поэтому вся моя деятельность направлена на их защиту и поддержку.' %}</p>
+          </div>
+        </div>
+      </div>
+      
       <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
         <div class="member">
           <div class="member-img">
@@ -305,12 +306,12 @@
       <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
         <div class="member">
           <div class="member-img">
-            <img src="{% static 'assets/img/team/three.jpg' %}" class="img-fluid" alt="">
+            <img src="{% static 'assets/img/team/team-7.jpg' %}" class="img-fluid" alt="member">
           </div>
           <div class="member-info">
-            <h4>{% trans 'Турсун Ирисбеков' %}</h4>
-            <span> {% trans 'Юрист, адвокат' %}</span>
-            <p>{% trans 'Уверенность в том, что мы делаем правильную работу и осознание того, что мы востребованы всегда  помогает мне качественно выполнять свою работу.' %}</p>
+            <h4>{% trans 'Гульмира Майлыбаева' %}</h4>
+            <span>{% trans 'Cоциальный работник, психолог' %}</span>
+            <p>{% trans 'Я получаю колоссальное удовольствие от того, что имею возможность оказывать помощь людям из уязвимых групп.' %}</p>
           </div>
         </div>
       </div>
@@ -321,8 +322,6 @@
   </a>
 </section>
 <!-- End Team Section -->
-
-
 
     
 

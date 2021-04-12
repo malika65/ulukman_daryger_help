@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-12 10:39+0600\n"
+"POT-Creation-Date: 2021-04-13 00:04+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgstr "Комментарийлер"
 
 #: .\news\templates\forum.html:92
 msgid "Если у вас есть вопросы относительно:"
-msgstr ""
+msgstr "Эгерде сизде суроолор болсо:"
 
 #: .\news\templates\forum.html:94
 msgid "ВИЧ"
@@ -39,7 +39,7 @@ msgstr ""
 
 #: .\news\templates\forum.html:96
 msgid "Домашнего насилия"
-msgstr ""
+msgstr "Үй-бүлөлүк зомбулук"
 
 #: .\news\templates\forum.html:97 .\news\templates\forum.html:98
 #: .\news\templates\forum.html:99
@@ -48,13 +48,13 @@ msgstr "Категория"
 
 #: .\news\templates\forum.html:101
 msgid "Вы можете задать его здесь и мы обязательно вам поможем!"
-msgstr ""
+msgstr "Бул жерден сурасаңыз болот, биз сизге сөзсүз жардам беребиз!"
 
 #: .\news\templates\forum.html:124
 msgid "Оставьте здесь ваш комментарий или задайте вопрос"
 msgstr "Сунушуңузду же сурооңузду бул жакка калтырыңыз"
 
-#: .\news\templates\forum.html:130 .\news\templates\index_main.html:391
+#: .\news\templates\forum.html:130 .\news\templates\index_main.html:390
 msgid "Отправить"
 msgstr "Жөнөтүү"
 
@@ -71,7 +71,6 @@ msgid "Главная"
 msgstr "Негизги бет"
 
 #: .\news\templates\himaya.html:68 .\news\templates\himaya.html:100
-#: .\news\templates\himaya_ch.html:36 .\news\templates\himaya_men.html:35
 #: .\news\templates\index.html:56
 msgid "О нас"
 msgstr "Биз жөнүндө"
@@ -89,7 +88,7 @@ msgid "Выпускники детских домов"
 msgstr "Балдар"
 
 #: .\news\templates\himaya.html:73 .\news\templates\index.html:76
-#: .\news\templates\index_main.html:334
+#: .\news\templates\index_main.html:333
 msgid "Контакты"
 msgstr "Контакты"
 
@@ -110,8 +109,6 @@ msgid "Наш адрес"
 msgstr "Биздин дарек:"
 
 #: .\news\templates\himaya.html:110
-#, fuzzy
-#| msgid "улица Московская 162/46 <br>Каракол"
 msgid "улица Московская 162/1 <br>Каракол"
 msgstr "Московский көч. 162/1, Каракол шаары,"
 
@@ -148,28 +145,47 @@ msgstr ""
 msgid "Вам нужна помощь?"
 msgstr "Жардам керепи?"
 
-#: .\news\templates\himaya_ch.html:22 .\news\templates\himaya_ch.html:66
+#: .\news\templates\himaya_ch.html:22 .\news\templates\himaya_ch.html:65
 #: .\news\templates\himaya_men.html:21 .\news\templates\himaya_men.html:68
-#: .\news\templates\himaya_women.html:32 .\news\templates\himaya_women.html:90
+#: .\news\templates\himaya_women.html:32 .\news\templates\himaya_women.html:91
 msgid "Хочу помочь"
 msgstr "Жардам бергим келет"
 
-#: .\news\templates\himaya_ch.html:37 .\news\templates\himaya_men.html:36
+#: .\news\templates\himaya_ch.html:34
 msgid ""
-"Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo "
-"abhorreant vituperatoribus.Laudem latine persequeris id sed, ex fabulas "
-"delectus quo. No vel partiendo abhorreant vituperatoribus.Laudem latine "
-"persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant "
-"vituperatoribus"
+"Зачастую выпускники детских домов, остаются совершенно одни со своими "
+"проблемами. Поэтому ОО «Улукман Дарыгер» проводит работу по социальной "
+"адаптации и реабилитации выпускников детских домов. В этих целях, команда "
+"организации работает над поиском возможностей для создания условий по "
+"обучению и трудоустройству через создание условий  для предпринимательской "
+"деятельности."
 msgstr ""
+"Көбүнчө балдар үйлөрүнүн бүтүрүүчүлөрү көйгөйлөрү менен озулору менен өзү "
+"калышат.  Ошондуктан, \"Улукман Дарыгер\" уюму балдар үйлөрүнүн "
+"бүтүрүүчүлөрүн социалдык адаптациялоо жана реабилитациялоо иштерин "
+"жүргүзүүдо. Ушул максатта уюмдун жамааты балдар үйүнүн бүтүрүүчүлорүн окутуу "
+"жана жумушка орношуу үчүн ишкердүүлүк баштоого  шарттарды түзүү "
+"мүмкүнчүлүктөрүн түзүү жолун табуунун үстүндө иштеп жатышат."
 
-#: .\news\templates\himaya_ch.html:62 .\news\templates\himaya_men.html:64
-#: .\news\templates\himaya_women.html:86
+#: .\news\templates\himaya_ch.html:35
+msgid ""
+"У Вас есть уникальная возможность поддержать инициативы Улукман Дарыгер» . "
+"Подробную информацию можно получить:"
+msgstr ""
+"Сизде “Улукман Дарыгердин”  демилгелерин колдоо үчүн уникалдуу мүмкүнчүлүк "
+"бар ”. Толук маалыматты төмөндөгү байланыш телефондору аркылуу алсаныз болот."
+
+#: .\news\templates\himaya_ch.html:36 .\news\templates\himaya_men.html:36
+msgid "или"
+msgstr "же"
+
+#: .\news\templates\himaya_ch.html:61 .\news\templates\himaya_men.html:64
+#: .\news\templates\himaya_women.html:87
 msgid "Сумма к сбору:"
 msgstr "чогултула турган сумма: "
 
-#: .\news\templates\himaya_ch.html:64 .\news\templates\himaya_men.html:66
-#: .\news\templates\himaya_women.html:88
+#: .\news\templates\himaya_ch.html:63 .\news\templates\himaya_men.html:66
+#: .\news\templates\himaya_women.html:89
 msgid "Осталось собрать:"
 msgstr "Чогултууга калды"
 
@@ -180,6 +196,23 @@ msgstr "Биздин уюм баңгиликтен арылууну каалаг
 #: .\news\templates\himaya_men.html:17
 msgid "лицам мужского пола, желающим восстановиться после наркозависимости"
 msgstr "эркектер үчүн да дагы жардам көрсөтөт."
+
+#: .\news\templates\himaya_men.html:34
+msgid ""
+"Мужчины, как и женщины, также нуждаются в помощи и поддержке. Поэтому ОО "
+"«Улукман Дарыгер» проводит работу по созданию кризисного центра для мужчин, "
+"в котором они получат помощь и возможность для реабилитации. У Вас есть "
+"возможность всесторонне поддержать работу данного центра."
+msgstr ""
+"Эркектер, аялдар сыяктуу эле, жардамга жана колдоого муктаж. Ошондуктан, "
+"\"Улукман Дарыгер\" коомдук бирикмеси эркектер үчүн кризистик борборду "
+"түзүүнүн үстүндө иштеп жатат. Борбордо эркетерге жардам берүү менен бирге "
+"жана реабилитация мүмкүнчүлүгү берилет. Бул борбордун ишин ар тараптуу "
+"колдоого мүмкүнчүлүгүңүз бар."
+
+#: .\news\templates\himaya_men.html:35
+msgid "За дополнительной  информацией обращайтесь по номерам:"
+msgstr "Кошумча маалымат алуу үчүн кийинки номурларына чалыңыз: "
 
 #: .\news\templates\himaya_women.html:28
 msgid "Центр помощи и"
@@ -252,9 +285,15 @@ msgstr ""
 "жаңы көндүмдөрдү үйротүү жана алар аркылуу калыбына келтирүү иштери (тигүү, "
 "кол өнөрчүлүк, кондитердик көндүмдөр) ж.б."
 
-#: .\news\templates\himaya_women.html:83
+#: .\news\templates\himaya_women.html:58
+msgid ""
+"За подробной информацией обращайтесь по телефону горячей линии 0551 733390"
+msgstr "Кошумча маалымат алуу үчүн 0551 733390 ишеним телефонуна чалыңыз"
+
+#: .\news\templates\himaya_women.html:84
 msgid "Вы можете помочь, перечислив средства на электронный кошелек Элсом"
 msgstr ""
+"Каражаттарды Элсом электрондук капчыгына которуу менен жардам бере аласыз"
 
 #: .\news\templates\index.html:59
 msgid "Миссия"
@@ -312,11 +351,11 @@ msgstr "Форум"
 msgid "Поделись добром"
 msgstr "Бизди колдо"
 
-#: .\news\templates\index.html:100
+#: .\news\templates\index.html:98 .\news\templates\index.html:130
 msgid "Дорогие гости нашего сайта!"
 msgstr "Урматтуу сайттын коногу,"
 
-#: .\news\templates\index.html:103
+#: .\news\templates\index.html:101 .\news\templates\index.html:133
 msgid ""
 "Деятельность нашей организации направлена исключительно на "
 "благотворительность и помощь людям."
@@ -324,7 +363,34 @@ msgstr ""
 "Сайт өзүнүн ишмердүүлүгүн кайрмыдуулук жана жардам көрсөтүү максатында гана "
 "алып барат."
 
-#: .\news\templates\index.html:104
+#: .\news\templates\index.html:102 .\news\templates\index_main.html:59
+msgid ""
+"Все собранные средства идут на реабилитацию и восстановление жертв насилия, "
+"на борьбу с ВИЧ и СПИД."
+msgstr ""
+"Баардык топтолгон каражаттар зомбулукка кабылгандарды калыбына келтирүү жана "
+"реабилитация кылууга, ошондой эле ВИЧ жана СПИД менен күрөшүүгө жумшалат"
+
+#: .\news\templates\index.html:103
+#, fuzzy
+#| msgid "Давайте вместе поможем кому-то поверить в счастливую жизнь!"
+msgid ""
+"Перечислив средства на наш электроный кошелек,мы сможем вместе помочь кому-"
+"то вновь поверить в счастливую жизнь!"
+msgstr ""
+"Келиңиз бирөөгө бактылуу жашоо тартуулайлы! Сурооңуз болсо, биз менен "
+"байланышыңыз"
+
+#: .\news\templates\index.html:106 .\news\templates\index.html:136
+msgid "Есть вопросы?"
+msgstr "Сурооңуз болсо,"
+
+#: .\news\templates\index.html:106 .\news\templates\index.html:136
+#: .\news\templates\index_main.html:16
+msgid "Свяжитесь с нами"
+msgstr "Биз менен байланыш"
+
+#: .\news\templates\index.html:134
 msgid ""
 "Все собранные средства идут на <a href=\"himaya.html\">реабилитацию и "
 "восстановление жертв насилия,</a> на борьбу с ВИЧ и СПИД."
@@ -332,25 +398,17 @@ msgstr ""
 "Баардык топтолгон каражаттар зомбулукка кабылгандарды калыбына келтирүү жана "
 "реабилитация кылууга, ошондой эле ВИЧ жана СПИД менен күрөшүүгө жумшалат"
 
-#: .\news\templates\index.html:105
+#: .\news\templates\index.html:135
 msgid "Давайте вместе поможем кому-то поверить в счастливую жизнь!"
 msgstr ""
 "Келиңиз бирөөгө бактылуу жашоо тартуулайлы! Сурооңуз болсо, биз менен "
 "байланышыңыз"
 
-#: .\news\templates\index.html:106
-msgid "Есть вопросы?"
-msgstr "Сурооңуз болсо,"
-
-#: .\news\templates\index.html:106 .\news\templates\index_main.html:16
-msgid "Свяжитесь с нами"
-msgstr "Биз менен байланыш"
-
-#: .\news\templates\index.html:134
+#: .\news\templates\index.html:164
 msgid "Свяжитесь с нами в"
 msgstr "Биз менен "
 
-#: .\news\templates\index.html:134
+#: .\news\templates\index.html:164
 msgid "Социальных сетях"
 msgstr "Cоциалдык тармактарда байланышыңыз"
 
@@ -390,14 +448,6 @@ msgstr ""
 #: .\news\templates\index_main.html:58
 msgid "Сбор средств на благотворительные нужды"
 msgstr "Кайрымдуулукка каражат чогултуу"
-
-#: .\news\templates\index_main.html:59
-msgid ""
-"Все собранные средства идут на реабилитацию и восстановление жертв насилия, "
-"на борьбу с ВИЧ и СПИД."
-msgstr ""
-"Баардык топтолгон каражаттар зомбулукка кабылгандарды калыбына келтирүү жана "
-"реабилитация кылууга, ошондой эле ВИЧ жана СПИД менен күрөшүүгө жумшалат"
 
 #: .\news\templates\index_main.html:66
 msgid "Центр помощи и реабилитации женщин \"Химая\" "
@@ -621,32 +671,14 @@ msgstr ""
 "Дарыгердин  командасы өз ишин абдан сүйгөн адистерден турат."
 
 #: .\news\templates\index_main.html:275 .\news\templates\team.html:40
-msgid "Мария Личаню"
-msgstr ""
-
-#: .\news\templates\index_main.html:276 .\news\templates\team.html:41
-msgid "Координатор"
-msgstr ""
-
-#: .\news\templates\index_main.html:277 .\news\templates\team.html:42
-msgid ""
-"С самого начала своей работы в организации у меня сложилось ощущение, что "
-"оказывается, много людей вокруг нас нуждается в помощи. Поэтому вся моя "
-"деятельность направлена на их защиту и поддержку."
-msgstr ""
-"Уюмда иштеген биринчи күндөн баштап эле мен көп адамдар жардамга муктаж "
-"экенин билдим.  Ошондуктан менин ишим адамдарды коргоо жана аларга жардам "
-"көрсөтүүгө багытталган."
-
-#: .\news\templates\index_main.html:287 .\news\templates\team.html:54
 msgid "Турсунбаев Улан"
 msgstr ""
 
-#: .\news\templates\index_main.html:288 .\news\templates\team.html:55
+#: .\news\templates\index_main.html:276 .\news\templates\team.html:41
 msgid "Исполнительный директор"
 msgstr "Аткаруучу директор"
 
-#: .\news\templates\index_main.html:289 .\news\templates\team.html:56
+#: .\news\templates\index_main.html:277 .\news\templates\team.html:42
 msgid ""
 "Когда кого то постигает беда, то Всевышний испытывает вместе с ним и нас, "
 "как поведем себя, останемся ли мы в стороне или протянем руку помощи. И он "
@@ -661,15 +693,33 @@ msgstr ""
 "кубанычтамын. Кээде мурункусу начар адамдар жакшы келечекти түзүшөт жана "
 "биздин ураан күн баарына бирдей тиет."
 
-#: .\news\templates\index_main.html:299 .\news\templates\team.html:68
+#: .\news\templates\index_main.html:287 .\news\templates\team.html:54
+msgid "Мария Личаню"
+msgstr ""
+
+#: .\news\templates\index_main.html:288 .\news\templates\team.html:55
+msgid "Координатор"
+msgstr ""
+
+#: .\news\templates\index_main.html:289 .\news\templates\team.html:56
+msgid ""
+"С самого начала своей работы в организации у меня сложилось ощущение, что "
+"оказывается, много людей вокруг нас нуждается в помощи. Поэтому вся моя "
+"деятельность направлена на их защиту и поддержку."
+msgstr ""
+"Уюмда иштеген биринчи күндөн баштап эле мен көп адамдар жардамга муктаж "
+"экенин билдим.  Ошондуктан менин ишим адамдарды коргоо жана аларга жардам "
+"көрсөтүүгө багытталган."
+
+#: .\news\templates\index_main.html:300 .\news\templates\team.html:70
 msgid "Динара Асанбекова"
 msgstr ""
 
-#: .\news\templates\index_main.html:300 .\news\templates\team.html:69
+#: .\news\templates\index_main.html:301 .\news\templates\team.html:71
 msgid "Редактор"
 msgstr ""
 
-#: .\news\templates\index_main.html:301
+#: .\news\templates\index_main.html:302
 msgid ""
 "Мне нравится общество, ведь в нем есть разные люди, в том числе и "
 "нуждающиеся. Я очень хочу, чтобы общество было полноценным и здоровым. И для "
@@ -683,37 +733,35 @@ msgstr ""
 "материалдык жардам көрсөтүшүбүз керек. Биз аялуу адамдарга сергек жашоо "
 "образын жана, албетте, позитивдүү маанайды үйрөтүшүбүз  керек."
 
-#: .\news\templates\index_main.html:311 .\news\templates\team.html:83
-msgid "Турсун Ирисбеков"
+#: .\news\templates\index_main.html:312 .\news\templates\team.html:85
+msgid "Гульмира Майлыбаева"
 msgstr ""
 
-#: .\news\templates\index_main.html:312 .\news\templates\team.html:84
-msgid "Юрист, адвокат"
-msgstr ""
+#: .\news\templates\index_main.html:313 .\news\templates\team.html:86
+msgid "Cоциальный работник, психолог"
+msgstr "Социалдык кызматкер, психолог"
 
-#: .\news\templates\index_main.html:313 .\news\templates\team.html:85
+#: .\news\templates\index_main.html:314 .\news\templates\team.html:87
 msgid ""
-"Уверенность в том, что мы делаем правильную работу и осознание того, что мы "
-"востребованы всегда  помогает мне качественно выполнять свою работу."
+"Я получаю колоссальное удовольствие от того, что имею возможность оказывать "
+"помощь людям из уязвимых групп."
 msgstr ""
-"Биз туура иш аткарып жаткандыгыбыз жана башкаларга керек экендигибизди "
-"билүү, мен үчүн ар дайым жумушумду сапаттуу аткарууга жардам берет. "
+"Мен аялуу катмардагы адамдарга жардам берүү мүмкүнчүлүгүнө ээ болгондугум "
+"үчүн абдан кубанычтамын."
 
-#: .\news\templates\index_main.html:320
-#, fuzzy
-#| msgid "Подробнее.."
+#: .\news\templates\index_main.html:321
 msgid "Подробнее о команде >"
-msgstr "Көбүрөөк.."
+msgstr "Команда жөнүндө көбүрөөк маалымат >"
 
-#: .\news\templates\index_main.html:347
+#: .\news\templates\index_main.html:346
 msgid "Наш адрес:"
 msgstr "Биздин дарек: "
 
-#: .\news\templates\index_main.html:348
+#: .\news\templates\index_main.html:347
 msgid "ул. Московская 162\\1, Каракол, Кыргызстан"
 msgstr "Московский көч. 162/1, Каракол шаары, Кыргызстан"
 
-#: .\news\templates\index_main.html:358
+#: .\news\templates\index_main.html:357
 msgid "Телефон:"
 msgstr "Байланыш телефону:"
 
@@ -727,12 +775,16 @@ msgid ""
 "НАЦЕЛЕН НА ИНФОРМИРОВАНИЕ ШИРОКОЙ МАССЫ О ПРОФИЛАКТИКЕ ВИЧ/СПИДА, КОВИД . В "
 "ГАЗЕТЕ ТАКЖЕ МОЖНО ОЗНАКОМИТЬСЯ ДЕЯТЕЛЬНОСТЬЮ ОО «УЛУКМАН ДАРЫГЕР», "
 "ПРОВОДИМОЙ С УЯЗВИМЫМИ ГРУППАМИ НАСЕЛЕНИЯ."
-msgstr "УЮМДУН НЕГИЗИНДЕ АЙ САЙЫН ВИЧ / СПИД ЖАНА COVIDДИ АЛДЫН АЛУУ МАКСАТЫНДА ЖАЛПЫ КООМЧУЛУККА МААЛЫМАТ БЕРҮҮГӨ БАГЫТТАЛГАН МЕДИЦИНАЛЫК БЮЛЛЕТЕНЬ ЧЫГАРЫЛАТ. ОШОНДОЙ ЭЛЕ ГЕЗИТТЕ “УЛУКМАН ДАРЫГЕР” КООМДУК БИРИКМЕСИНИН КАЛКТЫН АЯЛУУ КАТМАРЛАРЫ МЕНЕН АЛЫП БАРГАН ИШИ ТУУРАЛУУ МААЛЫМАТ АЛСАНЫЗ БОЛОТ."
-
+msgstr ""
+"УЮМДУН НЕГИЗИНДЕ АЙ САЙЫН ВИЧ / СПИД ЖАНА COVIDДИ АЛДЫН АЛУУ МАКСАТЫНДА "
+"ЖАЛПЫ КООМЧУЛУККА МААЛЫМАТ БЕРҮҮГӨ БАГЫТТАЛГАН МЕДИЦИНАЛЫК БЮЛЛЕТЕНЬ "
+"ЧЫГАРЫЛАТ. ОШОНДОЙ ЭЛЕ ГЕЗИТТЕ “УЛУКМАН ДАРЫГЕР” КООМДУК БИРИКМЕСИНИН "
+"КАЛКТЫН АЯЛУУ КАТМАРЛАРЫ МЕНЕН АЛЫП БАРГАН ИШИ ТУУРАЛУУ МААЛЫМАТ АЛСАНЫЗ "
+"БОЛОТ."
 
 #: .\news\templates\newspaper.html:492
 msgid "Опубликовано ОО \"Улукман Дарыгер\""
-msgstr ""
+msgstr "\"Улукман Дарыгер\" бейөкмөт уюму тарабынан басылып чыккан"
 
 #: .\news\templates\newspaper.html:501
 msgid "Подробнее.."
@@ -768,7 +820,7 @@ msgstr ""
 "ишкерлерди колдоого, ошондой эле жаңы стартаптарды ишке ашырууда ар тараптуу "
 "жардам көрсөтүүгө үндөйт."
 
-#: .\news\templates\team.html:70
+#: .\news\templates\team.html:72
 msgid ""
 "Мне нравиться общество, ведь в нем есть разные люди, в том числе и "
 "нуждающиеся. Я очень хочу, чтобы общество было полноценным и здоровым. И для "
@@ -782,15 +834,15 @@ msgstr ""
 "материалдык жардам көрсөтүшүбүз керек. Биз аялуу адамдарга сергек жашоо "
 "образын жана, албетте, позитивдүү маанайды үйрөтүшүбүз  керек."
 
-#: .\news\templates\team.html:103
+#: .\news\templates\team.html:99
 msgid "Айдай Алымова"
 msgstr ""
 
-#: .\news\templates\team.html:104
+#: .\news\templates\team.html:100
 msgid "Специалист по обучению и развитию"
 msgstr "Окуу жана өнүгүү боюнча адис"
 
-#: .\news\templates\team.html:105
+#: .\news\templates\team.html:101
 msgid ""
 "Моя работа импонирует тем, что я каждый день имею возможность помогать "
 "другим. Это неописуемое чувство, когда ты можешь помочь человеку и видеть "
@@ -800,21 +852,21 @@ msgstr ""
 "мага жагат. Адамга жардам берүү жана анын ийгиликтерине күбөө болуу менде  "
 "сөз менен айтып бере алгыс сезимдерди жаратат."
 
-#: .\news\templates\team.html:118
-msgid "Гульмира Майлыбаева"
+#: .\news\templates\team.html:114
+msgid "Турсун Ирисбеков"
 msgstr ""
 
-#: .\news\templates\team.html:119
-msgid "Cоциальный работник, психолог"
-msgstr "Социалдык кызматкер, психолог"
+#: .\news\templates\team.html:115
+msgid "Юрист, адвокат"
+msgstr ""
 
-#: .\news\templates\team.html:120
+#: .\news\templates\team.html:116
 msgid ""
-"Я получаю колоссальное удовольствие от того, что имею возможность оказывать "
-"помощь людям из уязвимых групп."
+"Уверенность в том, что мы делаем правильную работу и осознание того, что мы "
+"востребованы всегда  помогает мне качественно выполнять свою работу."
 msgstr ""
-"Мен аялуу катмардагы адамдарга жардам берүү мүмкүнчүлүгүнө ээ болгондугум "
-"үчүн абдан кубанычтамын."
+"Биз туура иш аткарып жаткандыгыбыз жана башкаларга керек экендигибизди "
+"билүү, мен үчүн ар дайым жумушумду сапаттуу аткарууга жардам берет. "
 
 #: .\news\templates\team.html:132
 msgid "Асель Курманова"
@@ -841,8 +893,8 @@ msgid "Болотбек Бекбашев"
 msgstr ""
 
 #: .\news\templates\team.html:147 .\news\templates\team.html:164
-#: .\news\templates\team.html:253 .\news\templates\team.html:268
-#: .\news\templates\team.html:299
+#: .\news\templates\team.html:253 .\news\templates\team.html:295
+#: .\news\templates\team.html:325
 msgid "Аутрич сотрудник"
 msgstr "Аутрич кызматкери"
 
@@ -895,7 +947,7 @@ msgstr ""
 msgid "Чынара Акпаева"
 msgstr ""
 
-#: .\news\templates\team.html:192 .\news\templates\team.html:327
+#: .\news\templates\team.html:192 .\news\templates\team.html:310
 #, fuzzy
 #| msgid "Медицинский центр \"Клиницист\" "
 msgid "Медицинский консультант"
@@ -930,8 +982,6 @@ msgid "Бактыгуль Асанбаева"
 msgstr ""
 
 #: .\news\templates\team.html:224 .\news\templates\team.html:238
-#, fuzzy
-#| msgid "Аутрич сотрудник"
 msgid "Aутрич сотрудник"
 msgstr "Аутрич кызматкери"
 
@@ -973,58 +1023,15 @@ msgstr ""
 "моралдык жактан жардам берип келет. Ушул жакта иштеп жатып, мен өзүмдү "
 "коомдун керектүү тутуму катары сезем. "
 
-#: .\news\templates\team.html:267
-msgid "Женишкул Батырканова"
-msgstr ""
-
-#: .\news\templates\team.html:269
-msgid ""
-"Работая в Улукман Дарыгер, я стала увереннее во взглядах, сильнее в своих "
-"позициях и успешнее в жизни."
-msgstr ""
-"Улукман Дарыгерде иштөө аркылуу өзүмдүн көз караштарыма көбүрөөк ишенип, "
-"позицияларым да күчтүү болуп, жашоодо ийгиликтерге жетише баштадым."
-
-#: .\news\templates\team.html:284
-msgid "Света Саякбаева"
-msgstr ""
-
-#: .\news\templates\team.html:285
-msgid "Координатор полевой работы"
-msgstr ""
-
-#: .\news\templates\team.html:286
-msgid ""
-"Мне больше всего нравится то, что мы объединены ради одной цели- помогать "
-"уязвимым слоям населения. Также рада возможности обмена опытом, которая дает "
-"возможность развиваться каждому из нас."
-msgstr ""
-"Мага эң жаккан нерсе, биз бир максатта - калктын аялуу катмарына жардам "
-"берүү үчүн бириктик. Ошондой эле тажрыйба алмашуу мүмкүнчүлүгүнө ээ "
-"болгонума кубанычтамын себеби бул биздин ар бирибиз үчүн өнүгүүгө "
-"мүмкүнчүлүк берет"
-
-#: .\news\templates\team.html:298
-msgid "Асыл Султанбекова"
-msgstr ""
-
-#: .\news\templates\team.html:300
-msgid ""
-"Моя работа дает мне возможность глубже понять проблемы уязвимых групп и "
-"протянуть руки помощи тем, кто действительно нуждается в нас."
-msgstr ""
-"Менин ишим калктын аялуу катмарынын көйгөйлөрүн жакшыраак түшүнүүгө жана "
-"чындыгында муктаж болгондорго жардам колун сунууга мүмкүнчүлүк түзөт. "
-
-#: .\news\templates\team.html:312
+#: .\news\templates\team.html:266
 msgid "Татьяна Маняхина"
 msgstr ""
 
-#: .\news\templates\team.html:313
+#: .\news\templates\team.html:267
 msgid "Специалист БД МИС"
 msgstr "МИС маалымат база кызматкери"
 
-#: .\news\templates\team.html:314
+#: .\news\templates\team.html:268
 msgid ""
 "На протяжении всей своей работы в нашей организации, а это почти 10 лет, я "
 "немало сталкиваюсь с людьми, которым очень тяжело в жизни. Поэтому моя "
@@ -1036,11 +1043,42 @@ msgstr ""
 "менин ишим жана жардамым көпчүлүк үчүн абдан маанилүү. Мен Улукман Дарыгер "
 "командасында иштегениме абдан кубанычтамын. "
 
-#: .\news\templates\team.html:326
+#: .\news\templates\team.html:279
+msgid "Светлана Саякбаева"
+msgstr ""
+
+#: .\news\templates\team.html:280
+msgid "Координатор полевой работы"
+msgstr "Талаа иштеринин координатору"
+
+#: .\news\templates\team.html:281
+msgid ""
+"Мне больше всего нравится то, что мы объединены ради одной цели- помогать "
+"уязвимым слоям населения. Также рада возможности обмена опытом, которая дает "
+"возможность развиваться каждому из нас."
+msgstr ""
+"Мага эң жаккан нерсе, биз бир максатта - калктын аялуу катмарына жардам "
+"берүү үчүн бириктик. Ошондой эле тажрыйба алмашуу мүмкүнчүлүгүнө ээ "
+"болгонума кубанычтамын себеби бул биздин ар бирибиз үчүн өнүгүүгө "
+"мүмкүнчүлүк берет"
+
+#: .\news\templates\team.html:294
+msgid "Женишкул Батырканова"
+msgstr ""
+
+#: .\news\templates\team.html:296
+msgid ""
+"Работая в Улукман Дарыгер, я стала увереннее во взглядах, сильнее в своих "
+"позициях и успешнее в жизни."
+msgstr ""
+"Улукман Дарыгерде иштөө аркылуу өзүмдүн көз караштарыма көбүрөөк ишенип, "
+"позицияларым да күчтүү болуп, жашоодо ийгиликтерге жетише баштадым."
+
+#: .\news\templates\team.html:309
 msgid "Роза  Омуралиева"
 msgstr ""
 
-#: .\news\templates\team.html:328
+#: .\news\templates\team.html:311
 msgid ""
 "Мое дело врачебного искусства заключается не в том, чтобы делать всякого "
 "человека здоровым. Но в том, чтобы насколько можно приблизиться к этой цели. "
@@ -1050,10 +1088,40 @@ msgstr ""
 "ушул максатка мүмкүн болушунча жакындашууга умтулуу зарыл. Анткени, мындан "
 "ары калыбына келе албаган адамдарды да айыктырса болот."
 
-#: .\news\templates\team.html:341
+#: .\news\templates\team.html:324
+msgid "Асыл Султанбекова"
+msgstr ""
+
+#: .\news\templates\team.html:326
+msgid ""
+"Моя работа дает мне возможность глубже понять проблемы уязвимых групп и "
+"протянуть руки помощи тем, кто действительно нуждается в нас."
+msgstr ""
+"Менин ишим калктын аялуу катмарынын көйгөйлөрүн жакшыраак түшүнүүгө жана "
+"чындыгында муктаж болгондорго жардам колун сунууга мүмкүнчүлүк түзөт. "
+
+#: .\news\templates\team.html:337
+msgid "Сайкал Малдыбаева"
+msgstr ""
+
+#: .\news\templates\team.html:338
+msgid "Аутрич работник"
+msgstr "Аутрич кызматкери"
+
+#: .\news\templates\team.html:339
+msgid ""
+"У меня очень увлекательная работа, которая всегда учит меня новому. "
+"Набранный опыт помогает мне легко преодолеть трудности и всегда позитивно "
+"относиться к жизни."
+msgstr ""
+"Менин жумушум абдан кызыктуу, себеби ал мага күндө жаңы нерселерди үйрөтөт. "
+"Иште топтогон тажрыйбам турмуштагы кыйнчылыктарды оңой жеңүүгө жана жашоого "
+"ар дайым позитивдүү көз караш менен кароого жардам берет."
+
+#: .\news\templates\team.html:352
 msgid "Ишеналиева Ашыргуль"
 msgstr ""
 
-#: .\news\templates\team.html:342
+#: .\news\templates\team.html:353
 msgid "Бухгалтер"
 msgstr ""
