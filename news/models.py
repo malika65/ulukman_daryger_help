@@ -3,7 +3,7 @@ import datetime
 
 class News(models.Model):
     title = models.CharField(max_length=200,verbose_name='Заголовок')
-    body = models.TextField(max_length=1500,verbose_name='Тело новости')
+    body = models.TextField(max_length=15000,verbose_name='Тело новости')
     date_created = models.DateTimeField(auto_now_add=True,null=True,blank=True)
 
     class Meta:
@@ -15,7 +15,7 @@ class News(models.Model):
         return self.title
 
 class Newspaper(models.Model):
-    title_paper = models.CharField(max_length=500,verbose_name='Заголовок')
+    title_paper = models.CharField(max_length=1500,verbose_name='Заголовок')
     pdf = models.FileField(upload_to = 'media/')
     date_created = models.DateTimeField(auto_now_add=True,null=True,blank=True)
     class Meta:
@@ -41,7 +41,7 @@ class NewsImage(models.Model):
 
 class People(models.Model):
     name = models.CharField(max_length=200,verbose_name='Имя')
-    story = models.TextField(max_length=1500,verbose_name='История')
+    story = models.TextField(max_length=15000,verbose_name='История')
     pic = models.ImageField(null=True,blank=True)
     elsom = models.CharField(max_length=20,verbose_name='Элсом',null=True,blank=True)
     money_for_collecting = models.CharField(max_length=50,verbose_name='Сумма к сбору',null=True,blank=True)
