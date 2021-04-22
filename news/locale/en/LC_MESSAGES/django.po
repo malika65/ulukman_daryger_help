@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-16 11:55+0600\n"
+"POT-Creation-Date: 2021-04-22 14:08+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,7 +55,7 @@ msgstr "You can ask it here and we will definitely help you!"
 msgid "Оставьте здесь ваш комментарий или задайте вопрос"
 msgstr "Leave your comments or ask questions here"
 
-#: .\news\templates\forum.html:130 .\news\templates\index_main.html:390
+#: .\news\templates\forum.html:130 .\news\templates\index_main.html:383
 msgid "Отправить"
 msgstr "Send"
 
@@ -89,7 +89,7 @@ msgid "Выпускники детских домов"
 msgstr "Graduates of orphanages"
 
 #: .\news\templates\himaya.html:73 .\news\templates\index.html:76
-#: .\news\templates\index_main.html:333
+#: .\news\templates\index_main.html:326
 msgid "Контакты"
 msgstr "Contacts"
 
@@ -298,7 +298,7 @@ msgstr "You can help by transferring funds to Elsom e-wallet"
 msgid "Миссия"
 msgstr "Mission"
 
-#: .\news\templates\index.html:60 .\news\templates\index_main.html:122
+#: .\news\templates\index.html:60 .\news\templates\index_main.html:115
 msgid "История"
 msgstr "History"
 
@@ -463,56 +463,33 @@ msgstr "Mission"
 
 #: .\news\templates\index_main.html:92
 msgid ""
-"Деятельность ОО «УлукманДарыгер» основана на принципах  не "
-"дискриминированного,клиент центрированного подхода с соблюдением "
-"конфиденциальности при работе с клиентами организации. Основной принцип "
-"работы – «равный – равному»."
-msgstr ""
-"The activities of Public Association \t&#8220;Ulukman Daryger&#8221; are "
-"based on the principles of a non-discriminatory and client-centered "
-"approach, with respect to confidentiality while working with the clients. "
-"The basic principle of work is equal to equal."
+"Миссией организации является улучшение здоровья населения через обеспечение "
+"свободного доступа к медицинским образовательным программам с целью "
+"сохранения генофонда, экологии, удовлетворения общественных потребностей в "
+"медицинских услугах, профилактике болезней и благотворительная деятельность."
+msgstr "The mission of the organization is to improve the health of the population through ensuring free access to medical educational programs in order to preserve the gene pool, ecology, meet public needs for medical services, prevent disease and charitable activities."
+
 
 #: .\news\templates\index_main.html:95
 msgid ""
-"В настоящее время целевыми группами являются: секс работники (СР),люди, "
-"живущие с ВИЧ инфекцией (ЛЖВ), лица, употребляющие инъекционные наркотики "
-"(ЛУИН),женщины, подвергшиеся насилию и/или оказавшиеся в трудной жизненной "
-"ситуации."
-msgstr ""
-"Currently the target groups are: sex workers (SW), people living with HIV "
-"(PLHIV), people who use injection drugs (PWID), women who have experienced "
-"violence and / or going through difficult life situations."
+"Деятельность ОО «Улукман Дарыгер» основана на принципах не "
+"дискриминированного, клиент центрированного подхода с соблюдением "
+"конфиденциальности при работе с клиентами организации. Основной принцип "
+"работы – «равный – равному»."
+msgstr "The activities of public association &quot;Ulukman Daryger&quot; are based on the principles of a non-discriminatory, client-centered approach with respect for confidentiality when working with the organization&#39;s clients. The basic principle of work is “equal to equal”."
 
-#: .\news\templates\index_main.html:97
-msgid "Миссией организации является улучшение здоровья населения"
-msgstr ""
-"The mission of the organization is to improve the health of the population "
 
-#: .\news\templates\index_main.html:102
+#: .\news\templates\index_main.html:100
 msgid ""
-"через обеспечение свободного доступа к медицинским образовательным "
-"программам с целью сохранения генофонда, экологии, удовлетворения "
-"общественных потребностей в медицинских услугах, профилактике болезней и "
-"благотворительная деятельность."
-msgstr ""
-"through ensuring free access to medical and educational programs in order to "
-"preserve the gene pool, ecology, meet public needs for medical services, "
-"prevent disease and charitable activities."
+"«Улукман Дарыгер» ведет работу с уязвимыми слоями населения по оказанию им "
+"посильной помощи, социальной реабилитации посредством поиска возможностей "
+"для создания бизнес проектов. В этих целях проводится деятельность по "
+"содействию мужчинам и женщинам, а также выпускникам детских домов в создании "
+"собственного дела посредством платформы для благотворительности и "
+"взаимопомощи."
+msgstr "\"Ulukman Daryger\" is working with vulnerable groups of the population to provide them with all possible assistance, social rehabilitation by creating opportunities to launch business projects. To this end, activities are being carried out to assist men and women, as well as graduates of orphanages, in starting their own business through a platform for charity and mutual assistance."
 
-#: .\news\templates\index_main.html:104
-msgid ""
-"На сегодняшний день «УлукманДарыгер» является единственной организацией "
-"работающей с сообществами СР,ЛУИН И ЛЖВ в Иссык-Кульской области. Охват "
-"программами: все районы Иссык-Кульской области, г.Нарын, Нарынская область, "
-"Джумгальский район Нарынской области."
-msgstr ""
-"Today &#8220;Ulukman Daryger&#8221; is the only organization working with "
-"communities of SWs, PWID and PLWH in the Issyk-Kul region. Coverage of "
-"programs: all districts of the Issyk-Kul region, Naryn city, Naryn region, "
-"Jumgal district of Naryn region."
-
-#: .\news\templates\index_main.html:130
+#: .\news\templates\index_main.html:123
 msgid ""
 "Общественное объединение \"Улукман Дарыгер\" зарегистрировано 12 октября "
 "2000 года. С 2014 года организаия осуществляет деятельность по профилактике "
@@ -524,13 +501,13 @@ msgstr ""
 "AIDS in the Issyk-Kul region. Since 2016, human rights activities have been "
 "carried out. To date, the main areas of work are:"
 
-#: .\news\templates\index_main.html:133
+#: .\news\templates\index_main.html:126
 msgid ""
 "профилактическая работа с сотрудниками правоохранительных органов (тренинги, "
 "семинары)."
 msgstr "preventive work with law enforcement officers (trainings, seminars)"
 
-#: .\news\templates\index_main.html:134
+#: .\news\templates\index_main.html:127
 msgid ""
 "документирование фактов нарушения прав представителей уязвимых групп со "
 "стороны сотрудников правоохранительных органов."
@@ -538,15 +515,15 @@ msgstr ""
 "documenting the facts of violation of the rights of vulnerable groups by law "
 "enforcement officers"
 
-#: .\news\templates\index_main.html:135
+#: .\news\templates\index_main.html:128
 msgid "консультирование по правам и нарушению прав."
 msgstr "consulting on human rights and their violation"
 
-#: .\news\templates\index_main.html:136
+#: .\news\templates\index_main.html:129
 msgid "ведение клиентов и направление к дружественным адвокатам."
 msgstr "working with clients and  connecting them with friendly attorneys"
 
-#: .\news\templates\index_main.html:137
+#: .\news\templates\index_main.html:130
 msgid ""
 " открытие центра помощи и реабилитации «Химая» (для подвергающихся насилию "
 "женщин)."
@@ -555,103 +532,103 @@ msgstr ""
 "center  (for women who have been subjected to violence or in a difficult "
 "life situation)"
 
-#: .\news\templates\index_main.html:149
+#: .\news\templates\index_main.html:142
 msgid "Довольных клиентов"
 msgstr "Satisfied clients"
 
-#: .\news\templates\index_main.html:156
+#: .\news\templates\index_main.html:149
 msgid "Проектов"
 msgstr "Projects"
 
-#: .\news\templates\index_main.html:163
+#: .\news\templates\index_main.html:156
 msgid "Год опыта"
 msgstr "Years of work experience"
 
-#: .\news\templates\index_main.html:170
+#: .\news\templates\index_main.html:163
 msgid "Наград"
 msgstr "Projects"
 
-#: .\news\templates\index_main.html:195
+#: .\news\templates\index_main.html:188
 msgid "Структура организации"
 msgstr "The structure of organization"
 
-#: .\news\templates\index_main.html:215
+#: .\news\templates\index_main.html:208
 msgid "Наши партнеры"
 msgstr "Our Partners"
 
-#: .\news\templates\index_main.html:216
+#: .\news\templates\index_main.html:209
 msgid "Благодарим за сотрудничество и поддержку!"
 msgstr "Thank you for your cooperation and support!"
 
-#: .\news\templates\index_main.html:223
+#: .\news\templates\index_main.html:216
 msgid "Фонд \"Сорос-Кыргызстана\""
 msgstr "The Soros Foundation-Kyrgyzstan"
 
-#: .\news\templates\index_main.html:224
+#: .\news\templates\index_main.html:217
 msgid "ПРООН в Кыргызской Республике"
 msgstr "UNDP in the Kyrgyz Republic"
 
-#: .\news\templates\index_main.html:225
+#: .\news\templates\index_main.html:218
 msgid "Мэрия города Каракол"
 msgstr "Mayor’s Office in Karakol"
 
-#: .\news\templates\index_main.html:226
+#: .\news\templates\index_main.html:219
 msgid "Управление внутренних дел Иссык-кульской области"
 msgstr "Internal Affairs Department of Issyk-Kul district"
 
-#: .\news\templates\index_main.html:227
+#: .\news\templates\index_main.html:220
 msgid "ОВД города Каракол"
 msgstr "Department of Internal Affairs of the city of Karakol"
 
-#: .\news\templates\index_main.html:228
+#: .\news\templates\index_main.html:221
 msgid "Областной центр профилактики и борьбы со СПИДом"
 msgstr "Issyk-Kul regional center for AIDS prevention and control"
 
-#: .\news\templates\index_main.html:229
+#: .\news\templates\index_main.html:222
 msgid "Областной центр борьбы и профилактики туберкулеза"
 msgstr "Regional tuberculosis control and prevention center"
 
-#: .\news\templates\index_main.html:230
+#: .\news\templates\index_main.html:223
 msgid "Иссык-Кульский филиал ОО «Альянс Репродуктивного Здоровья»"
 msgstr ""
 "Issyk-Kul Branch of the Public Association “Alliance for Reproductive Health”"
 
-#: .\news\templates\index_main.html:240
+#: .\news\templates\index_main.html:233
 msgid "Медицинский центр \"Клиницист\" "
 msgstr "Medical Center \"Kilinitsist\" "
 
-#: .\news\templates\index_main.html:241
+#: .\news\templates\index_main.html:234
 msgid "Областной и районные центры семейной медицины"
 msgstr "Oblast and rayon centers of family medicine"
 
-#: .\news\templates\index_main.html:242
+#: .\news\templates\index_main.html:235
 msgid "Представительство омбудсмена КР в Иссык-кульской области"
 msgstr ""
 "Authorized Representative of the Ombudsman in Kyrgyz Republic in Issyk-Kul "
 "region"
 
-#: .\news\templates\index_main.html:243
+#: .\news\templates\index_main.html:236
 msgid " ВИЧ-сервисные организации \"Таис Плюс\" и \"Таис Плюс два\" "
 msgstr "HIV service organizations “Tais Plus” and “Tais Plus Two”"
 
-#: .\news\templates\index_main.html:244
+#: .\news\templates\index_main.html:237
 msgid "Общественный фонд «Подруга»"
 msgstr "Public Foundation “Podruga”"
 
-#: .\news\templates\index_main.html:245
+#: .\news\templates\index_main.html:238
 msgid "Общественное объединение \"Атуул\" "
 msgstr "“Atuul” Public Association"
 
-#: .\news\templates\index_main.html:246
+#: .\news\templates\index_main.html:239
 msgid "Иссык-Кульская областная объединенная больница"
 msgstr "Issyk-Kul regional united  hospital"
 
-#: .\news\templates\index_main.html:264 .\news\templates\team.html:11
+#: .\news\templates\index_main.html:257 .\news\templates\team.html:11
 #: .\news\templates\team.html:28
 msgid "Наша команда"
 msgstr "Our team"
 
-#: .\news\templates\index_main.html:265 .\news\templates\team.html:29
+#: .\news\templates\index_main.html:258 .\news\templates\team.html:29
 msgid ""
 "Наши сотрудники – этой самый ценный ресурс нашей организации. Каждый член "
 "команды вносит весомый вклад в нашей развитие и способствует достижению "
@@ -662,15 +639,15 @@ msgstr ""
 "member makes a significant contribution to our development and success. The "
 "Ulukman Daryger team consists of professionals who love their work very much."
 
-#: .\news\templates\index_main.html:275 .\news\templates\team.html:40
+#: .\news\templates\index_main.html:268 .\news\templates\team.html:40
 msgid "Турсунбаев Улан"
 msgstr "Ulan Tursunbaev"
 
-#: .\news\templates\index_main.html:276 .\news\templates\team.html:41
+#: .\news\templates\index_main.html:269 .\news\templates\team.html:41
 msgid "Исполнительный директор"
 msgstr "Executive director"
 
-#: .\news\templates\index_main.html:277 .\news\templates\team.html:42
+#: .\news\templates\index_main.html:270 .\news\templates\team.html:42
 msgid ""
 "Когда кого то постигает беда, то Всевышний испытывает вместе с ним и нас, "
 "как поведем себя, останемся ли мы в стороне или протянем руку помощи. И он "
@@ -684,15 +661,15 @@ msgstr ""
 "difficult life situations. Sometimes people with a worse past create a "
 "better future and our motto is \"The sun shines equally for everyone\""
 
-#: .\news\templates\index_main.html:287 .\news\templates\team.html:54
+#: .\news\templates\index_main.html:280 .\news\templates\team.html:54
 msgid "Мария Личаню"
 msgstr "Maria Lichaniu"
 
-#: .\news\templates\index_main.html:288 .\news\templates\team.html:55
+#: .\news\templates\index_main.html:281 .\news\templates\team.html:55
 msgid "Координатор"
 msgstr "Coordinator"
 
-#: .\news\templates\index_main.html:289 .\news\templates\team.html:56
+#: .\news\templates\index_main.html:282 .\news\templates\team.html:56
 msgid ""
 "С самого начала своей работы в организации у меня сложилось ощущение, что "
 "оказывается, много людей вокруг нас нуждается в помощи. Поэтому вся моя "
@@ -702,15 +679,15 @@ msgstr ""
 "that many people around us need help. Therefore, all my activities are aimed "
 "at protecting and supporting them."
 
-#: .\news\templates\index_main.html:300 .\news\templates\team.html:70
+#: .\news\templates\index_main.html:293 .\news\templates\team.html:70
 msgid "Динара Асанбекова"
 msgstr "Dinara Asanbekova"
 
-#: .\news\templates\index_main.html:301 .\news\templates\team.html:71
+#: .\news\templates\index_main.html:294 .\news\templates\team.html:71
 msgid "Редактор"
 msgstr "Editor"
 
-#: .\news\templates\index_main.html:302
+#: .\news\templates\index_main.html:295
 msgid ""
 "Мне нравится общество, ведь в нем есть разные люди, в том числе и "
 "нуждающиеся. Я очень хочу, чтобы общество было полноценным и здоровым. И для "
@@ -724,15 +701,15 @@ msgstr ""
 "assistance. We must instill in vulnerable groups a healthy lifestyle and, of "
 "course, a positive attitude."
 
-#: .\news\templates\index_main.html:312 .\news\templates\team.html:85
+#: .\news\templates\index_main.html:305 .\news\templates\team.html:85
 msgid "Гульмира Майлыбаева"
 msgstr "Gulmira Mailybaeva"
 
-#: .\news\templates\index_main.html:313 .\news\templates\team.html:86
+#: .\news\templates\index_main.html:306 .\news\templates\team.html:86
 msgid "Cоциальный работник, психолог"
 msgstr "Social worker, psychologist"
 
-#: .\news\templates\index_main.html:314 .\news\templates\team.html:87
+#: .\news\templates\index_main.html:307 .\news\templates\team.html:87
 msgid ""
 "Я получаю колоссальное удовольствие от того, что имею возможность оказывать "
 "помощь людям из уязвимых групп."
@@ -740,19 +717,19 @@ msgstr ""
 " I get tremendous pleasure from being able to help people from vulnerable "
 "groups."
 
-#: .\news\templates\index_main.html:321
+#: .\news\templates\index_main.html:314
 msgid "Подробнее о команде >"
 msgstr "More about command >"
 
-#: .\news\templates\index_main.html:346
+#: .\news\templates\index_main.html:339
 msgid "Наш адрес:"
 msgstr "Our address"
 
-#: .\news\templates\index_main.html:347
+#: .\news\templates\index_main.html:340
 msgid "ул. Московская 162\\1, Каракол, Кыргызстан"
 msgstr "st. Moskovskaya 162 \\ 1, Karakol, Kyrgyzstan"
 
-#: .\news\templates\index_main.html:357
+#: .\news\templates\index_main.html:350
 msgid "Телефон:"
 msgstr "Telephone"
 
@@ -1114,4 +1091,35 @@ msgid ""
 "от общения с нашим дружным коллективом. Вся наша работа направлена на помощь "
 "людям, попавшим в тяжёлые жизненные ситуации и очень горда за то, что именно "
 "ОО «Улукман Дарыгер» приносит большую пользу обществу."
-msgstr "Working in the organization, for 10 years now I have been experiencing incredible pleasure from communicating with our friendly team. All our work is aimed at helping people who are in difficult life situations and I am very proud that it is PA \"Ulukman Daryger\" that brings great benefit to society."
+msgstr ""
+"Working in the organization, for 10 years now I have been experiencing "
+"incredible pleasure from communicating with our friendly team. All our work "
+"is aimed at helping people who are in difficult life situations and I am "
+"very proud that it is PA \"Ulukman Daryger\" that brings great benefit to "
+"society."
+
+#~ msgid ""
+#~ "В настоящее время целевыми группами являются: секс работники (СР),люди, "
+#~ "живущие с ВИЧ инфекцией (ЛЖВ), лица, употребляющие инъекционные наркотики "
+#~ "(ЛУИН),женщины, подвергшиеся насилию и/или оказавшиеся в трудной "
+#~ "жизненной ситуации."
+#~ msgstr ""
+#~ "Currently the target groups are: sex workers (SW), people living with HIV "
+#~ "(PLHIV), people who use injection drugs (PWID), women who have "
+#~ "experienced violence and / or going through difficult life situations."
+
+#~ msgid "Миссией организации является улучшение здоровья населения"
+#~ msgstr ""
+#~ "The mission of the organization is to improve the health of the "
+#~ "population "
+
+#~ msgid ""
+#~ "На сегодняшний день «УлукманДарыгер» является единственной организацией "
+#~ "работающей с сообществами СР,ЛУИН И ЛЖВ в Иссык-Кульской области. Охват "
+#~ "программами: все районы Иссык-Кульской области, г.Нарын, Нарынская "
+#~ "область, Джумгальский район Нарынской области."
+#~ msgstr ""
+#~ "Today &#8220;Ulukman Daryger&#8221; is the only organization working with "
+#~ "communities of SWs, PWID and PLWH in the Issyk-Kul region. Coverage of "
+#~ "programs: all districts of the Issyk-Kul region, Naryn city, Naryn "
+#~ "region, Jumgal district of Naryn region."
