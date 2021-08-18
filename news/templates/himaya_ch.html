@@ -57,11 +57,11 @@
           <div class="col-lg-3 try" data-aos="fade-right">
 
             <img src="{{teen.pic.url}}" class="img-fluid" alt="">
-              <form>
+              <!-- <form>
                   <label class="presum">{% trans 'Сумма к сбору:' %}</label><label class="sum">{{teen.money_for_collecting}} сом</label>
                   <progress class="slider" value="{{teen.get_money}}" max="{{teen.money_for_collecting}}"></progress>
                   <label  class="less presum">{% trans 'Осталось собрать:' %}</label><label class="less sum">{{teen.remaining_amount}}</label>
-              </form>
+              </form> -->
             <a class="helpbtn btn-services" href="/news/payment/{{teen.id}}">{% trans 'Хочу помочь' %}</a>
 
           </div>
