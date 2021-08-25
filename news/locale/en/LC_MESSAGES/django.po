@@ -296,7 +296,7 @@ msgstr "You can help by transferring funds to Elsom e-wallet"
 
 #: .\news\templates\index.html:59
 msgid "Миссия"
-msgstr "Mission"
+msgstr "Missions"
 
 #: .\news\templates\index.html:60 .\news\templates\index_main.html:115
 msgid "Деятельность"
